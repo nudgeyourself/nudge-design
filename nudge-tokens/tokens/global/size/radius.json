@@ -1,0 +1,15 @@
+{
+  "semantic": {
+    "radius": {
+      "small": {
+        "value": "{core.size.0.value}"
+      },
+      "medium": {
+        "value": "{core.size.2.value}"
+      },
+      "large": {
+        "value": "{core.size.4.value}"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "semantic": {
+    "background": {
+      "layer": {
+        "1": { "value": "{core.color.grayscale.1.value}" },
+        "2": { "value": "{core.color.grayscale.2.value}" },
+        "3": { "value": "{core.color.grayscale.3.value}" },
+        "4": { "value": "{core.color.grayscale.4.value}" }
+      },
+      "shade": { "value": "{core.color.black-alpha.2}" },
+      "highlighted": { "value": "{core.color.brand.value}" },
+      "contrast": { "value": "{core.color.black.value}" }
+    }
+  }
+}

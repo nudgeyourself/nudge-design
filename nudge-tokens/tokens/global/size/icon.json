@@ -1,0 +1,9 @@
+{
+  "semantic": {
+    "icon": {
+      "size": {
+        "default": { "value": "{core.size.3.value}" }
+      }
+    }
+  }
+}

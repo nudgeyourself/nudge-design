@@ -1,0 +1,22 @@
+{
+  "name": "nudge-tokens",
+  "version": "1.0.0",
+  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "main": "dist/tokens.js",
+  "files": [
+    "web/dist",
+    "build.js"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\""
+  },
+  "author": "Russ Campbell",
+  "license": "MIT",
+  "homepage": "https://github.com/dbanksdesign/style-dictionary-dark-mode#readme",
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "style-dictionary": "^3.0.0-rc.8",
+    "tinycolor2": "^1.4.2"
+  }
+}

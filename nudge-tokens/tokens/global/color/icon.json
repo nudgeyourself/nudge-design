@@ -1,0 +1,11 @@
+{
+  "semantic": {
+    "icon": {
+      "color": {
+        "primary": { "value": "{core.color.black.value}" },
+        "secondary": { "value": "{core.color.grayscale.8.value}" },
+        "highlighted": { "value": "{core.color.brand.value}" }
+      }
+    }
+  }
+}

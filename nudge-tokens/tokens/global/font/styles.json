@@ -1,0 +1,36 @@
+{
+  "semantic": {
+    "text": {
+      "styles": {
+        "small": {
+          "value": {
+            "fontFamily": "{core.font.family.value}",
+            "fontSize": "{core.font.size.1.value}",
+            "fontWeight": "{core.font.weight.1.value}"
+          }
+        },
+        "default": {
+          "value": {
+            "fontFamily": "{core.font.family.value}",
+            "fontSize": "{core.font.size.2.value}",
+            "fontWeight": "{core.font.weight.1.value}"
+          }
+        },
+        "medium": {
+          "value": {
+            "fontFamily": "{core.font.family.value}",
+            "fontSize": "{core.font.size.2.value}",
+            "fontWeight": "{core.font.weight.2.value}"
+          }
+        },
+        "large": {
+          "value": {
+            "fontFamily": "{core.font.family.value}",
+            "fontSize": "{core.font.size.3.value}",
+            "fontWeight": "{core.font.weight.3.value}"
+          }
+        }
+      }
+    }
+  }
+}

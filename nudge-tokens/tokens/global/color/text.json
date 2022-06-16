@@ -1,0 +1,13 @@
+{
+  "semantic": {
+    "text": {
+      "color": {
+        "primary": { "value": "{core.color.black.value}" },
+        "secondary": { "value": "{core.color.grayscale.8.value}" },
+        "critical": { "value": "{core.color.red.value}" },
+        "highlighted": { "value": "{core.color.brand.value}" },
+        "success": { "value": "{core.color.green.value}" }
+      }
+    }
+  }
+}

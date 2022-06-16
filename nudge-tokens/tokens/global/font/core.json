@@ -1,0 +1,17 @@
+{
+  "core": {
+    "font": {
+      "size": {
+        "1": { "value": "13" },
+        "2": { "value": "16" },
+        "3": { "value": "24" }
+      },
+      "weight": {
+        "1": { "value": "400" },
+        "2": { "value": "600" },
+        "3": { "value": "800" }
+      },
+      "family": { "value": "{platform.font.family.value}" }
+    }
+  }
+}

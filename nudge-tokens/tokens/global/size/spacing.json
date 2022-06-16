@@ -1,0 +1,25 @@
+{
+  "semantic": {
+    "spacing": {
+      "minimal": {
+        "value": "{core.size.0.value}"
+      },
+      "tiny": {
+        "value": "{core.size.1.value}"
+      },
+      "small": {
+        "value": "{core.size.2.value}"
+      },
+      "medium": {
+        "value": "{core.size.4.value}"
+      },
+      "base": {
+        "value": "{core.size.5.value}",
+        "comment": "This is the same size as the height of a standard button."
+      },
+      "large": {
+        "value": "{core.size.8.value}"
+      }
+    }
+  }
+}

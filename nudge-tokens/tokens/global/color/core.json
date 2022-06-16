@@ -2,7 +2,7 @@
   "core": {
     "color": {
       "black": { "value": "#000000" },
-      "brand": { "value": "{brand.color.value}" },
+      "highlight": { "value": "{brand.color.highlight.value}" },
       "white": { "value": "#FFFFFF" },
       "grayscale": {
         "1": { "value": "rgba(240,240,240)" },

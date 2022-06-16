@@ -8,7 +8,7 @@
         "4": { "value": "{core.color.grayscale.4.value}" }
       },
       "shade": { "value": "{core.color.black-alpha.2}" },
-      "highlighted": { "value": "{core.color.brand.value}" },
+      "highlighted": { "value": "{core.color.highlight.value}" },
       "contrast": { "value": "{core.color.black.value}" }
     }
   }

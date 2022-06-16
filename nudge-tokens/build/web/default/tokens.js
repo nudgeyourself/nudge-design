@@ -1,26 +1,30 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Jun 2022 18:38:05 GMT
+ * Generated on Thu, 16 Jun 2022 21:43:20 GMT
  */
 
 module.exports = {
   "brand": {
     "color": {
-      "value": "#5983F0",
-      "filePath": "tokens/brand/default/font.json",
-      "isSource": true,
-      "original": {
-        "value": "#5983F0"
-      },
-      "name": "brand-color",
-      "attributes": {
-        "category": "brand",
-        "type": "color"
-      },
-      "path": [
-        "brand",
-        "color"
-      ]
+      "highlight": {
+        "value": "#5983F0",
+        "filePath": "tokens/brand/default/color.json",
+        "isSource": true,
+        "original": {
+          "value": "#5983F0"
+        },
+        "name": "brand-color-highlight",
+        "attributes": {
+          "category": "brand",
+          "type": "color",
+          "item": "highlight"
+        },
+        "path": [
+          "brand",
+          "color",
+          "highlight"
+        ]
+      }
     }
   },
   "platform": {
@@ -158,7 +162,7 @@ module.exports = {
         "filePath": "tokens/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.brand.value}"
+          "value": "{core.color.highlight.value}"
         },
         "name": "semantic-background-highlighted",
         "attributes": {
@@ -262,7 +266,7 @@ module.exports = {
           "filePath": "tokens/global/color/icon.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.brand.value}"
+            "value": "{core.color.highlight.value}"
           },
           "name": "semantic-icon-color-highlighted",
           "attributes": {
@@ -373,7 +377,7 @@ module.exports = {
           "filePath": "tokens/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.brand.value}"
+            "value": "{core.color.highlight.value}"
           },
           "name": "semantic-text-color-highlighted",
           "attributes": {
@@ -801,23 +805,23 @@ module.exports = {
           "black"
         ]
       },
-      "brand": {
+      "highlight": {
         "value": "#5983F0",
         "filePath": "tokens/global/color/core.json",
         "isSource": true,
         "original": {
-          "value": "{brand.color.value}"
+          "value": "{brand.color.highlight.value}"
         },
-        "name": "core-color-brand",
+        "name": "core-color-highlight",
         "attributes": {
           "category": "core",
           "type": "color",
-          "item": "brand"
+          "item": "highlight"
         },
         "path": [
           "core",
           "color",
-          "brand"
+          "highlight"
         ]
       },
       "white": {

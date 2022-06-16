@@ -1,5 +1,5 @@
 {
-  "name": "nudge-tokens",
+  "name": "@nudge-coach/nudge-tokens",
   "version": "1.0.0",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
   "main": "dist/tokens.js",
@@ -14,9 +14,23 @@
   "author": "Russ Campbell",
   "license": "MIT",
   "homepage": "https://github.com/dbanksdesign/style-dictionary-dark-mode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudgeyourself/nudge-design.git"
+  },
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
     "style-dictionary": "^3.0.0-rc.8",
     "tinycolor2": "^1.4.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nudgeyourself/nudge-design/issues"
+  },
+  "dependencies": {},
+  "keywords": [
+    "nudge",
+    "tokens",
+    "design",
+    "system"
+  ]
 }

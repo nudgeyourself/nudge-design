@@ -1,0 +1,31 @@
+@import "../../../../tokens/build/web/default/variables";
+
+button {
+  font: $semantic-text-styles-medium;
+  height: $component-action-size-default;
+  border-radius: $semantic-radius-small;
+  background-color: transparent;
+  border: 0;
+  padding-left: $semantic-spacing-small;
+  padding-right: $semantic-spacing-small;
+}
+
+button.primary {
+  color: $core-color-white;
+  background-color: $semantic-text-color-highlighted;
+}
+
+button.critical {
+  color: $core-color-white;
+  background-color: $semantic-text-color-critical;
+}
+
+button.shadow {
+  box-shadow: $semantic-shadow-elevation-one;
+}
+
+button.small {
+  height: $component-action-size-minimal;
+  padding-left: $semantic-spacing-tiny;
+  padding-right: $semantic-spacing-tiny;
+}

@@ -1,0 +1,38 @@
+{
+  "semantic": {
+    "shadow": {
+      "elevation": {
+        "one": {
+          "value": {
+            "x": 0,
+            "y": 1,
+            "blur": 3,
+            "spread": 0,
+            "color": "{core.color.black-alpha.5.value}",
+            "opacity": "{core.color.black-alpha.5.value}"
+          }
+        },
+        "two": {
+          "value": {
+            "x": 0,
+            "y": 2,
+            "blur": 4,
+            "spread": 0,
+            "color": "{core.color.black-alpha.5.value}",
+            "opacity": "{core.color.black-alpha.5.value}"
+          }
+        },
+        "three": {
+          "value": {
+            "x": 0,
+            "y": 3,
+            "blur": 6,
+            "spread": 0,
+            "color": "{core.color.black-alpha.5.value}",
+            "opacity": "{core.color.black-alpha.5.value}"
+          }
+        }
+      }
+    }
+  }
+}

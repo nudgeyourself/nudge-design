@@ -1,0 +1,10 @@
+{
+  "component": {
+    "action": {
+      "size": {
+        "default": { "value": "{core.size.5.value}" },
+        "minimal": { "value": "{core.size.4.value}" }
+      }
+    }
+  }
+}

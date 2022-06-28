@@ -7,9 +7,21 @@
         "3": { "value": "{core.color.grayscale.3.value}" },
         "4": { "value": "{core.color.grayscale.4.value}" }
       },
-      "shade": { "value": "{core.color.black-alpha.2}" },
+      "shade": { "value": "{core.color.black-alpha.20}" },
       "highlighted": { "value": "{core.color.highlight.value}" },
-      "contrast": { "value": "{core.color.black.value}" }
+      "contrast": { "value": "{core.color.black.value}" },
+      "destructive": { "value": "{core.color.red.value}" }
+    }
+  },
+  "component": {
+    "action": {
+      "color": {
+        "background": {
+          "hover-transparent": { "value": "{core.color.black-alpha.05}" },
+          "hover-primary": { "value": "{core.color.black-alpha.05}" },
+          "hover-destructive": { "value": "{core.color.black-alpha.05}" }
+        }
+      }
     }
   }
 }

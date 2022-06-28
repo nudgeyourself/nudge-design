@@ -4,25 +4,45 @@ button {
   font: $semantic-text-styles-medium;
   height: $component-action-size-default;
   border-radius: $semantic-radius-small;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   border: 0;
   padding-left: $semantic-spacing-small;
   padding-right: $semantic-spacing-small;
   box-shadow: $semantic-shadow-elevation-one;
+  -webkit-transition: background-color 150ms ease-in-out;
+  -moz-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: $component-action-color-background-hover-transparent;
+  cursor: pointer;
 }
 
 button.primary {
-  color: $core-color-white;
-  background-color: $semantic-text-color-highlighted;
+  color: $semantic-text-color-contrast;
+  background-color: $semantic-background-highlighted;
+}
+
+button.primary:hover {
+  background-color: darken($semantic-background-highlighted, 5%);
 }
 
 button.destructive {
-  color: $core-color-white;
-  background-color: $semantic-text-color-critical;
+  color: $semantic-text-color-contrast;
+  background-color: $semantic-background-destructive;
+}
+
+button.destructive:hover {
+  background-color: darken($semantic-background-destructive, 10%);
 }
 
 button.implied {
   box-shadow: none;
+}
+
+button.expanded {
+  width: 100%;
 }
 
 button.small {

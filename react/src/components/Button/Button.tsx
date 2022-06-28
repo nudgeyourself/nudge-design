@@ -13,20 +13,21 @@ export interface ButtonProps {
   disabled: boolean;
 }
 
-const getClasses = (props) => {
-  return `
-  ${props.primary ? "primary" : ""} 
-  ${props.implied ? "implied" : ""} 
-  ${props.destructive ? "destructive" : ""} 
-  ${props.small ? "small" : ""} 
-  ${props.expanded ? "expanded" : ""} 
-  ${props.expanded ? "stacked" : ""} 
-  `;
+const setClasses = (props) => {
+  return `${props.primary ? "primary " : ""}${props.implied ? "implied " : ""}${
+    props.destructive ? "destructive " : ""
+  }${props.small ? "small " : ""}${props.expanded ? "expanded " : ""}${
+    props.expanded ? "stacked " : ""
+  }`.trim();
 };
 
 const Button = (props: ButtonProps) => {
   return (
-    <button className={getClasses(props)} onClick={props.onClick}>
+    <button
+      className={setClasses(props)}
+      onClick={props.onClick}
+      disabled={props.disabled}
+    >
       {props.label}
     </button>
   );

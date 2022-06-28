@@ -8,8 +8,8 @@
             "y": 1,
             "blur": 3,
             "spread": 0,
-            "color": "{core.color.black-alpha.5.value}",
-            "opacity": "{core.color.black-alpha.5.value}"
+            "color": "{core.color.black-alpha.50.value}",
+            "opacity": "{core.color.black-alpha.50.value}"
           }
         },
         "two": {
@@ -18,8 +18,8 @@
             "y": 2,
             "blur": 4,
             "spread": 0,
-            "color": "{core.color.black-alpha.5.value}",
-            "opacity": "{core.color.black-alpha.5.value}"
+            "color": "{core.color.black-alpha.50.value}",
+            "opacity": "{core.color.black-alpha.50.value}"
           }
         },
         "three": {
@@ -28,8 +28,8 @@
             "y": 3,
             "blur": 6,
             "spread": 0,
-            "color": "{core.color.black-alpha.5.value}",
-            "opacity": "{core.color.black-alpha.5.value}"
+            "color": "{core.color.black-alpha.50.value}",
+            "opacity": "{core.color.black-alpha.50.value}"
           }
         }
       }

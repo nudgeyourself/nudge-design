@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jun 2022 17:48:41 GMT
+ * Generated on Tue, 28 Jun 2022 19:20:47 GMT
  */
 
 module.exports = {
@@ -143,7 +143,7 @@ module.exports = {
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.black-alpha.2}"
+          "value": "{core.color.black-alpha.20}"
         },
         "name": "semantic-background-shade",
         "attributes": {
@@ -194,6 +194,25 @@ module.exports = {
           "background",
           "contrast"
         ]
+      },
+      "destructive": {
+        "value": "#EE4444",
+        "filePath": "src/global/color/background.json",
+        "isSource": true,
+        "original": {
+          "value": "{core.color.red.value}"
+        },
+        "name": "semantic-background-destructive",
+        "attributes": {
+          "category": "semantic",
+          "type": "background",
+          "item": "destructive"
+        },
+        "path": [
+          "semantic",
+          "background",
+          "destructive"
+        ]
       }
     },
     "border": {
@@ -202,7 +221,7 @@ module.exports = {
         "filePath": "src/global/color/border.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.black-alpha.3}"
+          "value": "{core.color.black-alpha.30}"
         },
         "name": "semantic-border-default",
         "attributes": {
@@ -372,6 +391,27 @@ module.exports = {
             "critical"
           ]
         },
+        "destructive": {
+          "value": "#EE4444",
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.red.value}"
+          },
+          "name": "semantic-text-color-destructive",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "destructive"
+          },
+          "path": [
+            "semantic",
+            "text",
+            "color",
+            "destructive"
+          ]
+        },
         "highlighted": {
           "value": "#5983F0",
           "filePath": "src/global/color/text.json",
@@ -412,6 +452,27 @@ module.exports = {
             "text",
             "color",
             "success"
+          ]
+        },
+        "contrast": {
+          "value": "#FFFFFF",
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.white.value}"
+          },
+          "name": "semantic-text-color-contrast",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "contrast"
+          },
+          "path": [
+            "semantic",
+            "text",
+            "color",
+            "contrast"
           ]
         }
       },
@@ -530,8 +591,8 @@ module.exports = {
               "y": 1,
               "blur": 3,
               "spread": 0,
-              "color": "{core.color.black-alpha.5.value}",
-              "opacity": "{core.color.black-alpha.5.value}"
+              "color": "{core.color.black-alpha.50.value}",
+              "opacity": "{core.color.black-alpha.50.value}"
             }
           },
           "name": "semantic-shadow-elevation-one",
@@ -558,8 +619,8 @@ module.exports = {
               "y": 2,
               "blur": 4,
               "spread": 0,
-              "color": "{core.color.black-alpha.5.value}",
-              "opacity": "{core.color.black-alpha.5.value}"
+              "color": "{core.color.black-alpha.50.value}",
+              "opacity": "{core.color.black-alpha.50.value}"
             }
           },
           "name": "semantic-shadow-elevation-two",
@@ -586,8 +647,8 @@ module.exports = {
               "y": 3,
               "blur": 6,
               "spread": 0,
-              "color": "{core.color.black-alpha.5.value}",
-              "opacity": "{core.color.black-alpha.5.value}"
+              "color": "{core.color.black-alpha.50.value}",
+              "opacity": "{core.color.black-alpha.50.value}"
             }
           },
           "name": "semantic-shadow-elevation-three",
@@ -781,6 +842,127 @@ module.exports = {
           "spacing",
           "large"
         ]
+      }
+    }
+  },
+  "component": {
+    "action": {
+      "color": {
+        "background": {
+          "hover-transparent": {
+            "value": "rgba(0,0,0,.025)",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.05}"
+            },
+            "name": "component-action-color-background-hover-transparent",
+            "attributes": {
+              "category": "component",
+              "type": "action",
+              "item": "color",
+              "subitem": "background",
+              "state": "hover-transparent"
+            },
+            "path": [
+              "component",
+              "action",
+              "color",
+              "background",
+              "hover-transparent"
+            ]
+          },
+          "hover-primary": {
+            "value": "rgba(0,0,0,.025)",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.05}"
+            },
+            "name": "component-action-color-background-hover-primary",
+            "attributes": {
+              "category": "component",
+              "type": "action",
+              "item": "color",
+              "subitem": "background",
+              "state": "hover-primary"
+            },
+            "path": [
+              "component",
+              "action",
+              "color",
+              "background",
+              "hover-primary"
+            ]
+          },
+          "hover-destructive": {
+            "value": "rgba(0,0,0,.025)",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.05}"
+            },
+            "name": "component-action-color-background-hover-destructive",
+            "attributes": {
+              "category": "component",
+              "type": "action",
+              "item": "color",
+              "subitem": "background",
+              "state": "hover-destructive"
+            },
+            "path": [
+              "component",
+              "action",
+              "color",
+              "background",
+              "hover-destructive"
+            ]
+          }
+        }
+      },
+      "size": {
+        "default": {
+          "value": "40px",
+          "filePath": "src/global/size/size.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.size.5.value}"
+          },
+          "name": "component-action-size-default",
+          "attributes": {
+            "category": "component",
+            "type": "action",
+            "item": "size",
+            "subitem": "default"
+          },
+          "path": [
+            "component",
+            "action",
+            "size",
+            "default"
+          ]
+        },
+        "minimal": {
+          "value": "32px",
+          "filePath": "src/global/size/size.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.size.4.value}"
+          },
+          "name": "component-action-size-minimal",
+          "attributes": {
+            "category": "component",
+            "type": "action",
+            "item": "size",
+            "subitem": "minimal"
+          },
+          "path": [
+            "component",
+            "action",
+            "size",
+            "minimal"
+          ]
+        }
       }
     }
   },
@@ -1258,109 +1440,151 @@ module.exports = {
         ]
       },
       "black-alpha": {
-        "1": {
+        "10": {
           "value": "rgba(0,0,0,.05)",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
             "value": "rgba(0,0,0,.05)"
           },
-          "name": "core-color-black-alpha-1",
+          "name": "core-color-black-alpha-10",
           "attributes": {
             "category": "core",
             "type": "color",
             "item": "black-alpha",
-            "subitem": "1"
+            "subitem": "10"
           },
           "path": [
             "core",
             "color",
             "black-alpha",
-            "1"
+            "10"
           ]
         },
-        "2": {
+        "20": {
           "value": "rgba(0,0,0,.1)",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
             "value": "rgba(0,0,0,.1)"
           },
-          "name": "core-color-black-alpha-2",
+          "name": "core-color-black-alpha-20",
           "attributes": {
             "category": "core",
             "type": "color",
             "item": "black-alpha",
-            "subitem": "2"
+            "subitem": "20"
           },
           "path": [
             "core",
             "color",
             "black-alpha",
-            "2"
+            "20"
           ]
         },
-        "3": {
+        "30": {
           "value": "rgba(0,0,0,.15)",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
             "value": "rgba(0,0,0,.15)"
           },
-          "name": "core-color-black-alpha-3",
+          "name": "core-color-black-alpha-30",
           "attributes": {
             "category": "core",
             "type": "color",
             "item": "black-alpha",
-            "subitem": "3"
+            "subitem": "30"
           },
           "path": [
             "core",
             "color",
             "black-alpha",
-            "3"
+            "30"
           ]
         },
-        "4": {
+        "40": {
           "value": "rgba(0,0,0,.2)",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
             "value": "rgba(0,0,0,.2)"
           },
-          "name": "core-color-black-alpha-4",
+          "name": "core-color-black-alpha-40",
           "attributes": {
             "category": "core",
             "type": "color",
             "item": "black-alpha",
-            "subitem": "4"
+            "subitem": "40"
           },
           "path": [
             "core",
             "color",
             "black-alpha",
-            "4"
+            "40"
           ]
         },
-        "5": {
+        "50": {
           "value": "rgba(0,0,0,.25)",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
             "value": "rgba(0,0,0,.25)"
           },
-          "name": "core-color-black-alpha-5",
+          "name": "core-color-black-alpha-50",
           "attributes": {
             "category": "core",
             "type": "color",
             "item": "black-alpha",
-            "subitem": "5"
+            "subitem": "50"
           },
           "path": [
             "core",
             "color",
             "black-alpha",
-            "5"
+            "50"
+          ]
+        },
+        "00": {
+          "value": "rgba(0,0,0,0)",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0,0,0,0)"
+          },
+          "name": "core-color-black-alpha-00",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "black-alpha",
+            "subitem": "00"
+          },
+          "path": [
+            "core",
+            "color",
+            "black-alpha",
+            "00"
+          ]
+        },
+        "05": {
+          "value": "rgba(0,0,0,.025)",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(0,0,0,.025)"
+          },
+          "name": "core-color-black-alpha-05",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "black-alpha",
+            "subitem": "05"
+          },
+          "path": [
+            "core",
+            "color",
+            "black-alpha",
+            "05"
           ]
         }
       }
@@ -2143,54 +2367,6 @@ module.exports = {
           "size",
           "32"
         ]
-      }
-    }
-  },
-  "component": {
-    "action": {
-      "size": {
-        "default": {
-          "value": "40px",
-          "filePath": "src/global/size/size.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.size.5.value}"
-          },
-          "name": "component-action-size-default",
-          "attributes": {
-            "category": "component",
-            "type": "action",
-            "item": "size",
-            "subitem": "default"
-          },
-          "path": [
-            "component",
-            "action",
-            "size",
-            "default"
-          ]
-        },
-        "minimal": {
-          "value": "32px",
-          "filePath": "src/global/size/size.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.size.4.value}"
-          },
-          "name": "component-action-size-minimal",
-          "attributes": {
-            "category": "component",
-            "type": "action",
-            "item": "size",
-            "subitem": "minimal"
-          },
-          "path": [
-            "component",
-            "action",
-            "size",
-            "minimal"
-          ]
-        }
       }
     }
   }

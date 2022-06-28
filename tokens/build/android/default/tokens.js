@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Jun 2022 20:03:46 GMT
+ * Generated on Tue, 28 Jun 2022 17:48:41 GMT
  */
 
 module.exports = {
@@ -478,7 +478,7 @@ module.exports = {
           "value": {
             "fontFamily": "Roboto",
             "fontSize": "16",
-            "fontWeight": "600"
+            "fontWeight": "500"
           },
           "filePath": "src/global/font/styles.json",
           "isSource": true,
@@ -1491,11 +1491,11 @@ module.exports = {
           ]
         },
         "2": {
-          "value": "600",
+          "value": "500",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "600"
+            "value": "500"
           },
           "name": "CoreFontWeight2",
           "attributes": {

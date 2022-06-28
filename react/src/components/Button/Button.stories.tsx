@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Button, buttonStyle } from "./Button";
+import Button from "./Button";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -21,7 +21,7 @@ Default.args = {
 export const Primary = Template.bind({});
 Primary.args = {
   label: "Primary Button",
-  style: buttonStyle.PRIMARY,
+  primary: true,
 };
 
 export const Small = Template.bind({});
@@ -30,8 +30,8 @@ Small.args = {
   small: true,
 };
 
-export const Critical = Template.bind({});
-Critical.args = {
-  label: "Primary Button",
-  style: buttonStyle.CRITICAL,
+export const Destructive = Template.bind({});
+Destructive.args = {
+  label: "Destructive Button",
+  destructive: true,
 };

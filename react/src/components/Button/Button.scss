@@ -8,6 +8,7 @@ button {
   border: 0;
   padding-left: $semantic-spacing-small;
   padding-right: $semantic-spacing-small;
+  box-shadow: $semantic-shadow-elevation-one;
 }
 
 button.primary {
@@ -15,16 +16,17 @@ button.primary {
   background-color: $semantic-text-color-highlighted;
 }
 
-button.critical {
+button.destructive {
   color: $core-color-white;
   background-color: $semantic-text-color-critical;
 }
 
-button.shadow {
-  box-shadow: $semantic-shadow-elevation-one;
+button.implied {
+  box-shadow: none;
 }
 
 button.small {
+  font: $semantic-text-styles-small;
   height: $component-action-size-minimal;
   padding-left: $semantic-spacing-tiny;
   padding-right: $semantic-spacing-tiny;

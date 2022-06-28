@@ -1,17 +1,22 @@
 {
-  "name": "@YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME",
+  "name": "@nudge-coach/nudge-design",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
+    "access": "public",
+    "@nudge-coach:registry": "https://registry.npmjs.org"
   },
-  "version": "0.1.0",
-  "description": "A simple template for a custom React component library",
+  "version": "0.0.3",
+  "description": "Nudge Coach's component library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nudgeyourself/nudge-design.git"
+  },
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "YOUR_NAME",
+  "author": "Nudge Coach",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -54,5 +59,16 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "react-dom": "^16.8.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nudgeyourself/nudge-design/issues"
+  },
+  "homepage": "https://github.com/nudgeyourself/nudge-design#readme",
+  "keywords": [
+    "nudge",
+    "coach",
+    "components",
+    "ui",
+    "design"
+  ]
 }

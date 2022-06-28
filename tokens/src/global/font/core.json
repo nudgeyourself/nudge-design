@@ -8,7 +8,7 @@
       },
       "weight": {
         "1": { "value": "400" },
-        "2": { "value": "600" },
+        "2": { "value": "500" },
         "3": { "value": "800" }
       },
       "family": { "value": "{platform.font.family.value}" }

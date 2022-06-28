@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 27 Jun 2022 20:03:46 GMT
+ * Generated on Tue, 28 Jun 2022 17:48:41 GMT
  */
 
 :root {
@@ -25,7 +25,7 @@
   --semantic-text-color-success: #66BB66;
   --semantic-text-styles-small: 400 13px Inter;
   --semantic-text-styles-default: 400 16px Inter;
-  --semantic-text-styles-medium: 600 16px Inter;
+  --semantic-text-styles-medium: 500 16px Inter;
   --semantic-text-styles-large: 800 24px Inter;
   --semantic-shadow-elevation-one: 0px 1px 3px 0px rgba(0,0,0,.25);
   --semantic-shadow-elevation-two: 0px 2px 4px 0px rgba(0,0,0,.25);
@@ -71,7 +71,7 @@
   --core-font-size-2: 16;
   --core-font-size-3: 24;
   --core-font-weight-1: 400;
-  --core-font-weight-2: 600;
+  --core-font-weight-2: 500;
   --core-font-weight-3: 800;
   --core-font-family: Inter;
   --core-size-0: 4px;

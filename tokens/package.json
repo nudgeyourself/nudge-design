@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "node build.js",
-    "start": "npm run build && chokidar \"tokens/**/*\" -c \"npm run build\""
+    "start": "npm run build && chokidar \"src/**/*\" -c \"npm run build\""
   },
   "author": "Russ Campbell",
   "license": "MIT",

@@ -1,29 +1,28 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jun 2022 19:20:47 GMT
+ * Generated on Wed, 29 Jun 2022 21:20:59 GMT
  */
 
 :root {
-  --brand-color-highlight: #5983F0;
   --platform-font-family: Inter;
   --semantic-background-layer-1: rgba(240,240,240);
   --semantic-background-layer-2: rgb(225,225,225);
   --semantic-background-layer-3: rgb(210,210,210);
   --semantic-background-layer-4: rgb(195,195,195);
   --semantic-background-shade: rgba(0,0,0,.1);
-  --semantic-background-highlighted: #5983F0;
+  --semantic-background-highlight: #5983F0;
   --semantic-background-contrast: #000000;
   --semantic-background-destructive: #EE4444;
   --semantic-border-default: rgba(0,0,0,.15);
   --semantic-icon-color-primary: #000000;
   --semantic-icon-color-secondary: rgb(135,135,135);
-  --semantic-icon-color-highlighted: #5983F0;
+  --semantic-icon-color-highlight: #5983F0;
   --semantic-icon-size-default: 24px;
   --semantic-text-color-primary: #000000;
   --semantic-text-color-secondary: rgb(135,135,135);
   --semantic-text-color-critical: #EE4444;
   --semantic-text-color-destructive: #EE4444;
-  --semantic-text-color-highlighted: #5983F0;
+  --semantic-text-color-highlight: #5983F0;
   --semantic-text-color-success: #66BB66;
   --semantic-text-color-contrast: #FFFFFF;
   --semantic-text-styles-small: 400 13px Inter;
@@ -43,12 +42,12 @@
   --semantic-spacing-base: 40px; /* This is the same size as the height of a standard button. */
   --semantic-spacing-large: 64px;
   --component-action-color-background-hover-transparent: rgba(0,0,0,.025);
-  --component-action-color-background-hover-primary: rgba(0,0,0,.025);
-  --component-action-color-background-hover-destructive: rgba(0,0,0,.025);
+  --component-action-color-background-hover-highlight: #4271ee;
+  --component-action-color-background-hover-destructive: #ec2d2d;
   --component-action-size-default: 40px;
   --component-action-size-minimal: 32px;
-  --core-color-black: #000000;
   --core-color-highlight: #5983F0;
+  --core-color-black: #000000;
   --core-color-white: #FFFFFF;
   --core-color-grayscale-1: rgba(240,240,240);
   --core-color-grayscale-2: rgb(225,225,225);
@@ -117,4 +116,5 @@
   --core-size-30: 240px;
   --core-size-31: 248px;
   --core-size-32: 256px;
+  --theme-color-brand: #5983F0;
 }

@@ -1,32 +1,9 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jun 2022 19:20:47 GMT
+ * Generated on Wed, 29 Jun 2022 21:20:59 GMT
  */
 
 module.exports = {
-  "brand": {
-    "color": {
-      "highlight": {
-        "value": "#5983F0",
-        "filePath": "src/brand/default/color.json",
-        "isSource": true,
-        "original": {
-          "value": "#5983F0"
-        },
-        "name": "BrandColorHighlight",
-        "attributes": {
-          "category": "brand",
-          "type": "color",
-          "item": "highlight"
-        },
-        "path": [
-          "brand",
-          "color",
-          "highlight"
-        ]
-      }
-    }
-  },
   "platform": {
     "font": {
       "family": {
@@ -157,23 +134,23 @@ module.exports = {
           "shade"
         ]
       },
-      "highlighted": {
+      "highlight": {
         "value": "#5983F0",
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
           "value": "{core.color.highlight.value}"
         },
-        "name": "SemanticBackgroundHighlighted",
+        "name": "SemanticBackgroundHighlight",
         "attributes": {
           "category": "semantic",
           "type": "background",
-          "item": "highlighted"
+          "item": "highlight"
         },
         "path": [
           "semantic",
           "background",
-          "highlighted"
+          "highlight"
         ]
       },
       "contrast": {
@@ -280,25 +257,25 @@ module.exports = {
             "secondary"
           ]
         },
-        "highlighted": {
+        "highlight": {
           "value": "#5983F0",
           "filePath": "src/global/color/icon.json",
           "isSource": true,
           "original": {
             "value": "{core.color.highlight.value}"
           },
-          "name": "SemanticIconColorHighlighted",
+          "name": "SemanticIconColorHighlight",
           "attributes": {
             "category": "semantic",
             "type": "icon",
             "item": "color",
-            "subitem": "highlighted"
+            "subitem": "highlight"
           },
           "path": [
             "semantic",
             "icon",
             "color",
-            "highlighted"
+            "highlight"
           ]
         }
       },
@@ -412,25 +389,25 @@ module.exports = {
             "destructive"
           ]
         },
-        "highlighted": {
+        "highlight": {
           "value": "#5983F0",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.highlight.value}"
           },
-          "name": "SemanticTextColorHighlighted",
+          "name": "SemanticTextColorHighlight",
           "attributes": {
             "category": "semantic",
             "type": "text",
             "item": "color",
-            "subitem": "highlighted"
+            "subitem": "highlight"
           },
           "path": [
             "semantic",
             "text",
             "color",
-            "highlighted"
+            "highlight"
           ]
         },
         "success": {
@@ -909,35 +886,35 @@ module.exports = {
               "hover-transparent"
             ]
           },
-          "hover-primary": {
-            "value": "rgba(0,0,0,.025)",
+          "hover-highlight": {
+            "value": "#5983F0",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.05}"
+              "value": "{core.color.highlight.value}"
             },
-            "name": "ComponentActionColorBackgroundHoverPrimary",
+            "name": "ComponentActionColorBackgroundHoverHighlight",
             "attributes": {
               "category": "component",
               "type": "action",
               "item": "color",
               "subitem": "background",
-              "state": "hover-primary"
+              "state": "hover-highlight"
             },
             "path": [
               "component",
               "action",
               "color",
               "background",
-              "hover-primary"
+              "hover-highlight"
             ]
           },
           "hover-destructive": {
-            "value": "rgba(0,0,0,.025)",
+            "value": "#EE4444",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.05}"
+              "value": "{core.color.red.value}"
             },
             "name": "ComponentActionColorBackgroundHoverDestructive",
             "attributes": {
@@ -1005,6 +982,25 @@ module.exports = {
   },
   "core": {
     "color": {
+      "highlight": {
+        "value": "#5983F0",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
+          "value": "{theme.color.brand.value}"
+        },
+        "name": "CoreColorHighlight",
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "highlight"
+        },
+        "path": [
+          "core",
+          "color",
+          "highlight"
+        ]
+      },
       "black": {
         "value": "#000000",
         "filePath": "src/global/color/core.json",
@@ -1022,25 +1018,6 @@ module.exports = {
           "core",
           "color",
           "black"
-        ]
-      },
-      "highlight": {
-        "value": "#5983F0",
-        "filePath": "src/global/color/core.json",
-        "isSource": true,
-        "original": {
-          "value": "{brand.color.highlight.value}"
-        },
-        "name": "CoreColorHighlight",
-        "attributes": {
-          "category": "core",
-          "type": "color",
-          "item": "highlight"
-        },
-        "path": [
-          "core",
-          "color",
-          "highlight"
         ]
       },
       "white": {
@@ -2403,6 +2380,29 @@ module.exports = {
           "core",
           "size",
           "32"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "color": {
+      "brand": {
+        "value": "#5983F0",
+        "filePath": "src/global/color/theme.json",
+        "isSource": true,
+        "original": {
+          "value": "#5983F0"
+        },
+        "name": "ThemeColorBrand",
+        "attributes": {
+          "category": "theme",
+          "type": "color",
+          "item": "brand"
+        },
+        "path": [
+          "theme",
+          "color",
+          "brand"
         ]
       }
     }

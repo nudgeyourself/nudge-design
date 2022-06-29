@@ -7,14 +7,15 @@
   padding-left: var(--semantic-spacing-small);
   padding-right: var(--semantic-spacing-small);
   box-shadow: var(--semantic-shadow-elevation-one);
-  -webkit-transition: background-color 150ms ease-in-out);
-  -moz-transition: background-color 150ms ease-in-out);
-  transition: background-color 150ms ease-in-out);
+  -webkit-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+  -moz-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+  -o-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+  transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
 }
 
 .button:hover {
-  background-color: var(--component-action-color-background-hover-transparent);
   cursor: pointer;
+  background-color: var(--component-action-color-background-hover-transparent);
 }
 
 .button:disabled:hover {
@@ -23,11 +24,11 @@
 
 .primary {
   color: var(--semantic-text-color-contrast);
-  background-color: var(--semantic-background-highlighted);
+  background-color: var(--semantic-background-highlight);
 }
 
 .primary:hover {
-  background-color: darken(var(--semantic-background-highlighted), 5%);
+  background-color: var(--component-action-color-background-hover-highlight);
 }
 
 .destructive {
@@ -36,7 +37,7 @@
 }
 
 .destructive:hover {
-  background-color: darken(var(--semantic-background-destructive), 10%);
+  background-color: var(--component-action-color-background-hover-destructive);
 }
 
 .implied {

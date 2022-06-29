@@ -6,7 +6,7 @@
         "secondary": { "value": "{core.color.grayscale.8.value}" },
         "critical": { "value": "{core.color.red.value}" },
         "destructive": { "value": "{core.color.red.value}" },
-        "highlighted": { "value": "{core.color.highlight.value}" },
+        "highlight": { "value": "{core.color.highlight.value}" },
         "success": { "value": "{core.color.green.value}" },
         "contrast": { "value": "{core.color.white.value}" }
       }

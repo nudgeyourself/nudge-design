@@ -11,15 +11,20 @@ StyleDictionaryPackage.registerTransform({
   },
   transitive: true,
   transformer: function (prop) {
-    // destructure shadow values from original token value
     const { x, y, blur, spread, color, alpha } = prop.original.value;
-
-    // convert hex code to rgba string
-    // const shadowColor = tinycolor(color);
-    // shadowColor.setAlpha(alpha);
-    // shadowColor.toRgbString();
-
     return `${x}px ${y}px ${blur}px ${spread}px ${color}`;
+  },
+});
+
+StyleDictionaryPackage.registerTransform({
+  name: "darken/css",
+  type: "value",
+  matcher: function (prop) {
+    return prop.attributes.state === "hover-highlight" || prop.attributes.state === "hover-destructive";
+  },
+  transitive: true,
+  transformer: function (prop) {
+    return tinycolor(prop.value).darken(5).toString();
   },
 });
 
@@ -44,6 +49,7 @@ const webTransforms = [
   "size/rem",
   "color/css",
   "shadow/css",
+  "darken/css",
   "font/css",
 ];
 
@@ -59,10 +65,6 @@ function getStyleDictionaryConfig(brand, platform) {
         transforms: webTransforms,
         buildPath: `build/${platform}/${brand}/`,
         files: [
-          {
-            destination: "_variables.scss",
-            format: "scss/variables",
-          },
           {
             destination: "variables.css",
             format: "css/variables",

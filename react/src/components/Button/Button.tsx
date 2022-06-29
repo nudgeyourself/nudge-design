@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Button.module.scss";
+import styles from "./Button.module.css";
 
 export interface ButtonProps {
   label: string;
@@ -14,11 +14,11 @@ export interface ButtonProps {
 }
 
 const setClasses = (props: ButtonProps) => {
-  return `${styles.button} ${props.primary ? styles.primary : ""}${
+  return `${styles.button} ${props.primary ? styles.primary : ""} ${
     props.implied ? styles.implied : ""
-  }${props.destructive ? styles.destructive : ""}${
+  } ${props.destructive ? styles.destructive : ""} ${
     props.small ? styles.small : ""
-  }${props.expanded ? styles.expanded : ""}${
+  } ${props.expanded ? styles.expanded : ""} ${
     props.stacked ? styles.stacked : ""
   }`.trim();
 };

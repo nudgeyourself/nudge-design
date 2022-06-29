@@ -1,0 +1,55 @@
+.button {
+  font: var(--semantic-text-styles-medium);
+  height: var(--component-action-size-default);
+  border-radius: var(--semantic-radius-small);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding-left: var(--semantic-spacing-small);
+  padding-right: var(--semantic-spacing-small);
+  box-shadow: var(--semantic-shadow-elevation-one);
+  -webkit-transition: background-color 150ms ease-in-out);
+  -moz-transition: background-color 150ms ease-in-out);
+  transition: background-color 150ms ease-in-out);
+}
+
+.button:hover {
+  background-color: var(--component-action-color-background-hover-transparent);
+  cursor: pointer;
+}
+
+.button:disabled:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.primary {
+  color: var(--semantic-text-color-contrast);
+  background-color: var(--semantic-background-highlighted);
+}
+
+.primary:hover {
+  background-color: darken(var(--semantic-background-highlighted), 5%);
+}
+
+.destructive {
+  color: var(--semantic-text-color-contrast);
+  background-color: var(--semantic-background-destructive);
+}
+
+.destructive:hover {
+  background-color: darken(var(--semantic-background-destructive), 10%);
+}
+
+.implied {
+  box-shadow: none;
+}
+
+.expanded {
+  width: 100%;
+}
+
+.small {
+  font: var(--semantic-text-styles-small);
+  height: var(--component-action-size-minimal);
+  padding-left: var(--semantic-spacing-tiny);
+  padding-right: var(--semantic-spacing-tiny);
+}

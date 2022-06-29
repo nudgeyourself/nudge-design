@@ -1,6 +1,6 @@
 @import "../../../../tokens/build/web/default/variables";
 
-button {
+.button {
   font: $semantic-text-styles-medium;
   height: $component-action-size-default;
   border-radius: $semantic-radius-small;
@@ -14,38 +14,42 @@ button {
   transition: background-color 150ms ease-in-out;
 }
 
-button:hover {
+.button:hover {
   background-color: $component-action-color-background-hover-transparent;
   cursor: pointer;
 }
 
-button.primary {
+.button:disabled:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.primary {
   color: $semantic-text-color-contrast;
   background-color: $semantic-background-highlighted;
 }
 
-button.primary:hover {
+.primary:hover {
   background-color: darken($semantic-background-highlighted, 5%);
 }
 
-button.destructive {
+.destructive {
   color: $semantic-text-color-contrast;
   background-color: $semantic-background-destructive;
 }
 
-button.destructive:hover {
+.destructive:hover {
   background-color: darken($semantic-background-destructive, 10%);
 }
 
-button.implied {
+.implied {
   box-shadow: none;
 }
 
-button.expanded {
+.expanded {
   width: 100%;
 }
 
-button.small {
+.small {
   font: $semantic-text-styles-small;
   height: $component-action-size-minimal;
   padding-left: $semantic-spacing-tiny;

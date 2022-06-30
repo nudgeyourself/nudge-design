@@ -24,7 +24,7 @@ StyleDictionaryPackage.registerTransform({
   },
   transitive: true,
   transformer: function (prop) {
-    return tinycolor(prop.value).darken(5).toString();
+    return tinycolor(prop.value).darken(8).toString();
   },
 });
 

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Jun 2022 21:20:59 GMT
+ * Generated on Wed, 29 Jun 2022 21:25:46 GMT
  */
 
 module.exports = {
@@ -850,7 +850,7 @@ module.exports = {
             ]
           },
           "hover-highlight": {
-            "value": "#4271ee",
+            "value": "#3467ed",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
@@ -873,7 +873,7 @@ module.exports = {
             ]
           },
           "hover-destructive": {
-            "value": "#ec2d2d",
+            "value": "#eb1f1f",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {

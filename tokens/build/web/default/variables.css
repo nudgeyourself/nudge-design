@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 29 Jun 2022 21:20:59 GMT
+ * Generated on Wed, 29 Jun 2022 21:25:46 GMT
  */
 
 :root {
@@ -42,8 +42,8 @@
   --semantic-spacing-base: 40px; /* This is the same size as the height of a standard button. */
   --semantic-spacing-large: 64px;
   --component-action-color-background-hover-transparent: rgba(0,0,0,.025);
-  --component-action-color-background-hover-highlight: #4271ee;
-  --component-action-color-background-hover-destructive: #ec2d2d;
+  --component-action-color-background-hover-highlight: #3467ed;
+  --component-action-color-background-hover-destructive: #eb1f1f;
   --component-action-size-default: 40px;
   --component-action-size-minimal: 32px;
   --core-color-highlight: #5983F0;

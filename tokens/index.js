@@ -1,1 +1,1 @@
-export * from "./build/web/default/tokens";
+export * from "./build/web/tokens";

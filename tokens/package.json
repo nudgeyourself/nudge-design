@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
-    "style-dictionary": "^3.0.0-rc.8",
+    "style-dictionary": "^3.7.1",
     "tinycolor2": "^1.4.2"
   },
   "bugs": {

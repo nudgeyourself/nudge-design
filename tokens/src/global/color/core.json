@@ -1,7 +1,9 @@
 {
   "core": {
     "color": {
-      "highlight": { "value": "{theme.color.brand.value}" },
+      "highlight": {
+        "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, {theme.color.highlight.lightness.value})"
+      },
       "black": { "value": "#000000" },
       "white": { "value": "#FFFFFF" },
       "grayscale": {

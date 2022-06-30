@@ -1,8 +1,10 @@
 {
   "theme": {
     "color": {
-      "brand": {
-        "value": "#5983F0"
+      "highlight": {
+        "hue": { "value": "223" },
+        "saturation": { "value": "83%" },
+        "lightness": { "value": "65%" }
       }
     }
   }

@@ -20,7 +20,7 @@ StyleDictionaryPackage.registerTransform({
   name: "darken/css",
   type: "value",
   matcher: function (prop) {
-    return prop.attributes.state === "hover-highlight" || prop.attributes.state === "hover-destructive";
+    return prop.attributes.state === "hover-destructive";
   },
   transitive: true,
   transformer: function (prop) {
@@ -53,21 +53,20 @@ const webTransforms = [
   "font/css",
 ];
 
-function getStyleDictionaryConfig(brand, platform) {
+function getStyleDictionaryConfig(platform) {
   return {
-    source: [
-      `src/brand/${brand}/*.json`,
-      `src/platform/${platform}/*.json`,
-      "src/global/**/*.json",
-    ],
+    source: [`src/platform/${platform}/*.json`, "src/global/**/*.json"],
     platforms: {
       web: {
         transforms: webTransforms,
-        buildPath: `build/${platform}/${brand}/`,
+        buildPath: `build/${platform}/`,
         files: [
           {
             destination: "variables.css",
             format: "css/variables",
+            options: {
+              outputReferences: true,
+            },
           },
           {
             destination: "tokens.js",
@@ -77,7 +76,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       ios: {
         transformGroup: "js",
-        buildPath: `build/${platform}/${brand}/`,
+        buildPath: `build/${platform}/`,
         files: [
           {
             destination: "tokens.js",
@@ -87,7 +86,7 @@ function getStyleDictionaryConfig(brand, platform) {
       },
       android: {
         transformGroup: "js",
-        buildPath: `build/${platform}/${brand}/`,
+        buildPath: `build/${platform}/`,
         files: [
           {
             destination: "tokens.js",
@@ -101,21 +100,19 @@ function getStyleDictionaryConfig(brand, platform) {
 
 console.log("Build started...");
 
-// PROCESS THE DESIGN TOKENS FOR THE DIFFERENT BRANDS AND PLATFORMS
+// PROCESS THE DESIGN TOKENS FOR DIFFERENT PLATFORMS
 
-["default"].map(function (brand) {
-  ["web", "ios", "android"].map(function (platform) {
-    console.log("\n==============================================");
-    console.log(`\nProcessing: [${platform}] [${brand}]`);
+["web", "ios", "android"].map(function (platform) {
+  console.log("\n==============================================");
+  console.log(`\nProcessing: [${platform}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(
-      getStyleDictionaryConfig(brand, platform)
-    );
+  const StyleDictionary = StyleDictionaryPackage.extend(
+    getStyleDictionaryConfig(platform)
+  );
 
-    StyleDictionary.buildPlatform(platform);
+  StyleDictionary.buildPlatform(platform);
 
-    console.log("\nEnd processing");
-  });
+  console.log("\nEnd processing");
 });
 
 console.log("\n==============================================");

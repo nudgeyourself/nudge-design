@@ -1,4 +1,4 @@
-import "../../tokens/build/web/default/variables.css";
+import "../../tokens/build/web/variables.css";
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {

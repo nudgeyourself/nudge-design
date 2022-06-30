@@ -8,7 +8,9 @@
         "4": { "value": "{core.color.grayscale.4.value}" }
       },
       "shade": { "value": "{core.color.black-alpha.20}" },
-      "highlight": { "value": "{core.color.highlight.value}" },
+      "highlight": {
+        "value": "{core.color.highlight.value}"
+      },
       "contrast": { "value": "{core.color.black.value}" },
       "destructive": { "value": "{core.color.red.value}" }
     }
@@ -18,7 +20,9 @@
       "color": {
         "background": {
           "hover-transparent": { "value": "{core.color.black-alpha.05}" },
-          "hover-highlight": { "value": "{core.color.highlight.value}" },
+          "hover-highlight": {
+            "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value}-5%))"
+          },
           "hover-destructive": { "value": "{core.color.red.value}" }
         }
       }

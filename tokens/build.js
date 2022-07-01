@@ -37,7 +37,7 @@ StyleDictionaryPackage.registerTransform({
   transitive: true,
   transformer: function (prop) {
     const { fontFamily, fontSize, fontWeight } = prop.original.value;
-    return `${fontWeight} ${fontSize}px ${fontFamily}`;
+    return `${fontWeight} ${fontSize} ${fontFamily}`;
   },
 });
 

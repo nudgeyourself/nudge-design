@@ -1,5 +1,6 @@
 .button {
-  font: var(--semantic-text-styles-medium);
+  font: var(--core-font-weight-2) var(--core-font-size-2)
+    var(--core-font-family);
   height: var(--component-action-size-default);
   border-radius: var(--semantic-radius-small);
   background-color: rgba(0, 0, 0, 0);
@@ -7,11 +8,12 @@
   padding-left: var(--semantic-spacing-small);
   padding-right: var(--semantic-spacing-small);
   box-shadow: var(--semantic-shadow-elevation-one);
-  
-  -webkit-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-  -moz-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-  -o-transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
-  transition: background-color 150ms cubic-bezier(0.895, 0.030, 0.685, 0.220); 
+
+  -webkit-transition: background-color 150ms
+    cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  -moz-transition: background-color 150ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  -o-transition: background-color 150ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition: background-color 150ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
 }
 
 .button:hover {

@@ -21,7 +21,7 @@
         "background": {
           "hover-transparent": { "value": "{core.color.black-alpha.05}" },
           "hover-highlight": {
-            "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value}-5%))"
+            "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value} - 5%))"
           },
           "hover-destructive": { "value": "{core.color.red.value}" }
         }

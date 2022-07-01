@@ -1,10 +1,10 @@
 {
-  "name": "@nudge-coach/nudge-design",
+  "name": "@nudge-coach/nudge-ui",
   "publishConfig": {
     "access": "public",
     "@nudge-coach:registry": "https://registry.npmjs.org"
   },
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Nudge Coach's component library",
   "repository": {
     "type": "git",

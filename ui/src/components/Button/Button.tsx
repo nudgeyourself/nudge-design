@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../../tokens/build/web/variables.css";
 import styles from "./Button.module.css";
+import { Calendar } from '@nudge-coach/icons';
 
 export interface ButtonProps {
   label: string;
@@ -32,6 +33,7 @@ const Button = (props: ButtonProps) => {
       disabled={props.disabled}
     >
       {props.label}
+      <Calendar></Calendar>
     </button>
   );
 };

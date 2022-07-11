@@ -1,5 +1,5 @@
 {
-  "name": "@nudge-coach/nudge-ui",
+  "name": "@nudge-coach/ui",
   "publishConfig": {
     "access": "public",
     "@nudge-coach:registry": "https://registry.npmjs.org"
@@ -58,6 +58,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
+    "@nudge-coach/icons": "0.0.4",
     "react-dom": "^16.8.0"
   },
   "bugs": {

@@ -51,6 +51,14 @@
 
 .expanded {
   width: 100%;
+  justify-content: center;
+}
+
+.stacked {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--semantic-spacing-small);
+  height: auto;
 }
 
 .small {
@@ -72,4 +80,14 @@
 
 .button svg:only-child {
   margin: 0px;
+}
+
+.button.stacked svg:first-child {
+  margin: 0;
+  margin-bottom: var(--semantic-spacing-tiny);
+}
+
+.button.stacked svg:last-child {
+  margin: 0;
+  margin-top: var(--semantic-spacing-tiny);
 }

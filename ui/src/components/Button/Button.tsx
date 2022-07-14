@@ -1,10 +1,10 @@
 import React from "react";
+import "../global.css";
 import "../../../../tokens/build/web/variables.css";
 import styles from "./Button.module.css";
 import { Calendar } from '@nudge-coach/icons';
 
 export interface ButtonProps {
-  label: string;
   onClick: () => {};
   primary?: boolean;
   implied?: boolean;
@@ -32,14 +32,13 @@ const Button = (props: ButtonProps) => {
       onClick={props.onClick}
       disabled={props.disabled}
     >
-      {props.label}
-      <Calendar></Calendar>
+      {props.children}
     </button>
   );
 };
 
 Button.defaultProps = {
-  label: "Button",
+  children: "Button",
   onClick: () => {},
 };
 

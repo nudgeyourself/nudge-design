@@ -2,6 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Button from "./Button";
+import { Plus, Calendar } from '@nudge-coach/icons';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -14,24 +15,39 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Default.args = {
-  label: "Default Button",
-};
+
+Default.args = {};
 
 export const Primary = Template.bind({});
 Primary.args = {
-  label: "Primary Button",
   primary: true,
 };
 
 export const Small = Template.bind({});
 Small.args = {
-  label: "Small Button",
   small: true,
 };
 
 export const Destructive = Template.bind({});
 Destructive.args = {
-  label: "Destructive Button",
   destructive: true,
 };
+
+export const SmallImpliedIcon = (args) => 
+  <Button {...args}>
+    <Calendar />
+  </Button>
+;
+
+SmallImpliedIcon.args = {
+  small: true,
+  implied: true,
+}
+
+export const LabeledIcon = (args) => 
+  <Button {...args}>
+    <span>Labeled Icon</span>
+    <Plus />
+  </Button>
+;
+

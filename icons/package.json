@@ -1,6 +1,6 @@
 {
   "name": "@nudge-coach/icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Icons for the Nudge Coach design system.",
   "keywords": [
     "React",
@@ -14,7 +14,7 @@
   "scripts": {
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && rollup -c",
-    "svgr": "svgr --icon 24 --title-prop --replace-attr-values '#000=currentColor' -d src -- assets"
+    "svgr": "svgr --icon 16 --title-prop --replace-attr-values '#000=currentColor' -d src -- assets"
   },
   "author": "Nudge Coach",
   "license": "MIT",

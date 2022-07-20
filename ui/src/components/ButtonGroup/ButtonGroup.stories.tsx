@@ -24,9 +24,9 @@ Default.args = {};
 
 export const Row = (args) => 
   <ButtonGroup {...args}>
-    <Button expanded />
-    <Button expanded />
-    <Button expanded />
+    <Button />
+    <Button />
+    <Button />
   </ButtonGroup>
 ;
 

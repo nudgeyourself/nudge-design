@@ -1,0 +1,25 @@
+.buttonGroup {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttonGroup button {
+	margin-top: var(--semantic-spacing-small);
+}
+
+.buttonGroup button:first-child {
+	margin-top: 0px;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.buttonGroup.row button {
+	margin-top: 0px;
+	margin-left: var(--semantic-spacing-small);
+}
+
+.buttonGroup.row button:first-child {
+	margin-left: 0px;
+}

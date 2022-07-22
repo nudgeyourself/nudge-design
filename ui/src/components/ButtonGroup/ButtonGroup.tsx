@@ -4,7 +4,8 @@ import "../../../../tokens/build/web/variables.css";
 import styles from "./ButtonGroup.module.css";
 
 export interface ButtonGroupProps {
-  row: boolean;
+  children: React.ReactNode;
+  row?: boolean;
 }
 
 const ButtonGroup = (props: ButtonGroupProps) => {

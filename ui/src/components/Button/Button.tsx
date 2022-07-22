@@ -5,6 +5,7 @@ import styles from "./Button.module.css";
 import { Calendar } from '@nudge-coach/icons';
 
 export interface ButtonProps {
+  children: React.ReactNode;
   onClick: () => {};
   primary?: boolean;
   implied?: boolean;

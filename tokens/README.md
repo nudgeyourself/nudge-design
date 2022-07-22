@@ -1,9 +1,13 @@
 # Basic Style Dictionary
 
-If you have the style-dictionary module installed globally, you can `cd` into this directory and run:
+After you make a change to tokens run:
 
 ```bash
-style-dictionary build
+npm run build
 ```
 
-Only create new component tokens when a variable needs to be shared between multiple components.
+If you want to start a watcher run:
+
+```bash
+npm run start
+```

@@ -1,6 +1,7 @@
 .button {
   font: var(--core-font-weight-2) var(--core-font-size-2)
     var(--core-font-family);
+  color: var(--semantic-text-color-primary);
   height: var(--component-action-size-default);
   border-radius: var(--semantic-radius-small);
   background-color: rgba(0, 0, 0, 0);

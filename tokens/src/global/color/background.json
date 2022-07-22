@@ -19,7 +19,7 @@
     "action": {
       "color": {
         "background": {
-          "hover-transparent": { "value": "{core.color.black-alpha.05}" },
+          "hover-transparent": { "value": "{core.color.black-alpha.10}" },
           "hover-highlight": {
             "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value} - 5%))"
           },

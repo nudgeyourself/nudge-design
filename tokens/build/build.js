@@ -72,6 +72,10 @@ function getStyleDictionaryConfig(platform) {
             destination: "tokens.js",
             format: "javascript/module",
           },
+          {
+            destination: "tokens.json",
+            format: "json",
+          },
         ],
       },
       ios: {

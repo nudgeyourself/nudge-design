@@ -75,6 +75,9 @@ function getStyleDictionaryConfig(platform) {
 		  {
 		  	destination: "tokens.json",
 		  	format: "json",
+		  	options: {
+			  outputReferences: true,
+		  	},
 		  },
 		],
 	  },

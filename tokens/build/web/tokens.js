@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 19:59:51 GMT
+ * Generated on Wed, 27 Jul 2022 20:12:27 GMT
  */
 
 module.exports = {
@@ -307,21 +307,20 @@ module.exports = {
       "color": {
         "primary": {
           "value": "#000000",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "primary"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.black.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-primary",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "primary"
+          },
           "path": [
             "semantic",
             "text",
@@ -331,21 +330,20 @@ module.exports = {
         },
         "secondary": {
           "value": "rgb(135,135,135)",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "secondary"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.grayscale.8.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-secondary",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "secondary"
+          },
           "path": [
             "semantic",
             "text",
@@ -355,21 +353,20 @@ module.exports = {
         },
         "critical": {
           "value": "#EE4444",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "critical"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.red.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-critical",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "critical"
+          },
           "path": [
             "semantic",
             "text",
@@ -379,21 +376,20 @@ module.exports = {
         },
         "destructive": {
           "value": "#EE4444",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "destructive"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.red.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-destructive",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "destructive"
+          },
           "path": [
             "semantic",
             "text",
@@ -403,21 +399,20 @@ module.exports = {
         },
         "highlight": {
           "value": "hsl(223, 83%, 65%)",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "highlight"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.highlight.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-highlight",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "highlight"
+          },
           "path": [
             "semantic",
             "text",
@@ -427,21 +422,20 @@ module.exports = {
         },
         "success": {
           "value": "#66BB66",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "success"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.green.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-success",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "success"
+          },
           "path": [
             "semantic",
             "text",
@@ -451,21 +445,20 @@ module.exports = {
         },
         "contrast": {
           "value": "#FFFFFF",
-          "attributes": {
-            "type": "color",
-            "category": "semantic",
-            "item": "color",
-            "subitem": "contrast"
-          },
+          "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
             "value": "{core.color.white.value}",
-            "attributes": {
-              "type": "color"
-            }
+            "type": "color"
           },
           "name": "semantic-text-color-contrast",
+          "attributes": {
+            "category": "semantic",
+            "type": "text",
+            "item": "color",
+            "subitem": "contrast"
+          },
           "path": [
             "semantic",
             "text",

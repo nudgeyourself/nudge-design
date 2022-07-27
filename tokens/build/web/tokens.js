@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 20:48:21 GMT
+ * Generated on Wed, 27 Jul 2022 20:50:28 GMT
  */
 
 module.exports = {
@@ -618,7 +618,8 @@ module.exports = {
               "blur": "3",
               "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
-              "opacity": "{core.color.black-alpha.50.value}"
+              "opacity": "{core.color.black-alpha.50.value}",
+              "type": "dropShadow"
             },
             "type": "boxShadow"
           },
@@ -648,7 +649,8 @@ module.exports = {
               "blur": "4",
               "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
-              "opacity": "{core.color.black-alpha.50.value}"
+              "opacity": "{core.color.black-alpha.50.value}",
+              "type": "dropShadow"
             },
             "type": "boxShadow"
           },
@@ -678,7 +680,8 @@ module.exports = {
               "blur": "6",
               "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
-              "opacity": "{core.color.black-alpha.50.value}"
+              "opacity": "{core.color.black-alpha.50.value}",
+              "type": "dropShadow"
             },
             "type": "boxShadow"
           },

@@ -41,6 +41,38 @@ StyleDictionaryPackage.registerTransform({
   },
 });
 
+StyleDictionaryPackage.registerTransform({
+  name: "figma",
+  type: "value",
+  matcher: function (prop) {
+	return prop.type === "typography";
+  },
+  transitive: true,
+  transformer: function (prop) {
+	const { fontFamily, fontSize, fontWeight } = prop.original.value;
+	
+	var figmaFriendlyWeight;
+	
+	switch (fontWeight) {
+		case "400":
+			figmaFriendlyWeight =  "Regular";
+			break;
+		case "600":
+			figmaFriendlyWeight =  "Medium";
+			break;
+		case "800":
+			figmaFriendlyWeight =  "Bold";
+			break;
+		default:
+			figmaFriendlyWeight = fontWeight;
+	}
+	
+	const  figmaFriendlyFontSize = fontSize.substr(0,fontSize.length-2);
+	
+	return {fontFamily: fontFamily, fontSize:figmaFriendlyFontSize, fontWeight: figmaFriendlyWeight};
+  },
+});
+
 const webTransforms = [
   "attribute/cti",
   "name/cti/kebab",
@@ -61,6 +93,7 @@ const figmaTransforms = [
   "size/rem",
   "color/css",
   "darken/css",
+  "figma",
 ];
 
 function getStyleDictionaryConfig(platform, buildForFigma) {

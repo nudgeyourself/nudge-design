@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 21:27:07 GMT
+ * Generated on Wed, 27 Jul 2022 21:44:20 GMT
  */
 
 :root {
@@ -40,9 +40,9 @@
   --core-size-2: 16px;
   --core-size-1: 8px;
   --core-size-0: 4px;
-  --core-font-weight-3: Bold;
-  --core-font-weight-2: Medium;
-  --core-font-weight-1: Regular;
+  --core-font-weight-3: 800;
+  --core-font-weight-2: 500;
+  --core-font-weight-1: 400;
   --core-font-size-3: 24px;
   --core-font-size-2: 16px;
   --core-font-size-1: 13px;

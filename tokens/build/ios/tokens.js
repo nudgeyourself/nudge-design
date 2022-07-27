@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 25 Jul 2022 16:14:31 GMT
+ * Generated on Wed, 27 Jul 2022 19:59:51 GMT
  */
 
 module.exports = {
@@ -307,18 +307,21 @@ module.exports = {
       "color": {
         "primary": {
           "value": "#000000",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.black.value}"
-          },
-          "name": "SemanticTextColorPrimary",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "primary"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.black.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorPrimary",
           "path": [
             "semantic",
             "text",
@@ -328,18 +331,21 @@ module.exports = {
         },
         "secondary": {
           "value": "rgb(135,135,135)",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.grayscale.8.value}"
-          },
-          "name": "SemanticTextColorSecondary",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "secondary"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.grayscale.8.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorSecondary",
           "path": [
             "semantic",
             "text",
@@ -349,18 +355,21 @@ module.exports = {
         },
         "critical": {
           "value": "#EE4444",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.red.value}"
-          },
-          "name": "SemanticTextColorCritical",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "critical"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.red.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorCritical",
           "path": [
             "semantic",
             "text",
@@ -370,18 +379,21 @@ module.exports = {
         },
         "destructive": {
           "value": "#EE4444",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.red.value}"
-          },
-          "name": "SemanticTextColorDestructive",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "destructive"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.red.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorDestructive",
           "path": [
             "semantic",
             "text",
@@ -391,18 +403,21 @@ module.exports = {
         },
         "highlight": {
           "value": "hsl(223, 83%, 65%)",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.highlight.value}"
-          },
-          "name": "SemanticTextColorHighlight",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "highlight"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.highlight.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorHighlight",
           "path": [
             "semantic",
             "text",
@@ -412,18 +427,21 @@ module.exports = {
         },
         "success": {
           "value": "#66BB66",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.green.value}"
-          },
-          "name": "SemanticTextColorSuccess",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "success"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.green.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorSuccess",
           "path": [
             "semantic",
             "text",
@@ -433,18 +451,21 @@ module.exports = {
         },
         "contrast": {
           "value": "#FFFFFF",
-          "filePath": "src/global/color/text.json",
-          "isSource": true,
-          "original": {
-            "value": "{core.color.white.value}"
-          },
-          "name": "SemanticTextColorContrast",
           "attributes": {
+            "type": "color",
             "category": "semantic",
-            "type": "text",
             "item": "color",
             "subitem": "contrast"
           },
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.white.value}",
+            "attributes": {
+              "type": "color"
+            }
+          },
+          "name": "SemanticTextColorContrast",
           "path": [
             "semantic",
             "text",

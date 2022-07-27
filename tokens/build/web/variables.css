@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 20:12:27 GMT
+ * Generated on Wed, 27 Jul 2022 20:25:57 GMT
  */
 
 :root {
@@ -53,10 +53,10 @@
   --core-color-black-alpha-30: rgba(0,0,0,.15);
   --core-color-black-alpha-20: rgba(0,0,0,.1);
   --core-color-black-alpha-10: rgba(0,0,0,.05);
-  --core-color-green: #66BB66;
-  --core-color-yellow: #FEDF63;
-  --core-color-orange: #FF7744;
-  --core-color-red: #EE4444;
+  --core-color-feedback-green: #66BB66;
+  --core-color-feedback-yellow: #FEDF63;
+  --core-color-feedback-orange: #FF7744;
+  --core-color-feedback-red: #EE4444;
   --core-color-grayscale-16: rgb(15,15,15);
   --core-color-grayscale-15: rgb(30,30,30);
   --core-color-grayscale-14: rgb(45,45,45);
@@ -96,16 +96,16 @@
   --semantic-shadow-elevation-two: 0px 2px 4px 0px var(--core-color-black-alpha-50);
   --semantic-shadow-elevation-one: 0px 1px 3px 0px var(--core-color-black-alpha-50);
   --semantic-text-color-contrast: var(--core-color-white);
-  --semantic-text-color-success: var(--core-color-green);
-  --semantic-text-color-destructive: var(--core-color-red);
-  --semantic-text-color-critical: var(--core-color-red);
+  --semantic-text-color-success: var(--core-color-feedback-green);
+  --semantic-text-color-destructive: var(--core-color-feedback-red);
+  --semantic-text-color-critical: var(--core-color-feedback-red);
   --semantic-text-color-secondary: var(--core-color-grayscale-8);
   --semantic-text-color-primary: var(--core-color-black);
   --semantic-icon-size-default: var(--core-size-3);
   --semantic-icon-color-secondary: var(--core-color-grayscale-8);
   --semantic-icon-color-primary: var(--core-color-black);
   --semantic-border-default: var(--core-color-black-alpha-30);
-  --semantic-background-destructive: var(--core-color-red);
+  --semantic-background-destructive: var(--core-color-feedback-red);
   --semantic-background-contrast: var(--core-color-black);
   --semantic-background-shade: var(--core-color-black-alpha-20);
   --semantic-background-layer-4: var(--core-color-grayscale-4);

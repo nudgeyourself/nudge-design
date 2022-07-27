@@ -10,7 +10,7 @@
             "spread": 0,
             "color": "{core.color.black-alpha.50.value}",
             "opacity": "{core.color.black-alpha.50.value}"
-          }
+          }, "type": "boxShadow"
         },
         "two": {
           "value": {
@@ -20,7 +20,7 @@
             "spread": 0,
             "color": "{core.color.black-alpha.50.value}",
             "opacity": "{core.color.black-alpha.50.value}"
-          }
+          }, "type": "boxShadow"
         },
         "three": {
           "value": {
@@ -30,7 +30,7 @@
             "spread": 0,
             "color": "{core.color.black-alpha.50.value}",
             "opacity": "{core.color.black-alpha.50.value}"
-          }
+          }, "type": "boxShadow"
         }
       }
     }

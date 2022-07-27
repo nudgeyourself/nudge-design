@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 20:12:27 GMT
+ * Generated on Wed, 27 Jul 2022 20:25:57 GMT
  */
 
 module.exports = {
@@ -32,10 +32,12 @@ module.exports = {
       "layer": {
         "1": {
           "value": "rgba(240,240,240)",
+          "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.grayscale.1.value}"
+            "value": "{core.color.grayscale.1.value}",
+            "type": "color"
           },
           "name": "SemanticBackgroundLayer1",
           "attributes": {
@@ -53,10 +55,12 @@ module.exports = {
         },
         "2": {
           "value": "rgb(225,225,225)",
+          "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.grayscale.2.value}"
+            "value": "{core.color.grayscale.2.value}",
+            "type": "color"
           },
           "name": "SemanticBackgroundLayer2",
           "attributes": {
@@ -74,10 +78,12 @@ module.exports = {
         },
         "3": {
           "value": "rgb(210,210,210)",
+          "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.grayscale.3.value}"
+            "value": "{core.color.grayscale.3.value}",
+            "type": "color"
           },
           "name": "SemanticBackgroundLayer3",
           "attributes": {
@@ -95,10 +101,12 @@ module.exports = {
         },
         "4": {
           "value": "rgb(195,195,195)",
+          "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.grayscale.4.value}"
+            "value": "{core.color.grayscale.4.value}",
+            "type": "color"
           },
           "name": "SemanticBackgroundLayer4",
           "attributes": {
@@ -117,10 +125,12 @@ module.exports = {
       },
       "shade": {
         "value": "rgba(0,0,0,.1)",
+        "type": "color",
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.black-alpha.20}"
+          "value": "{core.color.black-alpha.20}",
+          "type": "color"
         },
         "name": "SemanticBackgroundShade",
         "attributes": {
@@ -136,10 +146,12 @@ module.exports = {
       },
       "highlight": {
         "value": "hsl(223, 83%, 65%)",
+        "type": "color",
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.highlight.value}"
+          "value": "{core.color.highlight.value}",
+          "type": "color"
         },
         "name": "SemanticBackgroundHighlight",
         "attributes": {
@@ -155,10 +167,12 @@ module.exports = {
       },
       "contrast": {
         "value": "#000000",
+        "type": "color",
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.black.value}"
+          "value": "{core.color.black.value}",
+          "type": "color"
         },
         "name": "SemanticBackgroundContrast",
         "attributes": {
@@ -174,10 +188,12 @@ module.exports = {
       },
       "destructive": {
         "value": "#EE4444",
+        "type": "color",
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.red.value}"
+          "value": "{core.color.feedback.red.value}",
+          "type": "color"
         },
         "name": "SemanticBackgroundDestructive",
         "attributes": {
@@ -195,10 +211,12 @@ module.exports = {
     "border": {
       "default": {
         "value": "rgba(0,0,0,.15)",
+        "type": "color",
         "filePath": "src/global/color/border.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.black-alpha.30}"
+          "value": "{core.color.black-alpha.30}",
+          "type": "color"
         },
         "name": "SemanticBorderDefault",
         "attributes": {
@@ -217,10 +235,12 @@ module.exports = {
       "color": {
         "primary": {
           "value": "#000000",
+          "type": "color",
           "filePath": "src/global/color/icon.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.black.value}"
+            "value": "{core.color.black.value}",
+            "type": "color"
           },
           "name": "SemanticIconColorPrimary",
           "attributes": {
@@ -238,10 +258,12 @@ module.exports = {
         },
         "secondary": {
           "value": "rgb(135,135,135)",
+          "type": "color",
           "filePath": "src/global/color/icon.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.grayscale.8.value}"
+            "value": "{core.color.grayscale.8.value}",
+            "type": "color"
           },
           "name": "SemanticIconColorSecondary",
           "attributes": {
@@ -259,10 +281,12 @@ module.exports = {
         },
         "highlight": {
           "value": "hsl(223, 83%, 65%)",
+          "type": "color",
           "filePath": "src/global/color/icon.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.highlight.value}"
+            "value": "{core.color.highlight.value}",
+            "type": "color"
           },
           "name": "SemanticIconColorHighlight",
           "attributes": {
@@ -282,10 +306,12 @@ module.exports = {
       "size": {
         "default": {
           "value": "24px",
+          "type": "size",
           "filePath": "src/global/size/icon.json",
           "isSource": true,
           "original": {
-            "value": "{core.size.3.value}"
+            "value": "{core.size.3.value}",
+            "type": "size"
           },
           "name": "SemanticIconSizeDefault",
           "attributes": {
@@ -357,7 +383,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.red.value}",
+            "value": "{core.color.feedback.red.value}",
             "type": "color"
           },
           "name": "SemanticTextColorCritical",
@@ -380,7 +406,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.red.value}",
+            "value": "{core.color.feedback.red.value}",
             "type": "color"
           },
           "name": "SemanticTextColorDestructive",
@@ -426,7 +452,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.green.value}",
+            "value": "{core.color.feedback.green.value}",
             "type": "color"
           },
           "name": "SemanticTextColorSuccess",
@@ -474,6 +500,7 @@ module.exports = {
             "fontSize": "13px",
             "fontWeight": "400"
           },
+          "type": "typography",
           "filePath": "src/global/font/styles.json",
           "isSource": true,
           "original": {
@@ -481,7 +508,8 @@ module.exports = {
               "fontFamily": "{core.font.family.value}",
               "fontSize": "{core.font.size.1.value}",
               "fontWeight": "{core.font.weight.1.value}"
-            }
+            },
+            "type": "typography"
           },
           "name": "SemanticTextStylesSmall",
           "attributes": {
@@ -503,6 +531,7 @@ module.exports = {
             "fontSize": "16px",
             "fontWeight": "400"
           },
+          "type": "typography",
           "filePath": "src/global/font/styles.json",
           "isSource": true,
           "original": {
@@ -510,7 +539,8 @@ module.exports = {
               "fontFamily": "{core.font.family.value}",
               "fontSize": "{core.font.size.2.value}",
               "fontWeight": "{core.font.weight.1.value}"
-            }
+            },
+            "type": "typography"
           },
           "name": "SemanticTextStylesDefault",
           "attributes": {
@@ -532,6 +562,7 @@ module.exports = {
             "fontSize": "16px",
             "fontWeight": "500"
           },
+          "type": "typography",
           "filePath": "src/global/font/styles.json",
           "isSource": true,
           "original": {
@@ -539,7 +570,8 @@ module.exports = {
               "fontFamily": "{core.font.family.value}",
               "fontSize": "{core.font.size.2.value}",
               "fontWeight": "{core.font.weight.2.value}"
-            }
+            },
+            "type": "typography"
           },
           "name": "SemanticTextStylesMedium",
           "attributes": {
@@ -561,6 +593,7 @@ module.exports = {
             "fontSize": "24px",
             "fontWeight": "800"
           },
+          "type": "typography",
           "filePath": "src/global/font/styles.json",
           "isSource": true,
           "original": {
@@ -568,7 +601,8 @@ module.exports = {
               "fontFamily": "{core.font.family.value}",
               "fontSize": "{core.font.size.3.value}",
               "fontWeight": "{core.font.weight.3.value}"
-            }
+            },
+            "type": "typography"
           },
           "name": "SemanticTextStylesLarge",
           "attributes": {
@@ -597,6 +631,7 @@ module.exports = {
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
+          "type": "boxShadow",
           "filePath": "src/global/shadow/elevation.json",
           "isSource": true,
           "original": {
@@ -607,7 +642,8 @@ module.exports = {
               "spread": 0,
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
-            }
+            },
+            "type": "boxShadow"
           },
           "name": "SemanticShadowElevationOne",
           "attributes": {
@@ -632,6 +668,7 @@ module.exports = {
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
+          "type": "boxShadow",
           "filePath": "src/global/shadow/elevation.json",
           "isSource": true,
           "original": {
@@ -642,7 +679,8 @@ module.exports = {
               "spread": 0,
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
-            }
+            },
+            "type": "boxShadow"
           },
           "name": "SemanticShadowElevationTwo",
           "attributes": {
@@ -667,6 +705,7 @@ module.exports = {
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
+          "type": "boxShadow",
           "filePath": "src/global/shadow/elevation.json",
           "isSource": true,
           "original": {
@@ -677,7 +716,8 @@ module.exports = {
               "spread": 0,
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
-            }
+            },
+            "type": "boxShadow"
           },
           "name": "SemanticShadowElevationThree",
           "attributes": {
@@ -698,10 +738,12 @@ module.exports = {
     "radius": {
       "small": {
         "value": "4px",
+        "type": "borderRadius",
         "filePath": "src/global/size/radius.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.0.value}"
+          "value": "{core.size.0.value}",
+          "type": "borderRadius"
         },
         "name": "SemanticRadiusSmall",
         "attributes": {
@@ -717,10 +759,12 @@ module.exports = {
       },
       "medium": {
         "value": "16px",
+        "type": "borderRadius",
         "filePath": "src/global/size/radius.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.2.value}"
+          "value": "{core.size.2.value}",
+          "type": "borderRadius"
         },
         "name": "SemanticRadiusMedium",
         "attributes": {
@@ -736,10 +780,12 @@ module.exports = {
       },
       "large": {
         "value": "32px",
+        "type": "borderRadius",
         "filePath": "src/global/size/radius.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.4.value}"
+          "value": "{core.size.4.value}",
+          "type": "borderRadius"
         },
         "name": "SemanticRadiusLarge",
         "attributes": {
@@ -879,10 +925,12 @@ module.exports = {
         "background": {
           "hover-transparent": {
             "value": "rgba(0,0,0,.05)",
+            "type": "color",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.10}"
+              "value": "{core.color.black-alpha.10}",
+              "type": "color"
             },
             "name": "ComponentActionColorBackgroundHoverTransparent",
             "attributes": {
@@ -902,10 +950,12 @@ module.exports = {
           },
           "hover-highlight": {
             "value": "hsl(223, 83%, calc(65% - 5%))",
+            "type": "color",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value} - 5%))"
+              "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, calc({theme.color.highlight.lightness.value} - 5%))",
+              "type": "color"
             },
             "name": "ComponentActionColorBackgroundHoverHighlight",
             "attributes": {
@@ -925,10 +975,12 @@ module.exports = {
           },
           "hover-destructive": {
             "value": "#EE4444",
+            "type": "color",
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.red.value}"
+              "value": "{core.color.feedback.red.value}",
+              "type": "color"
             },
             "name": "ComponentActionColorBackgroundHoverDestructive",
             "attributes": {
@@ -951,10 +1003,12 @@ module.exports = {
       "size": {
         "default": {
           "value": "40px",
+          "type": "size",
           "filePath": "src/global/size/size.json",
           "isSource": true,
           "original": {
-            "value": "{core.size.5.value}"
+            "value": "{core.size.5.value}",
+            "type": "size"
           },
           "name": "ComponentActionSizeDefault",
           "attributes": {
@@ -972,10 +1026,12 @@ module.exports = {
         },
         "minimal": {
           "value": "32px",
+          "type": "size",
           "filePath": "src/global/size/size.json",
           "isSource": true,
           "original": {
-            "value": "{core.size.4.value}"
+            "value": "{core.size.4.value}",
+            "type": "size"
           },
           "name": "ComponentActionSizeMinimal",
           "attributes": {
@@ -1391,81 +1447,91 @@ module.exports = {
           ]
         }
       },
-      "red": {
-        "value": "#EE4444",
-        "filePath": "src/global/color/core.json",
-        "isSource": true,
-        "original": {
-          "value": "#EE4444"
+      "feedback": {
+        "red": {
+          "value": "#EE4444",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "#EE4444"
+          },
+          "name": "CoreColorFeedbackRed",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "feedback",
+            "subitem": "red"
+          },
+          "path": [
+            "core",
+            "color",
+            "feedback",
+            "red"
+          ]
         },
-        "name": "CoreColorRed",
-        "attributes": {
-          "category": "core",
-          "type": "color",
-          "item": "red"
+        "orange": {
+          "value": "#FF7744",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "#FF7744"
+          },
+          "name": "CoreColorFeedbackOrange",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "feedback",
+            "subitem": "orange"
+          },
+          "path": [
+            "core",
+            "color",
+            "feedback",
+            "orange"
+          ]
         },
-        "path": [
-          "core",
-          "color",
-          "red"
-        ]
-      },
-      "orange": {
-        "value": "#FF7744",
-        "filePath": "src/global/color/core.json",
-        "isSource": true,
-        "original": {
-          "value": "#FF7744"
+        "yellow": {
+          "value": "#FEDF63",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "#FEDF63"
+          },
+          "name": "CoreColorFeedbackYellow",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "feedback",
+            "subitem": "yellow"
+          },
+          "path": [
+            "core",
+            "color",
+            "feedback",
+            "yellow"
+          ]
         },
-        "name": "CoreColorOrange",
-        "attributes": {
-          "category": "core",
-          "type": "color",
-          "item": "orange"
-        },
-        "path": [
-          "core",
-          "color",
-          "orange"
-        ]
-      },
-      "yellow": {
-        "value": "#FEDF63",
-        "filePath": "src/global/color/core.json",
-        "isSource": true,
-        "original": {
-          "value": "#FEDF63"
-        },
-        "name": "CoreColorYellow",
-        "attributes": {
-          "category": "core",
-          "type": "color",
-          "item": "yellow"
-        },
-        "path": [
-          "core",
-          "color",
-          "yellow"
-        ]
-      },
-      "green": {
-        "value": "#66BB66",
-        "filePath": "src/global/color/core.json",
-        "isSource": true,
-        "original": {
-          "value": "#66BB66"
-        },
-        "name": "CoreColorGreen",
-        "attributes": {
-          "category": "core",
-          "type": "color",
-          "item": "green"
-        },
-        "path": [
-          "core",
-          "color",
-          "green"
-        ]
+        "green": {
+          "value": "#66BB66",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "#66BB66"
+          },
+          "name": "CoreColorFeedbackGreen",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "feedback",
+            "subitem": "green"
+          },
+          "path": [
+            "core",
+            "color",
+            "feedback",
+            "green"
+          ]
+        }
       },
       "black-alpha": {
         "10": {
@@ -1621,10 +1687,12 @@ module.exports = {
       "size": {
         "1": {
           "value": "13px",
+          "type": "fontSizes",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "13px"
+            "value": "13px",
+            "type": "fontSizes"
           },
           "name": "CoreFontSize1",
           "attributes": {
@@ -1642,10 +1710,12 @@ module.exports = {
         },
         "2": {
           "value": "16px",
+          "type": "fontSizes",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "16px"
+            "value": "16px",
+            "type": "fontSizes"
           },
           "name": "CoreFontSize2",
           "attributes": {
@@ -1663,10 +1733,12 @@ module.exports = {
         },
         "3": {
           "value": "24px",
+          "type": "fontSizes",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "24px"
+            "value": "24px",
+            "type": "fontSizes"
           },
           "name": "CoreFontSize3",
           "attributes": {
@@ -1686,10 +1758,12 @@ module.exports = {
       "weight": {
         "1": {
           "value": "400",
+          "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "400"
+            "value": "400",
+            "type": "fontWeights"
           },
           "name": "CoreFontWeight1",
           "attributes": {
@@ -1707,10 +1781,12 @@ module.exports = {
         },
         "2": {
           "value": "500",
+          "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "500"
+            "value": "500",
+            "type": "fontWeights"
           },
           "name": "CoreFontWeight2",
           "attributes": {
@@ -1728,10 +1804,12 @@ module.exports = {
         },
         "3": {
           "value": "800",
+          "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "800"
+            "value": "800",
+            "type": "fontWeights"
           },
           "name": "CoreFontWeight3",
           "attributes": {

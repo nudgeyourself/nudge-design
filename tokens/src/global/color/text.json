@@ -4,10 +4,10 @@
       "color": {
         "primary": { "value": "{core.color.black.value}", "type": "color" },
         "secondary": { "value": "{core.color.grayscale.8.value}", "type": "color" },
-        "critical": { "value": "{core.color.red.value}", "type": "color" },
-        "destructive": { "value": "{core.color.red.value}", "type": "color" },
+        "critical": { "value": "{core.color.feedback.red.value}", "type": "color" },
+        "destructive": { "value": "{core.color.feedback.red.value}", "type": "color" },
         "highlight": { "value": "{core.color.highlight.value}", "type": "color" },
-        "success": { "value": "{core.color.green.value}", "type": "color" },
+        "success": { "value": "{core.color.feedback.green.value}", "type": "color" },
         "contrast": { "value": "{core.color.white.value}", "type": "color" }
       }
     }

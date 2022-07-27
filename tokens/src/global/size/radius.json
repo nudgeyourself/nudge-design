@@ -2,13 +2,13 @@
   "semantic": {
     "radius": {
       "small": {
-        "value": "{core.size.0.value}"
+        "value": "{core.size.0.value}", "type": "borderRadius"
       },
       "medium": {
-        "value": "{core.size.2.value}"
+        "value": "{core.size.2.value}", "type": "borderRadius"
       },
       "large": {
-        "value": "{core.size.4.value}"
+        "value": "{core.size.4.value}", "type": "borderRadius"
       }
     }
   }

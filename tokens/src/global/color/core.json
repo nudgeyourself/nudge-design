@@ -24,10 +24,12 @@
         "15": { "value": "rgb(30,30,30)" },
         "16": { "value": "rgb(15,15,15)" }
       },
-      "red": { "value": "#EE4444" },
-      "orange": { "value": "#FF7744" },
-      "yellow": { "value": "#FEDF63" },
-      "green": { "value": "#66BB66" },
+      "feedback": {
+        "red": { "value": "#EE4444" },
+        "orange": { "value": "#FF7744" },
+        "yellow": { "value": "#FEDF63" },
+        "green": { "value": "#66BB66" }
+      },
       "black-alpha": {
         "00": { "value": "rgba(0,0,0,0)" },
         "05": { "value": "rgba(0,0,0,.025)" },

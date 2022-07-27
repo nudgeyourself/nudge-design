@@ -2,9 +2,9 @@
   "semantic": {
     "icon": {
       "color": {
-        "primary": { "value": "{core.color.black.value}" },
-        "secondary": { "value": "{core.color.grayscale.8.value}" },
-        "highlight": { "value": "{core.color.highlight.value}" }
+        "primary": { "value": "{core.color.black.value}", "type": "color" },
+        "secondary": { "value": "{core.color.grayscale.8.value}", "type": "color" },
+        "highlight": { "value": "{core.color.highlight.value}", "type": "color" }
       }
     }
   }

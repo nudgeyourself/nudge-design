@@ -2,8 +2,8 @@
   "component": {
     "action": {
       "size": {
-        "default": { "value": "{core.size.5.value}" },
-        "minimal": { "value": "{core.size.4.value}" }
+        "default": { "value": "{core.size.5.value}", "type": "size" },
+        "minimal": { "value": "{core.size.4.value}", "type": "size" }
       }
     }
   }

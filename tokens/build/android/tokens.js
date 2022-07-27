@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 20:39:29 GMT
+ * Generated on Wed, 27 Jul 2022 20:48:21 GMT
  */
 
 module.exports = {
@@ -624,10 +624,10 @@ module.exports = {
       "elevation": {
         "one": {
           "value": {
-            "x": 0,
-            "y": 1,
-            "blur": 3,
-            "spread": 0,
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
@@ -636,10 +636,10 @@ module.exports = {
           "isSource": true,
           "original": {
             "value": {
-              "x": 0,
-              "y": 1,
-              "blur": 3,
-              "spread": 0,
+              "x": "0",
+              "y": "1",
+              "blur": "3",
+              "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
             },
@@ -661,10 +661,10 @@ module.exports = {
         },
         "two": {
           "value": {
-            "x": 0,
-            "y": 2,
-            "blur": 4,
-            "spread": 0,
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
@@ -673,10 +673,10 @@ module.exports = {
           "isSource": true,
           "original": {
             "value": {
-              "x": 0,
-              "y": 2,
-              "blur": 4,
-              "spread": 0,
+              "x": "0",
+              "y": "2",
+              "blur": "4",
+              "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
             },
@@ -698,10 +698,10 @@ module.exports = {
         },
         "three": {
           "value": {
-            "x": 0,
-            "y": 3,
-            "blur": 6,
-            "spread": 0,
+            "x": "0",
+            "y": "3",
+            "blur": "6",
+            "spread": "0",
             "color": "rgba(0,0,0,.25)",
             "opacity": "rgba(0,0,0,.25)"
           },
@@ -710,10 +710,10 @@ module.exports = {
           "isSource": true,
           "original": {
             "value": {
-              "x": 0,
-              "y": 3,
-              "blur": 6,
-              "spread": 0,
+              "x": "0",
+              "y": "3",
+              "blur": "6",
+              "spread": "0",
               "color": "{core.color.black-alpha.50.value}",
               "opacity": "{core.color.black-alpha.50.value}"
             },

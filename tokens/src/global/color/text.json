@@ -2,13 +2,13 @@
   "semantic": {
     "text": {
       "color": {
-        "primary": { "value": "{core.color.black.value}", "attributes": {"type": "color"} },
-        "secondary": { "value": "{core.color.grayscale.8.value}", "attributes": {"type": "color"} },
-        "critical": { "value": "{core.color.red.value}", "attributes": {"type": "color"} },
-        "destructive": { "value": "{core.color.red.value}", "attributes": {"type": "color"} },
-        "highlight": { "value": "{core.color.highlight.value}", "attributes": {"type": "color"} },
-        "success": { "value": "{core.color.green.value}", "attributes": {"type": "color"} },
-        "contrast": { "value": "{core.color.white.value}", "attributes": {"type": "color"} }
+        "primary": { "value": "{core.color.black.value}", type: "color" },
+        "secondary": { "value": "{core.color.grayscale.8.value}", type: "color" },
+        "critical": { "value": "{core.color.red.value}", type: "color" },
+        "destructive": { "value": "{core.color.red.value}", type: "color" },
+        "highlight": { "value": "{core.color.highlight.value}", type: "color" },
+        "success": { "value": "{core.color.green.value}", type: "color" },
+        "contrast": { "value": "{core.color.white.value}", type: "color" }
       }
     }
   }

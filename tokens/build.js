@@ -53,13 +53,23 @@ const webTransforms = [
   "font/css",
 ];
 
-function getStyleDictionaryConfig(platform) {
+const figmaTransforms = [
+  "attribute/cti",
+  "name/cti/kebab",
+  "time/seconds",
+  "content/icon",
+  "size/rem",
+  "color/css",
+  "darken/css",
+];
+
+function getStyleDictionaryConfig(platform, buildForFigma) {
   return {
 	source: [`src/platform/${platform}/*.json`, "src/global/**/*.json"],
 	platforms: {
 	  web: {
-		transforms: webTransforms,
-		buildPath: `build/${platform}/`,
+		transforms: buildForFigma ? figmaTransforms : webTransforms,
+		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
 		files: [
 		  {
 			destination: "variables.css",
@@ -83,7 +93,7 @@ function getStyleDictionaryConfig(platform) {
 	  },
 	  ios: {
 		transformGroup: "js",
-		buildPath: `build/${platform}/`,
+		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
 		files: [
 		  {
 			destination: "tokens.js",
@@ -93,7 +103,7 @@ function getStyleDictionaryConfig(platform) {
 	  },
 	  android: {
 		transformGroup: "js",
-		buildPath: `build/${platform}/`,
+		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
 		files: [
 		  {
 			destination: "tokens.js",
@@ -114,10 +124,16 @@ console.log("Build started...");
   console.log(`\nProcessing: [${platform}]`);
 
   const StyleDictionary = StyleDictionaryPackage.extend(
-	getStyleDictionaryConfig(platform)
+	getStyleDictionaryConfig(platform, false)
   );
 
   StyleDictionary.buildPlatform(platform);
+  
+  const FigmaStyleDictionary = StyleDictionaryPackage.extend(
+  	getStyleDictionaryConfig(platform, true)
+  );
+  
+  FigmaStyleDictionary.buildPlatform(platform);
 
   console.log("\nEnd processing");
 });

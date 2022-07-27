@@ -92,9 +92,9 @@
   --semantic-radius-large: var(--core-size-4);
   --semantic-radius-medium: var(--core-size-2);
   --semantic-radius-small: var(--core-size-0);
-  --semantic-shadow-elevation-three: 0px 3px 6px 0px var(--core-color-black-alpha-50);
-  --semantic-shadow-elevation-two: 0px 2px 4px 0px var(--core-color-black-alpha-50);
-  --semantic-shadow-elevation-one: 0px 1px 3px 0px var(--core-color-black-alpha-50);
+  --semantic-shadow-elevation-three: [object Object];
+  --semantic-shadow-elevation-two: [object Object];
+  --semantic-shadow-elevation-one: [object Object];
   --semantic-text-color-contrast: var(--core-color-white);
   --semantic-text-color-success: var(--core-color-feedback-green);
   --semantic-text-color-destructive: var(--core-color-feedback-red);
@@ -112,10 +112,10 @@
   --semantic-background-layer-3: var(--core-color-grayscale-3);
   --semantic-background-layer-2: var(--core-color-grayscale-2);
   --semantic-background-layer-1: var(--core-color-grayscale-1);
-  --semantic-text-styles-large: var(--core-font-weight-3) var(--core-font-size-3) var(--core-font-family);
-  --semantic-text-styles-medium: var(--core-font-weight-2) var(--core-font-size-2) var(--core-font-family);
-  --semantic-text-styles-default: var(--core-font-weight-1) var(--core-font-size-2) var(--core-font-family);
-  --semantic-text-styles-small: var(--core-font-weight-1) var(--core-font-size-1) var(--core-font-family);
+  --semantic-text-styles-large: [object Object];
+  --semantic-text-styles-medium: [object Object];
+  --semantic-text-styles-default: [object Object];
+  --semantic-text-styles-small: [object Object];
   --semantic-text-color-highlight: var(--core-color-highlight);
   --semantic-icon-color-highlight: var(--core-color-highlight);
   --semantic-background-highlight: var(--core-color-highlight);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 20:25:57 GMT
+ * Generated on Wed, 27 Jul 2022 20:39:29 GMT
  */
 
 module.exports = {
@@ -306,12 +306,12 @@ module.exports = {
       "size": {
         "default": {
           "value": "24px",
-          "type": "size",
+          "type": "sizing",
           "filePath": "src/global/size/icon.json",
           "isSource": true,
           "original": {
             "value": "{core.size.3.value}",
-            "type": "size"
+            "type": "sizing"
           },
           "name": "SemanticIconSizeDefault",
           "attributes": {
@@ -1003,12 +1003,12 @@ module.exports = {
       "size": {
         "default": {
           "value": "40px",
-          "type": "size",
+          "type": "sizing",
           "filePath": "src/global/size/size.json",
           "isSource": true,
           "original": {
             "value": "{core.size.5.value}",
-            "type": "size"
+            "type": "sizing"
           },
           "name": "ComponentActionSizeDefault",
           "attributes": {
@@ -1026,12 +1026,12 @@ module.exports = {
         },
         "minimal": {
           "value": "32px",
-          "type": "size",
+          "type": "sizing",
           "filePath": "src/global/size/size.json",
           "isSource": true,
           "original": {
             "value": "{core.size.4.value}",
-            "type": "size"
+            "type": "sizing"
           },
           "name": "ComponentActionSizeMinimal",
           "attributes": {

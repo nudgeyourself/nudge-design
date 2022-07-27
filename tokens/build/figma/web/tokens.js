@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 21:09:01 GMT
+ * Generated on Wed, 27 Jul 2022 21:27:07 GMT
  */
 
 module.exports = {
@@ -498,7 +498,7 @@ module.exports = {
           "value": {
             "fontFamily": "Inter",
             "fontSize": "13px",
-            "fontWeight": "400"
+            "fontWeight": "Regular"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -529,7 +529,7 @@ module.exports = {
           "value": {
             "fontFamily": "Inter",
             "fontSize": "16px",
-            "fontWeight": "400"
+            "fontWeight": "Regular"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -560,7 +560,7 @@ module.exports = {
           "value": {
             "fontFamily": "Inter",
             "fontSize": "16px",
-            "fontWeight": "500"
+            "fontWeight": "Medium"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -591,7 +591,7 @@ module.exports = {
           "value": {
             "fontFamily": "Inter",
             "fontSize": "24px",
-            "fontWeight": "800"
+            "fontWeight": "Bold"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -1763,12 +1763,12 @@ module.exports = {
       },
       "weight": {
         "1": {
-          "value": "400",
+          "value": "Regular",
           "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "400",
+            "value": "Regular",
             "type": "fontWeights"
           },
           "name": "core-font-weight-1",
@@ -1786,12 +1786,12 @@ module.exports = {
           ]
         },
         "2": {
-          "value": "500",
+          "value": "Medium",
           "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "500",
+            "value": "Medium",
             "type": "fontWeights"
           },
           "name": "core-font-weight-2",
@@ -1809,12 +1809,12 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "800",
+          "value": "Bold",
           "type": "fontWeights",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "800",
+            "value": "Bold",
             "type": "fontWeights"
           },
           "name": "core-font-weight-3",

@@ -7,9 +7,9 @@
         "3": { "value": "24px", "type": "fontSizes" }
       },
       "weight": {
-        "1": { "value": "400", "type": "fontWeights" },
-        "2": { "value": "500", "type": "fontWeights" },
-        "3": { "value": "800", "type": "fontWeights" }
+        "1": { "value": "Regular", "type": "fontWeights" },
+        "2": { "value": "Medium", "type": "fontWeights" },
+        "3": { "value": "Bold", "type": "fontWeights" }
       },
       "family": { "value": "{platform.font.family.value}" }
     }

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 12:36:38 GMT
+ * Generated on Thu, 28 Jul 2022 15:18:23 GMT
  */
 
 module.exports = {
@@ -30,6 +30,29 @@ module.exports = {
   "semantic": {
     "background": {
       "layer": {
+        "0": {
+          "value": "rgba(255,255,255)",
+          "type": "color",
+          "filePath": "src/global/color/background.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.grayscale.0.value}",
+            "type": "color"
+          },
+          "name": "semantic-background-layer-0",
+          "attributes": {
+            "category": "semantic",
+            "type": "background",
+            "item": "layer",
+            "subitem": "0"
+          },
+          "path": [
+            "semantic",
+            "background",
+            "layer",
+            "0"
+          ]
+        },
         "1": {
           "value": "rgba(240,240,240)",
           "type": "color",
@@ -1088,6 +1111,27 @@ module.exports = {
         ]
       },
       "grayscale": {
+        "0": {
+          "value": "rgba(255,255,255)",
+          "filePath": "src/global/color/core.json",
+          "isSource": true,
+          "original": {
+            "value": "rgba(255,255,255)"
+          },
+          "name": "core-color-grayscale-0",
+          "attributes": {
+            "category": "core",
+            "type": "color",
+            "item": "grayscale",
+            "subitem": "0"
+          },
+          "path": [
+            "core",
+            "color",
+            "grayscale",
+            "0"
+          ]
+        },
         "1": {
           "value": "rgba(240,240,240)",
           "filePath": "src/global/color/core.json",

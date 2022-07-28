@@ -2,6 +2,7 @@
   "semantic": {
     "background": {
       "layer": {
+        "0": { "value": "{core.color.grayscale.0.value}", "type": "color" },
         "1": { "value": "{core.color.grayscale.1.value}", "type": "color" },
         "2": { "value": "{core.color.grayscale.2.value}", "type": "color" },
         "3": { "value": "{core.color.grayscale.3.value}", "type": "color" },

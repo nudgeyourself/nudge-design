@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 12:36:38 GMT
+ * Generated on Thu, 28 Jul 2022 15:18:23 GMT
  */
 
 :root {
@@ -73,6 +73,7 @@
   --core-color-grayscale-3: rgb(210,210,210);
   --core-color-grayscale-2: rgb(225,225,225);
   --core-color-grayscale-1: rgba(240,240,240);
+  --core-color-grayscale-0: rgba(255,255,255);
   --core-color-white: #FFFFFF;
   --core-color-black: #000000;
   --platform-font-family: Inter;
@@ -112,6 +113,7 @@
   --semantic-background-layer-3: var(--core-color-grayscale-3);
   --semantic-background-layer-2: var(--core-color-grayscale-2);
   --semantic-background-layer-1: var(--core-color-grayscale-1);
+  --semantic-background-layer-0: var(--core-color-grayscale-0);
   --semantic-text-styles-large: var(--core-font-weight-3) var(--core-font-size-3) var(--core-font-family);
   --semantic-text-styles-medium: var(--core-font-weight-2) var(--core-font-size-2) var(--core-font-family);
   --semantic-text-styles-default: var(--core-font-weight-1) var(--core-font-size-2) var(--core-font-family);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 10:49:36 GMT
+ * Generated on Thu, 28 Jul 2022 10:53:07 GMT
  */
 
 module.exports = {
@@ -560,7 +560,7 @@ module.exports = {
           "value": {
             "fontFamily": "Inter",
             "fontSize": "16",
-            "fontWeight": "500"
+            "fontWeight": "Medium"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",

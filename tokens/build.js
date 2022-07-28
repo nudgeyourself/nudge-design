@@ -58,7 +58,7 @@ StyleDictionaryPackage.registerTransform({
 		case "400":
 			figmaFriendlyWeight =  "Regular";
 			break;
-		case "600":
+		case "500":
 			figmaFriendlyWeight =  "Medium";
 			break;
 		case "800":

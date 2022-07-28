@@ -141,6 +141,14 @@ const figmaTransforms = [
   "figma",
 ];
 
+StyleDictionaryPackage.registerFormat({
+  name: 'figma',
+  formatter: function({dictionary, platform, options, file}) {
+	const figmaDictionary = {tokens: dictionary.tokens};
+	return JSON.stringify(figmaDictionary, null, 2);
+  }
+})
+
 function getFigmaStyleDictionaryConfig(platform) {
   return {
 	source: [`src/platform/${platform}/*.json`, "src/global/**/*.json"],
@@ -151,7 +159,7 @@ function getFigmaStyleDictionaryConfig(platform) {
 		files: [
 		  {
 			  destination: "tokens.json",
-			  format: "json",
+			  format: "figma",
 			  options: {
 			  outputReferences: true,
 			  },

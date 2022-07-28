@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 11:19:01 GMT
+ * Generated on Thu, 28 Jul 2022 11:41:43 GMT
  */
 
 :root {
@@ -53,7 +53,7 @@
   --core-color-black-alpha-30: rgba(0,0,0,.15);
   --core-color-black-alpha-20: rgba(0,0,0,.1);
   --core-color-black-alpha-10: rgba(0,0,0,.05);
-  --core-color-feedback-green: #A042AF;
+  --core-color-feedback-green: #66BB66;
   --core-color-feedback-yellow: #FEDF63;
   --core-color-feedback-orange: #FF7744;
   --core-color-feedback-red: #EE4444;

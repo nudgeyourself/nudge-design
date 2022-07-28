@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 27 Jul 2022 21:44:20 GMT
+ * Generated on Thu, 28 Jul 2022 10:49:36 GMT
  */
 
 module.exports = {
@@ -497,8 +497,8 @@ module.exports = {
         "small": {
           "value": {
             "fontFamily": "Inter",
-            "fontSize": "{core.font.size.1.valu",
-            "fontWeight": "400"
+            "fontSize": "13",
+            "fontWeight": "Regular"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -528,8 +528,8 @@ module.exports = {
         "default": {
           "value": {
             "fontFamily": "Inter",
-            "fontSize": "{core.font.size.2.valu",
-            "fontWeight": "400"
+            "fontSize": "16",
+            "fontWeight": "Regular"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",
@@ -559,7 +559,7 @@ module.exports = {
         "medium": {
           "value": {
             "fontFamily": "Inter",
-            "fontSize": "{core.font.size.2.valu",
+            "fontSize": "16",
             "fontWeight": "500"
           },
           "type": "typography",
@@ -590,8 +590,8 @@ module.exports = {
         "large": {
           "value": {
             "fontFamily": "Inter",
-            "fontSize": "{core.font.size.3.valu",
-            "fontWeight": "800"
+            "fontSize": "24",
+            "fontWeight": "Bold"
           },
           "type": "typography",
           "filePath": "src/global/font/styles.json",

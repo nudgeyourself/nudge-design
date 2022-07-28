@@ -45,11 +45,12 @@ StyleDictionaryPackage.registerTransform({
   name: "figma",
   type: "value",
   matcher: function (prop) {
+	 if (prop.type === "typography") {console.log(prop);}
 	return prop.type === "typography";
   },
   transitive: true,
   transformer: function (prop) {
-	const { fontFamily, fontSize, fontWeight } = prop.original.value;
+	const { fontFamily, fontSize, fontWeight } = prop.value;
 	
 	var figmaFriendlyWeight;
 	
@@ -68,7 +69,7 @@ StyleDictionaryPackage.registerTransform({
 	}
 	
 	const  figmaFriendlyFontSize = fontSize.substr(0,fontSize.length-2);
-	
+	console.log({fontFamily: fontFamily, fontSize:figmaFriendlyFontSize, fontWeight: figmaFriendlyWeight});
 	return {fontFamily: fontFamily, fontSize:figmaFriendlyFontSize, fontWeight: figmaFriendlyWeight};
   },
 });

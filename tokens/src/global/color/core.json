@@ -4,41 +4,41 @@
       "highlight": {
         "value": "hsl({theme.color.highlight.hue.value}, {theme.color.highlight.saturation.value}, {theme.color.highlight.lightness.value})"
       },
-      "black": { "value": "#000000" },
-      "white": { "value": "#FFFFFF" },
+      "black": { "value": "#000000", "type": "color" },
+      "white": { "value": "#FFFFFF", "type": "color" },
       "grayscale": {
-        "0": { "value": "rgba(255,255,255)" },
-        "1": { "value": "rgba(240,240,240)" },
-        "2": { "value": "rgb(225,225,225)" },
-        "3": { "value": "rgb(210,210,210)" },
-        "4": { "value": "rgb(195,195,195)" },
-        "5": { "value": "rgb(180,180,180)" },
-        "6": { "value": "rgb(165,165,165)" },
-        "7": { "value": "rgb(150,150,150)" },
-        "8": { "value": "rgb(135,135,135)" },
-        "9": { "value": "rgb(120,120,120)" },
-        "10": { "value": "rgb(105,105,105)" },
-        "11": { "value": "rgb(90,90,90)" },
-        "12": { "value": "rgb(75,75,75)" },
-        "13": { "value": "rgb(60,60,60)" },
-        "14": { "value": "rgb(45,45,45)" },
-        "15": { "value": "rgb(30,30,30)" },
-        "16": { "value": "rgb(15,15,15)" }
+        "0": { "value": "rgba(255,255,255)", "type": "color" },
+        "1": { "value": "rgba(240,240,240)", "type": "color" },
+        "2": { "value": "rgb(225,225,225)", "type": "color" },
+        "3": { "value": "rgb(210,210,210)", "type": "color" },
+        "4": { "value": "rgb(195,195,195)", "type": "color" },
+        "5": { "value": "rgb(180,180,180)", "type": "color" },
+        "6": { "value": "rgb(165,165,165)", "type": "color" },
+        "7": { "value": "rgb(150,150,150)", "type": "color" },
+        "8": { "value": "rgb(135,135,135)", "type": "color" },
+        "9": { "value": "rgb(120,120,120)", "type": "color" },
+        "10": { "value": "rgb(105,105,105)", "type": "color" },
+        "11": { "value": "rgb(90,90,90)", "type": "color" },
+        "12": { "value": "rgb(75,75,75)", "type": "color" },
+        "13": { "value": "rgb(60,60,60)", "type": "color" },
+        "14": { "value": "rgb(45,45,45)", "type": "color" },
+        "15": { "value": "rgb(30,30,30)", "type": "color" },
+        "16": { "value": "rgb(15,15,15)", "type": "color" }
       },
       "feedback": {
-        "red": { "value": "#EE4444" },
-        "orange": { "value": "#FF7744" },
-        "yellow": { "value": "#FEDF63" },
-        "green": { "value": "#66BB66" }
+        "red": { "value": "#EE4444", "type": "color" },
+        "orange": { "value": "#FF7744", "type": "color" },
+        "yellow": { "value": "#FEDF63", "type": "color" },
+        "green": { "value": "#66BB66", "type": "color" }
       },
       "black-alpha": {
-        "00": { "value": "rgba(0,0,0,0)" },
-        "05": { "value": "rgba(0,0,0,.025)" },
-        "10": { "value": "rgba(0,0,0,.05)" },
-        "20": { "value": "rgba(0,0,0,.1)" },
-        "30": { "value": "rgba(0,0,0,.15)" },
-        "40": { "value": "rgba(0,0,0,.2)" },
-        "50": { "value": "rgba(0,0,0,.25)" }
+        "00": { "value": "rgba(0,0,0,0)", "type": "color" },
+        "05": { "value": "rgba(0,0,0,.025)", "type": "color" },
+        "10": { "value": "rgba(0,0,0,.05)", "type": "color" },
+        "20": { "value": "rgba(0,0,0,.1)", "type": "color" },
+        "30": { "value": "rgba(0,0,0,.15)", "type": "color" },
+        "40": { "value": "rgba(0,0,0,.2)", "type": "color" },
+        "50": { "value": "rgba(0,0,0,.25)", "type": "color" }
       }
     }
   }

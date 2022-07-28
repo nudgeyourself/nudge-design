@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 15:18:23 GMT
+ * Generated on Thu, 28 Jul 2022 20:42:03 GMT
  */
 
 module.exports = {
@@ -1114,10 +1114,12 @@ module.exports = {
       },
       "black": {
         "value": "#000000",
+        "type": "color",
         "filePath": "src/global/color/core.json",
         "isSource": true,
         "original": {
-          "value": "#000000"
+          "value": "#000000",
+          "type": "color"
         },
         "name": "CoreColorBlack",
         "attributes": {
@@ -1133,10 +1135,12 @@ module.exports = {
       },
       "white": {
         "value": "#FFFFFF",
+        "type": "color",
         "filePath": "src/global/color/core.json",
         "isSource": true,
         "original": {
-          "value": "#FFFFFF"
+          "value": "#FFFFFF",
+          "type": "color"
         },
         "name": "CoreColorWhite",
         "attributes": {
@@ -1153,10 +1157,12 @@ module.exports = {
       "grayscale": {
         "0": {
           "value": "rgba(255,255,255)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(255,255,255)"
+            "value": "rgba(255,255,255)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale0",
           "attributes": {
@@ -1174,10 +1180,12 @@ module.exports = {
         },
         "1": {
           "value": "rgba(240,240,240)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(240,240,240)"
+            "value": "rgba(240,240,240)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale1",
           "attributes": {
@@ -1195,10 +1203,12 @@ module.exports = {
         },
         "2": {
           "value": "rgb(225,225,225)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(225,225,225)"
+            "value": "rgb(225,225,225)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale2",
           "attributes": {
@@ -1216,10 +1226,12 @@ module.exports = {
         },
         "3": {
           "value": "rgb(210,210,210)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(210,210,210)"
+            "value": "rgb(210,210,210)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale3",
           "attributes": {
@@ -1237,10 +1249,12 @@ module.exports = {
         },
         "4": {
           "value": "rgb(195,195,195)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(195,195,195)"
+            "value": "rgb(195,195,195)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale4",
           "attributes": {
@@ -1258,10 +1272,12 @@ module.exports = {
         },
         "5": {
           "value": "rgb(180,180,180)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(180,180,180)"
+            "value": "rgb(180,180,180)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale5",
           "attributes": {
@@ -1279,10 +1295,12 @@ module.exports = {
         },
         "6": {
           "value": "rgb(165,165,165)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(165,165,165)"
+            "value": "rgb(165,165,165)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale6",
           "attributes": {
@@ -1300,10 +1318,12 @@ module.exports = {
         },
         "7": {
           "value": "rgb(150,150,150)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(150,150,150)"
+            "value": "rgb(150,150,150)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale7",
           "attributes": {
@@ -1321,10 +1341,12 @@ module.exports = {
         },
         "8": {
           "value": "rgb(135,135,135)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(135,135,135)"
+            "value": "rgb(135,135,135)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale8",
           "attributes": {
@@ -1342,10 +1364,12 @@ module.exports = {
         },
         "9": {
           "value": "rgb(120,120,120)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(120,120,120)"
+            "value": "rgb(120,120,120)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale9",
           "attributes": {
@@ -1363,10 +1387,12 @@ module.exports = {
         },
         "10": {
           "value": "rgb(105,105,105)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(105,105,105)"
+            "value": "rgb(105,105,105)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale10",
           "attributes": {
@@ -1384,10 +1410,12 @@ module.exports = {
         },
         "11": {
           "value": "rgb(90,90,90)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(90,90,90)"
+            "value": "rgb(90,90,90)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale11",
           "attributes": {
@@ -1405,10 +1433,12 @@ module.exports = {
         },
         "12": {
           "value": "rgb(75,75,75)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(75,75,75)"
+            "value": "rgb(75,75,75)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale12",
           "attributes": {
@@ -1426,10 +1456,12 @@ module.exports = {
         },
         "13": {
           "value": "rgb(60,60,60)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(60,60,60)"
+            "value": "rgb(60,60,60)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale13",
           "attributes": {
@@ -1447,10 +1479,12 @@ module.exports = {
         },
         "14": {
           "value": "rgb(45,45,45)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(45,45,45)"
+            "value": "rgb(45,45,45)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale14",
           "attributes": {
@@ -1468,10 +1502,12 @@ module.exports = {
         },
         "15": {
           "value": "rgb(30,30,30)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(30,30,30)"
+            "value": "rgb(30,30,30)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale15",
           "attributes": {
@@ -1489,10 +1525,12 @@ module.exports = {
         },
         "16": {
           "value": "rgb(15,15,15)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(15,15,15)"
+            "value": "rgb(15,15,15)",
+            "type": "color"
           },
           "name": "CoreColorGrayscale16",
           "attributes": {
@@ -1512,10 +1550,12 @@ module.exports = {
       "feedback": {
         "red": {
           "value": "#EE4444",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "#EE4444"
+            "value": "#EE4444",
+            "type": "color"
           },
           "name": "CoreColorFeedbackRed",
           "attributes": {
@@ -1533,10 +1573,12 @@ module.exports = {
         },
         "orange": {
           "value": "#FF7744",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "#FF7744"
+            "value": "#FF7744",
+            "type": "color"
           },
           "name": "CoreColorFeedbackOrange",
           "attributes": {
@@ -1554,10 +1596,12 @@ module.exports = {
         },
         "yellow": {
           "value": "#FEDF63",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "#FEDF63"
+            "value": "#FEDF63",
+            "type": "color"
           },
           "name": "CoreColorFeedbackYellow",
           "attributes": {
@@ -1575,10 +1619,12 @@ module.exports = {
         },
         "green": {
           "value": "#66BB66",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "#66BB66"
+            "value": "#66BB66",
+            "type": "color"
           },
           "name": "CoreColorFeedbackGreen",
           "attributes": {
@@ -1598,10 +1644,12 @@ module.exports = {
       "black-alpha": {
         "10": {
           "value": "rgba(0,0,0,.05)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.05)"
+            "value": "rgba(0,0,0,.05)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha10",
           "attributes": {
@@ -1619,10 +1667,12 @@ module.exports = {
         },
         "20": {
           "value": "rgba(0,0,0,.1)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.1)"
+            "value": "rgba(0,0,0,.1)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha20",
           "attributes": {
@@ -1640,10 +1690,12 @@ module.exports = {
         },
         "30": {
           "value": "rgba(0,0,0,.15)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.15)"
+            "value": "rgba(0,0,0,.15)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha30",
           "attributes": {
@@ -1661,10 +1713,12 @@ module.exports = {
         },
         "40": {
           "value": "rgba(0,0,0,.2)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.2)"
+            "value": "rgba(0,0,0,.2)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha40",
           "attributes": {
@@ -1682,10 +1736,12 @@ module.exports = {
         },
         "50": {
           "value": "rgba(0,0,0,.25)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.25)"
+            "value": "rgba(0,0,0,.25)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha50",
           "attributes": {
@@ -1703,10 +1759,12 @@ module.exports = {
         },
         "00": {
           "value": "rgba(0,0,0,0)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,0)"
+            "value": "rgba(0,0,0,0)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha00",
           "attributes": {
@@ -1724,10 +1782,12 @@ module.exports = {
         },
         "05": {
           "value": "rgba(0,0,0,.025)",
+          "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgba(0,0,0,.025)"
+            "value": "rgba(0,0,0,.025)",
+            "type": "color"
           },
           "name": "CoreColorBlackAlpha05",
           "attributes": {
@@ -1911,10 +1971,12 @@ module.exports = {
     "size": {
       "0": {
         "value": "4px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "4px"
+          "value": "4px",
+          "type": "sizing"
         },
         "name": "CoreSize0",
         "attributes": {
@@ -1930,10 +1992,12 @@ module.exports = {
       },
       "1": {
         "value": "8px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "8px"
+          "value": "8px",
+          "type": "sizing"
         },
         "name": "CoreSize1",
         "attributes": {
@@ -1949,10 +2013,12 @@ module.exports = {
       },
       "2": {
         "value": "16px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "16px"
+          "value": "16px",
+          "type": "sizing"
         },
         "name": "CoreSize2",
         "attributes": {
@@ -1968,10 +2034,12 @@ module.exports = {
       },
       "3": {
         "value": "24px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "24px"
+          "value": "24px",
+          "type": "sizing"
         },
         "name": "CoreSize3",
         "attributes": {
@@ -1987,10 +2055,12 @@ module.exports = {
       },
       "4": {
         "value": "32px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "32px"
+          "value": "32px",
+          "type": "sizing"
         },
         "name": "CoreSize4",
         "attributes": {
@@ -2006,10 +2076,12 @@ module.exports = {
       },
       "5": {
         "value": "40px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "40px"
+          "value": "40px",
+          "type": "sizing"
         },
         "name": "CoreSize5",
         "attributes": {
@@ -2025,10 +2097,12 @@ module.exports = {
       },
       "6": {
         "value": "48px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "48px"
+          "value": "48px",
+          "type": "sizing"
         },
         "name": "CoreSize6",
         "attributes": {
@@ -2044,10 +2118,12 @@ module.exports = {
       },
       "7": {
         "value": "56px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "56px"
+          "value": "56px",
+          "type": "sizing"
         },
         "name": "CoreSize7",
         "attributes": {
@@ -2063,10 +2139,12 @@ module.exports = {
       },
       "8": {
         "value": "64px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "64px"
+          "value": "64px",
+          "type": "sizing"
         },
         "name": "CoreSize8",
         "attributes": {
@@ -2082,10 +2160,12 @@ module.exports = {
       },
       "9": {
         "value": "72px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "72px"
+          "value": "72px",
+          "type": "sizing"
         },
         "name": "CoreSize9",
         "attributes": {
@@ -2101,10 +2181,12 @@ module.exports = {
       },
       "10": {
         "value": "80px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "80px"
+          "value": "80px",
+          "type": "sizing"
         },
         "name": "CoreSize10",
         "attributes": {
@@ -2120,10 +2202,12 @@ module.exports = {
       },
       "11": {
         "value": "88px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "88px"
+          "value": "88px",
+          "type": "sizing"
         },
         "name": "CoreSize11",
         "attributes": {
@@ -2139,10 +2223,12 @@ module.exports = {
       },
       "12": {
         "value": "96px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "96px"
+          "value": "96px",
+          "type": "sizing"
         },
         "name": "CoreSize12",
         "attributes": {
@@ -2158,10 +2244,12 @@ module.exports = {
       },
       "13": {
         "value": "104px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "104px"
+          "value": "104px",
+          "type": "sizing"
         },
         "name": "CoreSize13",
         "attributes": {
@@ -2177,10 +2265,12 @@ module.exports = {
       },
       "14": {
         "value": "112px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "112px"
+          "value": "112px",
+          "type": "sizing"
         },
         "name": "CoreSize14",
         "attributes": {
@@ -2196,10 +2286,12 @@ module.exports = {
       },
       "15": {
         "value": "120px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "120px"
+          "value": "120px",
+          "type": "sizing"
         },
         "name": "CoreSize15",
         "attributes": {
@@ -2215,10 +2307,12 @@ module.exports = {
       },
       "16": {
         "value": "128px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "128px"
+          "value": "128px",
+          "type": "sizing"
         },
         "name": "CoreSize16",
         "attributes": {
@@ -2234,10 +2328,12 @@ module.exports = {
       },
       "17": {
         "value": "136px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "136px"
+          "value": "136px",
+          "type": "sizing"
         },
         "name": "CoreSize17",
         "attributes": {
@@ -2253,10 +2349,12 @@ module.exports = {
       },
       "18": {
         "value": "144px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "144px"
+          "value": "144px",
+          "type": "sizing"
         },
         "name": "CoreSize18",
         "attributes": {
@@ -2272,10 +2370,12 @@ module.exports = {
       },
       "19": {
         "value": "152px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "152px"
+          "value": "152px",
+          "type": "sizing"
         },
         "name": "CoreSize19",
         "attributes": {
@@ -2291,10 +2391,12 @@ module.exports = {
       },
       "20": {
         "value": "160px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "160px"
+          "value": "160px",
+          "type": "sizing"
         },
         "name": "CoreSize20",
         "attributes": {
@@ -2310,10 +2412,12 @@ module.exports = {
       },
       "21": {
         "value": "168px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "168px"
+          "value": "168px",
+          "type": "sizing"
         },
         "name": "CoreSize21",
         "attributes": {
@@ -2329,10 +2433,12 @@ module.exports = {
       },
       "22": {
         "value": "176px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "176px"
+          "value": "176px",
+          "type": "sizing"
         },
         "name": "CoreSize22",
         "attributes": {
@@ -2348,10 +2454,12 @@ module.exports = {
       },
       "23": {
         "value": "184px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "184px"
+          "value": "184px",
+          "type": "sizing"
         },
         "name": "CoreSize23",
         "attributes": {
@@ -2367,10 +2475,12 @@ module.exports = {
       },
       "24": {
         "value": "192px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "192px"
+          "value": "192px",
+          "type": "sizing"
         },
         "name": "CoreSize24",
         "attributes": {
@@ -2386,10 +2496,12 @@ module.exports = {
       },
       "25": {
         "value": "200px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "200px"
+          "value": "200px",
+          "type": "sizing"
         },
         "name": "CoreSize25",
         "attributes": {
@@ -2405,10 +2517,12 @@ module.exports = {
       },
       "26": {
         "value": "208px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "208px"
+          "value": "208px",
+          "type": "sizing"
         },
         "name": "CoreSize26",
         "attributes": {
@@ -2424,10 +2538,12 @@ module.exports = {
       },
       "27": {
         "value": "216px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "216px"
+          "value": "216px",
+          "type": "sizing"
         },
         "name": "CoreSize27",
         "attributes": {
@@ -2443,10 +2559,12 @@ module.exports = {
       },
       "28": {
         "value": "224px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "224px"
+          "value": "224px",
+          "type": "sizing"
         },
         "name": "CoreSize28",
         "attributes": {
@@ -2462,10 +2580,12 @@ module.exports = {
       },
       "29": {
         "value": "232px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "232px"
+          "value": "232px",
+          "type": "sizing"
         },
         "name": "CoreSize29",
         "attributes": {
@@ -2481,10 +2601,12 @@ module.exports = {
       },
       "30": {
         "value": "240px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "240px"
+          "value": "240px",
+          "type": "sizing"
         },
         "name": "CoreSize30",
         "attributes": {
@@ -2500,10 +2622,12 @@ module.exports = {
       },
       "31": {
         "value": "248px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "248px"
+          "value": "248px",
+          "type": "sizing"
         },
         "name": "CoreSize31",
         "attributes": {
@@ -2519,10 +2643,12 @@ module.exports = {
       },
       "32": {
         "value": "256px",
+        "type": "sizing",
         "filePath": "src/global/size/core.json",
         "isSource": true,
         "original": {
-          "value": "256px"
+          "value": "256px",
+          "type": "sizing"
         },
         "name": "CoreSize32",
         "attributes": {

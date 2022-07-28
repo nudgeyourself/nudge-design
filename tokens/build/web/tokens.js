@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 11:02:00 GMT
+ * Generated on Thu, 28 Jul 2022 11:19:01 GMT
  */
 
 module.exports = {
@@ -447,7 +447,7 @@ module.exports = {
           ]
         },
         "success": {
-          "value": "#66BB66",
+          "value": "#A042AF",
           "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
@@ -1478,11 +1478,11 @@ module.exports = {
           ]
         },
         "green": {
-          "value": "#66BB66",
+          "value": "#A042AF",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "#66BB66"
+            "value": "#A042AF"
           },
           "name": "core-color-feedback-green",
           "attributes": {

@@ -144,7 +144,7 @@ const figmaTransforms = [
 StyleDictionaryPackage.registerFormat({
   name: 'figma',
   formatter: function({dictionary, platform, options, file}) {
-	const figmaDictionary = {tokens: dictionary.tokens};
+	const figmaDictionary = {"Nudge Coach UI": dictionary.tokens};
 	return JSON.stringify(figmaDictionary, null, 2);
   }
 })

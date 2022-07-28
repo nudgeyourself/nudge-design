@@ -41,11 +41,67 @@ StyleDictionaryPackage.registerTransform({
   },
 });
 
+const webTransforms = [
+  "attribute/cti",
+  "name/cti/kebab",
+  "time/seconds",
+  "content/icon",
+  "size/rem",
+  "color/css",
+  "shadow/css",
+  "darken/css",
+  "font/css",
+];
+
+function getStyleDictionaryConfig(platform) {
+  return {
+	source: [`src/platform/${platform}/*.json`, "src/global/**/*.json"],
+	platforms: {
+	  web: {
+		transforms: webTransforms,
+		buildPath: `build/${platform}/`,
+		files: [
+		  {
+			destination: "variables.css",
+			format: "css/variables",
+			options: {
+			  outputReferences: true,
+			},
+		  },
+		  {
+			destination: "tokens.js",
+			format: "javascript/module",
+		  },
+		],
+	  },
+	  ios: {
+		transformGroup: "js",
+		buildPath: `build/${platform}/`,
+		files: [
+		  {
+			destination: "tokens.js",
+			format: "javascript/module",
+		  },
+		],
+	  },
+	  android: {
+		transformGroup: "js",
+		buildPath: `build/${platform}/`,
+		files: [
+		  {
+			destination: "tokens.js",
+			format: "javascript/module",
+		  },
+		],
+	  },
+	},
+  };
+}
+
 StyleDictionaryPackage.registerTransform({
   name: "figma",
   type: "value",
   matcher: function (prop) {
-	 if (prop.type === "typography") {console.log(prop);}
 	return prop.type === "typography";
   },
   transitive: true,
@@ -69,22 +125,10 @@ StyleDictionaryPackage.registerTransform({
 	}
 	
 	const  figmaFriendlyFontSize = fontSize.substr(0,fontSize.length-2);
-	console.log({fontFamily: fontFamily, fontSize:figmaFriendlyFontSize, fontWeight: figmaFriendlyWeight});
+	
 	return {fontFamily: fontFamily, fontSize:figmaFriendlyFontSize, fontWeight: figmaFriendlyWeight};
   },
 });
-
-const webTransforms = [
-  "attribute/cti",
-  "name/cti/kebab",
-  "time/seconds",
-  "content/icon",
-  "size/rem",
-  "color/css",
-  "shadow/css",
-  "darken/css",
-  "font/css",
-];
 
 const figmaTransforms = [
   "attribute/cti",
@@ -97,54 +141,49 @@ const figmaTransforms = [
   "figma",
 ];
 
-function getStyleDictionaryConfig(platform, buildForFigma) {
+function getFigmaStyleDictionaryConfig(platform) {
   return {
 	source: [`src/platform/${platform}/*.json`, "src/global/**/*.json"],
 	platforms: {
 	  web: {
-		transforms: buildForFigma ? figmaTransforms : webTransforms,
-		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
+		transforms: figmaTransforms,
+		buildPath: `build/figma/${platform}/`,
 		files: [
 		  {
-			destination: "variables.css",
-			format: "css/variables",
-			options: {
+			  destination: "tokens.json",
+			  format: "json",
+			  options: {
 			  outputReferences: true,
-			},
-		  },
-		  {
-			destination: "tokens.js",
-			format: "javascript/module",
-		  },
-		  {
-		  	destination: "tokens.json",
-		  	format: "json",
-		  	options: {
-			  outputReferences: true,
-		  	},
+			  },
 		  },
 		],
 	  },
 	  ios: {
-		transformGroup: "js",
-		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
-		files: [
-		  {
-			destination: "tokens.js",
-			format: "javascript/module",
-		  },
-		],
-	  },
-	  android: {
-		transformGroup: "js",
-		buildPath: buildForFigma ?  `build/figma/${platform}/` : `build/${platform}/`,
-		files: [
-		  {
-			destination: "tokens.js",
-			format: "javascript/module",
-		  },
-		],
-	  },
+		  transforms: figmaTransforms,
+		  buildPath: `build/figma/${platform}/`,
+		  files: [
+			{
+				destination: "tokens.json",
+				format: "json",
+				options: {
+				outputReferences: true,
+				},
+			},
+		  ],
+		},
+		android: {
+			transforms: figmaTransforms,
+			buildPath: `build/figma/${platform}/`,
+			files: [
+		  	{
+			  	destination: "tokens.json",
+			  	format: "json",
+			  	options: {
+			  	outputReferences: true,
+			  	},
+		  	},
+		  ],
+	  	},
 	},
   };
 }
@@ -158,13 +197,13 @@ console.log("Build started...");
   console.log(`\nProcessing: [${platform}]`);
 
   const StyleDictionary = StyleDictionaryPackage.extend(
-	getStyleDictionaryConfig(platform, false)
+	getStyleDictionaryConfig(platform)
   );
 
   StyleDictionary.buildPlatform(platform);
   
   const FigmaStyleDictionary = StyleDictionaryPackage.extend(
-  	getStyleDictionaryConfig(platform, true)
+  	getFigmaStyleDictionaryConfig(platform)
   );
   
   FigmaStyleDictionary.buildPlatform(platform);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 11:48:38 GMT
+ * Generated on Thu, 28 Jul 2022 12:36:38 GMT
  */
 
 module.exports = {
@@ -809,10 +809,12 @@ module.exports = {
     "spacing": {
       "minimal": {
         "value": "4px",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.0.value}"
+          "value": "{core.size.0.value}",
+          "type": "spacing"
         },
         "name": "SemanticSpacingMinimal",
         "attributes": {
@@ -828,10 +830,12 @@ module.exports = {
       },
       "tiny": {
         "value": "8px",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.1.value}"
+          "value": "{core.size.1.value}",
+          "type": "spacing"
         },
         "name": "SemanticSpacingTiny",
         "attributes": {
@@ -847,10 +851,12 @@ module.exports = {
       },
       "small": {
         "value": "16px",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.2.value}"
+          "value": "{core.size.2.value}",
+          "type": "spacing"
         },
         "name": "SemanticSpacingSmall",
         "attributes": {
@@ -866,10 +872,12 @@ module.exports = {
       },
       "medium": {
         "value": "24px",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.3.value}"
+          "value": "{core.size.3.value}",
+          "type": "spacing"
         },
         "name": "SemanticSpacingMedium",
         "attributes": {
@@ -886,11 +894,13 @@ module.exports = {
       "base": {
         "value": "40px",
         "comment": "This is the same size as the height of a standard button.",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
           "value": "{core.size.5.value}",
-          "comment": "This is the same size as the height of a standard button."
+          "comment": "This is the same size as the height of a standard button.",
+          "type": "spacing"
         },
         "name": "SemanticSpacingBase",
         "attributes": {
@@ -906,10 +916,12 @@ module.exports = {
       },
       "large": {
         "value": "64px",
+        "type": "spacing",
         "filePath": "src/global/size/spacing.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.8.value}"
+          "value": "{core.size.8.value}",
+          "type": "spacing"
         },
         "name": "SemanticSpacingLarge",
         "attributes": {

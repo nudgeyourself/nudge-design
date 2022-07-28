@@ -2,23 +2,23 @@
   "semantic": {
     "spacing": {
       "minimal": {
-        "value": "{core.size.0.value}"
+        "value": "{core.size.0.value}", "type": "spacing"
       },
       "tiny": {
-        "value": "{core.size.1.value}"
+        "value": "{core.size.1.value}", "type": "spacing"
       },
       "small": {
-        "value": "{core.size.2.value}"
+        "value": "{core.size.2.value}", "type": "spacing"
       },
       "medium": {
-        "value": "{core.size.3.value}"
+        "value": "{core.size.3.value}", "type": "spacing"
       },
       "base": {
         "value": "{core.size.5.value}",
-        "comment": "This is the same size as the height of a standard button."
+        "comment": "This is the same size as the height of a standard button.", "type": "spacing"
       },
       "large": {
-        "value": "{core.size.8.value}"
+        "value": "{core.size.8.value}", "type": "spacing"
       }
     }
   }

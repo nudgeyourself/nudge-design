@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 Aug 2022 12:40:55 GMT
+ * Generated on Thu, 04 Aug 2022 12:43:27 GMT
  */
 
 module.exports = {
@@ -323,6 +323,29 @@ module.exports = {
             "icon",
             "color",
             "highlight"
+          ]
+        },
+        "contrast": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "filePath": "src/global/color/icon.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.white.value}",
+            "type": "color"
+          },
+          "name": "semantic-icon-color-contrast",
+          "attributes": {
+            "category": "semantic",
+            "type": "icon",
+            "item": "color",
+            "subitem": "contrast"
+          },
+          "path": [
+            "semantic",
+            "icon",
+            "color",
+            "contrast"
           ]
         }
       },

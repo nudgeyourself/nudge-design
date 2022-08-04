@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 20:42:03 GMT
+ * Generated on Thu, 04 Aug 2022 12:40:55 GMT
  */
 
 module.exports = {
@@ -1047,6 +1047,37 @@ module.exports = {
             "size",
             "minimal"
           ]
+        }
+      }
+    },
+    "navigation": {
+      "size": {
+        "header": {
+          "height": {
+            "value": "72px",
+            "type": "sizing",
+            "filePath": "src/global/size/size.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.size.9.value}",
+              "type": "sizing"
+            },
+            "name": "component-navigation-size-header-height",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "size",
+              "subitem": "header",
+              "state": "height"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "size",
+              "header",
+              "height"
+            ]
+          }
         }
       }
     }

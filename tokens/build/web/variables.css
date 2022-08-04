@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 28 Jul 2022 20:42:03 GMT
+ * Generated on Thu, 04 Aug 2022 12:40:54 GMT
  */
 
 :root {
@@ -79,6 +79,7 @@
   --platform-font-family: Inter;
   --core-font-family: var(--platform-font-family);
   --core-color-highlight: hsl(var(--theme-color-highlight-hue), var(--theme-color-highlight-saturation), var(--theme-color-highlight-lightness));
+  --component-navigation-size-header-height: var(--core-size-9);
   --component-action-size-minimal: var(--core-size-4);
   --component-action-size-default: var(--core-size-5);
   --component-action-color-background-hover-destructive: #eb1f1f;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 13:42:01 GMT
+ * Generated on Fri, 05 Aug 2022 13:44:13 GMT
  */
 
 module.exports = {
@@ -31,7 +31,7 @@ module.exports = {
     "background": {
       "layer": {
         "0": {
-          "value": "rgb(245,245,245)",
+          "value": "rgb(255,255,255)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -54,7 +54,7 @@ module.exports = {
           ]
         },
         "1": {
-          "value": "rgb(230,230,230)",
+          "value": "rgb(245,245,245)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -77,7 +77,7 @@ module.exports = {
           ]
         },
         "2": {
-          "value": "rgb(215,215,215)",
+          "value": "rgb(230,230,230)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -100,7 +100,7 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "rgb(200,200,200)",
+          "value": "rgb(215,215,215)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -123,7 +123,7 @@ module.exports = {
           ]
         },
         "4": {
-          "value": "rgb(185,185,185)",
+          "value": "rgb(200,200,200)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -280,7 +280,7 @@ module.exports = {
           ]
         },
         "secondary": {
-          "value": "rgb(125,125,125)",
+          "value": "rgb(140,140,140)",
           "type": "color",
           "filePath": "src/global/color/icon.json",
           "isSource": true,
@@ -401,7 +401,7 @@ module.exports = {
           ]
         },
         "secondary": {
-          "value": "rgb(125,125,125)",
+          "value": "rgb(140,140,140)",
           "type": "color",
           "filePath": "src/global/color/text.json",
           "isSource": true,
@@ -1210,12 +1210,12 @@ module.exports = {
       },
       "grayscale": {
         "0": {
-          "value": "rgb(245,245,245)",
+          "value": "rgb(255,255,255)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(245,245,245)",
+            "value": "rgb(255,255,255)",
             "type": "color"
           },
           "name": "CoreColorGrayscale0",
@@ -1233,12 +1233,12 @@ module.exports = {
           ]
         },
         "1": {
-          "value": "rgb(230,230,230)",
+          "value": "rgb(245,245,245)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(230,230,230)",
+            "value": "rgb(245,245,245)",
             "type": "color"
           },
           "name": "CoreColorGrayscale1",
@@ -1256,12 +1256,12 @@ module.exports = {
           ]
         },
         "2": {
-          "value": "rgb(215,215,215)",
+          "value": "rgb(230,230,230)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(215,215,215)",
+            "value": "rgb(230,230,230)",
             "type": "color"
           },
           "name": "CoreColorGrayscale2",
@@ -1279,12 +1279,12 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "rgb(200,200,200)",
+          "value": "rgb(215,215,215)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(200,200,200)",
+            "value": "rgb(215,215,215)",
             "type": "color"
           },
           "name": "CoreColorGrayscale3",
@@ -1302,12 +1302,12 @@ module.exports = {
           ]
         },
         "4": {
-          "value": "rgb(185,185,185)",
+          "value": "rgb(200,200,200)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(185,185,185)",
+            "value": "rgb(200,200,200)",
             "type": "color"
           },
           "name": "CoreColorGrayscale4",
@@ -1325,12 +1325,12 @@ module.exports = {
           ]
         },
         "5": {
-          "value": "rgb(170,170,170)",
+          "value": "rgb(185,185,185)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(170,170,170)",
+            "value": "rgb(185,185,185)",
             "type": "color"
           },
           "name": "CoreColorGrayscale5",
@@ -1348,12 +1348,12 @@ module.exports = {
           ]
         },
         "6": {
-          "value": "rgb(155,155,155)",
+          "value": "rgb(170,170,170)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(155,155,155)",
+            "value": "rgb(170,170,170)",
             "type": "color"
           },
           "name": "CoreColorGrayscale6",
@@ -1371,12 +1371,12 @@ module.exports = {
           ]
         },
         "7": {
-          "value": "rgb(140,140,140)",
+          "value": "rgb(155,155,155)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(140,140,140)",
+            "value": "rgb(155,155,155)",
             "type": "color"
           },
           "name": "CoreColorGrayscale7",
@@ -1394,12 +1394,12 @@ module.exports = {
           ]
         },
         "8": {
-          "value": "rgb(125,125,125)",
+          "value": "rgb(140,140,140)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(125,125,125)",
+            "value": "rgb(140,140,140)",
             "type": "color"
           },
           "name": "CoreColorGrayscale8",
@@ -1417,12 +1417,12 @@ module.exports = {
           ]
         },
         "9": {
-          "value": "rgb(110,110,110)",
+          "value": "rgb(125,125,125)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(110,110,110)",
+            "value": "rgb(125,125,125)",
             "type": "color"
           },
           "name": "CoreColorGrayscale9",
@@ -1440,12 +1440,12 @@ module.exports = {
           ]
         },
         "10": {
-          "value": "rgb(95,95,95)",
+          "value": "rgb(110,110,110)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(95,95,95)",
+            "value": "rgb(110,110,110)",
             "type": "color"
           },
           "name": "CoreColorGrayscale10",
@@ -1463,12 +1463,12 @@ module.exports = {
           ]
         },
         "11": {
-          "value": "rgb(80,80,80)",
+          "value": "rgb(95,95,95)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(80,80,80)",
+            "value": "rgb(95,95,95)",
             "type": "color"
           },
           "name": "CoreColorGrayscale11",
@@ -1486,12 +1486,12 @@ module.exports = {
           ]
         },
         "12": {
-          "value": "rgb(65,65,65)",
+          "value": "rgb(80,80,80)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(65,65,65)",
+            "value": "rgb(80,80,80)",
             "type": "color"
           },
           "name": "CoreColorGrayscale12",
@@ -1509,12 +1509,12 @@ module.exports = {
           ]
         },
         "13": {
-          "value": "rgb(50,50,50)",
+          "value": "rgb(65,65,65)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(50,50,50)",
+            "value": "rgb(65,65,65)",
             "type": "color"
           },
           "name": "CoreColorGrayscale13",
@@ -1532,12 +1532,12 @@ module.exports = {
           ]
         },
         "14": {
-          "value": "rgb(35,35,35)",
+          "value": "rgb(50,50,50)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(35,35,35)",
+            "value": "rgb(50,50,50)",
             "type": "color"
           },
           "name": "CoreColorGrayscale14",
@@ -1555,12 +1555,12 @@ module.exports = {
           ]
         },
         "15": {
-          "value": "rgb(20,20,20)",
+          "value": "rgb(35,35,35)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(20,20,20)",
+            "value": "rgb(35,35,35)",
             "type": "color"
           },
           "name": "CoreColorGrayscale15",
@@ -1578,12 +1578,12 @@ module.exports = {
           ]
         },
         "16": {
-          "value": "rgb(5,5,5)",
+          "value": "rgb(20,20,20)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rgb(5,5,5)",
+            "value": "rgb(20,20,20)",
             "type": "color"
           },
           "name": "CoreColorGrayscale16",

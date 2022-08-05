@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 13:41:18 GMT
+ * Generated on Fri, 05 Aug 2022 13:42:01 GMT
  */
 
 :root {
@@ -61,16 +61,16 @@
   --core-color-grayscale-15: rgb(20,20,20);
   --core-color-grayscale-14: rgb(35,35,35);
   --core-color-grayscale-13: rgb(50,50,50);
-  --core-color-grayscale-12: rab(65,65,65);
+  --core-color-grayscale-12: rgb(65,65,65);
   --core-color-grayscale-11: rgb(80,80,80);
-  --core-color-grayscale-10: rab(95,95,95);
+  --core-color-grayscale-10: rgb(95,95,95);
   --core-color-grayscale-9: rgb(110,110,110);
   --core-color-grayscale-8: rgb(125,125,125);
   --core-color-grayscale-7: rgb(140,140,140);
   --core-color-grayscale-6: rgb(155,155,155);
   --core-color-grayscale-5: rgb(170,170,170);
   --core-color-grayscale-4: rgb(185,185,185);
-  --core-color-grayscale-3: rab(200,200,200);
+  --core-color-grayscale-3: rgb(200,200,200);
   --core-color-grayscale-2: rgb(215,215,215);
   --core-color-grayscale-1: rgb(230,230,230);
   --core-color-grayscale-0: rgb(245,245,245);

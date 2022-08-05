@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 13:41:18 GMT
+ * Generated on Fri, 05 Aug 2022 13:42:01 GMT
  */
 
 module.exports = {
@@ -100,7 +100,7 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "rab(200,200,200)",
+          "value": "rgb(200,200,200)",
           "type": "color",
           "filePath": "src/global/color/background.json",
           "isSource": true,
@@ -1279,12 +1279,12 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "rab(200,200,200)",
+          "value": "rgb(200,200,200)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rab(200,200,200)",
+            "value": "rgb(200,200,200)",
             "type": "color"
           },
           "name": "CoreColorGrayscale3",
@@ -1440,12 +1440,12 @@ module.exports = {
           ]
         },
         "10": {
-          "value": "rab(95,95,95)",
+          "value": "rgb(95,95,95)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rab(95,95,95)",
+            "value": "rgb(95,95,95)",
             "type": "color"
           },
           "name": "CoreColorGrayscale10",
@@ -1486,12 +1486,12 @@ module.exports = {
           ]
         },
         "12": {
-          "value": "rab(65,65,65)",
+          "value": "rgb(65,65,65)",
           "type": "color",
           "filePath": "src/global/color/core.json",
           "isSource": true,
           "original": {
-            "value": "rab(65,65,65)",
+            "value": "rgb(65,65,65)",
             "type": "color"
           },
           "name": "CoreColorGrayscale12",

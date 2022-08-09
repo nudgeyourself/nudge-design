@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 13:44:13 GMT
+ * Generated on Tue, 09 Aug 2022 21:22:34 GMT
  */
 
 module.exports = {
@@ -1074,6 +1074,85 @@ module.exports = {
       }
     },
     "navigation": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "rgba(0,0,0,0)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.00}",
+              "type": "color"
+            },
+            "name": "component-navigation-color-background-default",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "background",
+              "state": "default"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "background",
+              "default"
+            ]
+          },
+          "hovered": {
+            "value": "rgba(0,0,0,.05)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.10}",
+              "type": "color"
+            },
+            "name": "component-navigation-color-background-hovered",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "background",
+              "state": "hovered"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "background",
+              "hovered"
+            ]
+          },
+          "selected": {
+            "value": "rgba(0,0,0,.1)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.20}",
+              "type": "color"
+            },
+            "name": "component-navigation-color-background-selected",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "background",
+              "state": "selected"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "background",
+              "selected"
+            ]
+          }
+        }
+      },
       "size": {
         "header": {
           "height": {

@@ -27,6 +27,15 @@
           "hover-destructive": { "value": "{core.color.feedback.red.value}", "type": "color" }
         }
       }
+    },
+    "navigation": {
+      "color": {
+        "background": {
+          "default": { "value": "{core.color.black-alpha.00}", "type": "color" },
+          "hovered": { "value": "{core.color.black-alpha.10}", "type": "color" },
+          "selected": { "value": "{core.color.black-alpha.20}", "type": "color" }
+        }
+      }
     }
   }
 }

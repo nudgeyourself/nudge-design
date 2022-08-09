@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Aug 2022 13:44:13 GMT
+ * Generated on Tue, 09 Aug 2022 21:22:34 GMT
  */
 
 :root {
@@ -80,6 +80,9 @@
   --core-font-family: var(--platform-font-family);
   --core-color-highlight: hsl(var(--theme-color-highlight-hue), var(--theme-color-highlight-saturation), var(--theme-color-highlight-lightness));
   --component-navigation-size-header-height: var(--core-size-9);
+  --component-navigation-color-background-selected: var(--core-color-black-alpha-20);
+  --component-navigation-color-background-hovered: var(--core-color-black-alpha-10);
+  --component-navigation-color-background-default: var(--core-color-black-alpha-00);
   --component-action-size-minimal: var(--core-size-4);
   --component-action-size-default: var(--core-size-5);
   --component-action-color-background-hover-destructive: #eb1f1f;

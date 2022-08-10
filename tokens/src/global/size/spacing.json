@@ -25,7 +25,7 @@
   "component": {
     "input": {
       "size": {
-        "padding": {"value": "{semantic.spacing.tiny.value}", "type": "spacing"}
+        "padding": {"value": "{semantic.spacing.small.value}", "type": "spacing"}
       }
     },
     "label": {

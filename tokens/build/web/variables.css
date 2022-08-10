@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 13:59:25 GMT
+ * Generated on Wed, 10 Aug 2022 14:01:52 GMT
  */
 
 :root {
@@ -123,7 +123,7 @@
   --component-label-size-margin: var(--semantic-spacing-tiny);
   --component-label-color-disabled: var(--semantic-text-color-secondary);
   --component-label-color-default: var(--semantic-text-color-primary);
-  --component-input-size-padding: var(--semantic-spacing-tiny);
+  --component-input-size-padding: var(--semantic-spacing-small);
   --component-input-size-height: var(--component-action-size-default);
   --component-input-color-background-default: var(--semantic-background-layer-0);
   --semantic-text-styles-large: var(--core-font-weight-3) var(--core-font-size-3) var(--core-font-family);

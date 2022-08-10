@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 13:59:25 GMT
+ * Generated on Wed, 10 Aug 2022 14:01:52 GMT
  */
 
 module.exports = {
@@ -1303,12 +1303,12 @@ module.exports = {
           ]
         },
         "padding": {
-          "value": "8px",
+          "value": "16px",
           "type": "spacing",
           "filePath": "src/global/size/spacing.json",
           "isSource": true,
           "original": {
-            "value": "{semantic.spacing.tiny.value}",
+            "value": "{semantic.spacing.small.value}",
             "type": "spacing"
           },
           "name": "ComponentInputSizePadding",

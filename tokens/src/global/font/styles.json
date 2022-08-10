@@ -32,5 +32,12 @@
         }
       }
     }
-  }
+  },
+   "component": {
+     "label" : {
+       "style": {
+         "value": "{semantic.text.styles.medium.value}", "type": "typography"
+       }
+     }
+   }
 }

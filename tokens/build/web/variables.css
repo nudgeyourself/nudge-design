@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 13:54:29 GMT
+ * Generated on Wed, 10 Aug 2022 13:59:25 GMT
  */
 
 :root {
@@ -133,4 +133,5 @@
   --semantic-text-color-highlight: var(--core-color-highlight);
   --semantic-icon-color-highlight: var(--core-color-highlight);
   --semantic-background-highlight: var(--core-color-highlight);
+  --component-label-style: var(--semantic-text-styles-medium);
 }

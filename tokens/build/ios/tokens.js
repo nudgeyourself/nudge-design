@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 13:54:29 GMT
+ * Generated on Wed, 10 Aug 2022 13:59:25 GMT
  */
 
 module.exports = {
@@ -1375,6 +1375,31 @@ module.exports = {
             "disabled"
           ]
         }
+      },
+      "style": {
+        "value": {
+          "fontFamily": "San Francisco",
+          "fontSize": "16px",
+          "fontWeight": "500"
+        },
+        "type": "typography",
+        "filePath": "src/global/font/styles.json",
+        "isSource": true,
+        "original": {
+          "value": "{semantic.text.styles.medium.value}",
+          "type": "typography"
+        },
+        "name": "ComponentLabelStyle",
+        "attributes": {
+          "category": "component",
+          "type": "label",
+          "item": "style"
+        },
+        "path": [
+          "component",
+          "label",
+          "style"
+        ]
       },
       "size": {
         "margin": {

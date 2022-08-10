@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Aug 2022 21:22:34 GMT
+ * Generated on Wed, 10 Aug 2022 13:54:29 GMT
  */
 
 module.exports = {
@@ -1082,7 +1082,7 @@ module.exports = {
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.00}",
+              "value": "{core.color.black-alpha.00.value}",
               "type": "color"
             },
             "name": "component-navigation-color-background-default",
@@ -1107,7 +1107,7 @@ module.exports = {
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.10}",
+              "value": "{core.color.black-alpha.10.value}",
               "type": "color"
             },
             "name": "component-navigation-color-background-hovered",
@@ -1132,7 +1132,7 @@ module.exports = {
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.black-alpha.20}",
+              "value": "{core.color.black-alpha.20.value}",
               "type": "color"
             },
             "name": "component-navigation-color-background-selected",
@@ -1180,6 +1180,185 @@ module.exports = {
               "height"
             ]
           }
+        }
+      }
+    },
+    "input": {
+      "color": {
+        "background": {
+          "default": {
+            "value": "rgb(255,255,255)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.background.layer.0.value}",
+              "type": "color"
+            },
+            "name": "component-input-color-background-default",
+            "attributes": {
+              "category": "component",
+              "type": "input",
+              "item": "color",
+              "subitem": "background",
+              "state": "default"
+            },
+            "path": [
+              "component",
+              "input",
+              "color",
+              "background",
+              "default"
+            ]
+          },
+          "disabled": {
+            "value": "rgba(0,0,0,.05)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.10.value}",
+              "type": "color"
+            },
+            "name": "component-input-color-background-disabled",
+            "attributes": {
+              "category": "component",
+              "type": "input",
+              "item": "color",
+              "subitem": "background",
+              "state": "disabled"
+            },
+            "path": [
+              "component",
+              "input",
+              "color",
+              "background",
+              "disabled"
+            ]
+          }
+        }
+      },
+      "size": {
+        "height": {
+          "value": "40px",
+          "type": "sizing",
+          "filePath": "src/global/size/size.json",
+          "isSource": true,
+          "original": {
+            "value": "{component.action.size.default.value}",
+            "type": "sizing"
+          },
+          "name": "component-input-size-height",
+          "attributes": {
+            "category": "component",
+            "type": "input",
+            "item": "size",
+            "subitem": "height"
+          },
+          "path": [
+            "component",
+            "input",
+            "size",
+            "height"
+          ]
+        },
+        "padding": {
+          "value": "8px",
+          "type": "spacing",
+          "filePath": "src/global/size/spacing.json",
+          "isSource": true,
+          "original": {
+            "value": "{semantic.spacing.tiny.value}",
+            "type": "spacing"
+          },
+          "name": "component-input-size-padding",
+          "attributes": {
+            "category": "component",
+            "type": "input",
+            "item": "size",
+            "subitem": "padding"
+          },
+          "path": [
+            "component",
+            "input",
+            "size",
+            "padding"
+          ]
+        }
+      }
+    },
+    "label": {
+      "color": {
+        "default": {
+          "value": "#000000",
+          "type": "color",
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{semantic.text.color.primary.value}",
+            "type": "color"
+          },
+          "name": "component-label-color-default",
+          "attributes": {
+            "category": "component",
+            "type": "label",
+            "item": "color",
+            "subitem": "default"
+          },
+          "path": [
+            "component",
+            "label",
+            "color",
+            "default"
+          ]
+        },
+        "disabled": {
+          "value": "rgb(140,140,140)",
+          "type": "color",
+          "filePath": "src/global/color/text.json",
+          "isSource": true,
+          "original": {
+            "value": "{semantic.text.color.secondary.value}",
+            "type": "color"
+          },
+          "name": "component-label-color-disabled",
+          "attributes": {
+            "category": "component",
+            "type": "label",
+            "item": "color",
+            "subitem": "disabled"
+          },
+          "path": [
+            "component",
+            "label",
+            "color",
+            "disabled"
+          ]
+        }
+      },
+      "size": {
+        "margin": {
+          "value": "8px",
+          "type": "spacing",
+          "filePath": "src/global/size/spacing.json",
+          "isSource": true,
+          "original": {
+            "value": "{semantic.spacing.tiny.value}",
+            "type": "spacing"
+          },
+          "name": "component-label-size-margin",
+          "attributes": {
+            "category": "component",
+            "type": "label",
+            "item": "size",
+            "subitem": "margin"
+          },
+          "path": [
+            "component",
+            "label",
+            "size",
+            "margin"
+          ]
         }
       }
     }

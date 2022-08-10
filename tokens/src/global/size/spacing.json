@@ -21,5 +21,17 @@
         "value": "{core.size.8.value}", "type": "spacing"
       }
     }
+  },
+  "component": {
+    "input": {
+      "size": {
+        "padding": {"value": "{semantic.spacing.tiny.value}", "type": "spacing"}
+      }
+    },
+    "label": {
+      "size": {
+        "margin": {"value": "{semantic.spacing.tiny.value}", "type": "spacing"}
+      }
+    }
   }
 }

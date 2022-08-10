@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 09 Aug 2022 21:22:34 GMT
+ * Generated on Wed, 10 Aug 2022 13:54:29 GMT
  */
 
 :root {
@@ -79,6 +79,7 @@
   --platform-font-family: Inter;
   --core-font-family: var(--platform-font-family);
   --core-color-highlight: hsl(var(--theme-color-highlight-hue), var(--theme-color-highlight-saturation), var(--theme-color-highlight-lightness));
+  --component-input-color-background-disabled: var(--core-color-black-alpha-10);
   --component-navigation-size-header-height: var(--core-size-9);
   --component-navigation-color-background-selected: var(--core-color-black-alpha-20);
   --component-navigation-color-background-hovered: var(--core-color-black-alpha-10);
@@ -119,6 +120,12 @@
   --semantic-background-layer-2: var(--core-color-grayscale-2);
   --semantic-background-layer-1: var(--core-color-grayscale-1);
   --semantic-background-layer-0: var(--core-color-grayscale-0);
+  --component-label-size-margin: var(--semantic-spacing-tiny);
+  --component-label-color-disabled: var(--semantic-text-color-secondary);
+  --component-label-color-default: var(--semantic-text-color-primary);
+  --component-input-size-padding: var(--semantic-spacing-tiny);
+  --component-input-size-height: var(--component-action-size-default);
+  --component-input-color-background-default: var(--semantic-background-layer-0);
   --semantic-text-styles-large: var(--core-font-weight-3) var(--core-font-size-3) var(--core-font-family);
   --semantic-text-styles-medium: var(--core-font-weight-2) var(--core-font-size-2) var(--core-font-family);
   --semantic-text-styles-default: var(--core-font-weight-1) var(--core-font-size-2) var(--core-font-family);

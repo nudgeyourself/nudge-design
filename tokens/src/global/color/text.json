@@ -11,5 +11,13 @@
         "contrast": { "value": "{core.color.white.value}", "type": "color" }
       }
     }
-  }
+  },
+  "component": {
+    "label": {
+      "color": {
+          "default": { "value": "{semantic.text.color.primary.value}", "type": "color" },
+          "disabled": { "value": "{semantic.text.color.secondary.value}", "type": "color" }
+        }
+      }
+    }
 }

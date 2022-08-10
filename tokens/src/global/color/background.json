@@ -31,9 +31,17 @@
     "navigation": {
       "color": {
         "background": {
-          "default": { "value": "{core.color.black-alpha.00}", "type": "color" },
-          "hovered": { "value": "{core.color.black-alpha.10}", "type": "color" },
-          "selected": { "value": "{core.color.black-alpha.20}", "type": "color" }
+          "default": { "value": "{core.color.black-alpha.00.value}", "type": "color" },
+          "hovered": { "value": "{core.color.black-alpha.10.value}", "type": "color" },
+          "selected": { "value": "{core.color.black-alpha.20.value}", "type": "color" }
+        }
+      }
+    },
+    "input": {
+      "color": {
+        "background": {
+          "default": { "value": "{semantic.background.layer.0.value}", "type": "color" },
+          "disabled": { "value": "{core.color.black-alpha.10.value}", "type": "color" }
         }
       }
     }

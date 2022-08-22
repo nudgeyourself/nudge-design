@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 14:01:52 GMT
+ * Generated on Mon, 22 Aug 2022 14:17:51 GMT
  */
 
 :root {
@@ -79,6 +79,7 @@
   --platform-font-family: Inter;
   --core-font-family: var(--platform-font-family);
   --core-color-highlight: hsl(var(--theme-color-highlight-hue), var(--theme-color-highlight-saturation), var(--theme-color-highlight-lightness));
+  --component-modal-color-background-shade: var(--core-color-black-alpha-30);
   --component-input-color-background-disabled: var(--core-color-black-alpha-10);
   --component-navigation-size-header-height: var(--core-size-9);
   --component-navigation-color-background-selected: var(--core-color-black-alpha-20);

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 10 Aug 2022 14:01:52 GMT
+ * Generated on Mon, 22 Aug 2022 14:17:51 GMT
  */
 
 module.exports = {
@@ -1284,6 +1284,37 @@ module.exports = {
             "size",
             "padding"
           ]
+        }
+      }
+    },
+    "modal": {
+      "color": {
+        "background": {
+          "shade": {
+            "value": "rgba(0,0,0,.15)",
+            "type": "color",
+            "filePath": "src/global/color/background.json",
+            "isSource": true,
+            "original": {
+              "value": "{core.color.black-alpha.30.value}",
+              "type": "color"
+            },
+            "name": "component-modal-color-background-shade",
+            "attributes": {
+              "category": "component",
+              "type": "modal",
+              "item": "color",
+              "subitem": "background",
+              "state": "shade"
+            },
+            "path": [
+              "component",
+              "modal",
+              "color",
+              "background",
+              "shade"
+            ]
+          }
         }
       }
     },

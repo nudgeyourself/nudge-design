@@ -44,6 +44,13 @@
           "disabled": { "value": "{core.color.black-alpha.10.value}", "type": "color" }
         }
       }
+    },
+    "modal": {
+      "color": {
+        "background": {
+          "shade": { "value": "{core.color.black-alpha.30.value}", "type": "color" }
+        }
+      }
     }
   }
 }

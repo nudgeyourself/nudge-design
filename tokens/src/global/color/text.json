@@ -41,8 +41,8 @@
       }
     },
     "navigation": {
-      "text": {
-        "color": {
+      "color": {
+        "text": {
           "default": {
             "value": "{semantic.text.color.secondary.value}",
             "type": "color"

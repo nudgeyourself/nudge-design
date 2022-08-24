@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 21:22:15 GMT
+ * Generated on Wed, 24 Aug 2022 21:28:20 GMT
  */
 
 module.exports = {
@@ -1191,10 +1191,8 @@ module.exports = {
               "selected"
             ]
           }
-        }
-      },
-      "icon": {
-        "color": {
+        },
+        "icon": {
           "default": {
             "value": "rgb(140,140,140)",
             "type": "color",
@@ -1204,19 +1202,19 @@ module.exports = {
               "value": "{semantic.icon.color.secondary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationIconColorDefault",
+            "name": "ComponentNavigationColorIconDefault",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "icon",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "icon",
               "state": "default"
             },
             "path": [
               "component",
               "navigation",
-              "icon",
               "color",
+              "icon",
               "default"
             ]
           },
@@ -1229,19 +1227,19 @@ module.exports = {
               "value": "{semantic.icon.color.secondary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationIconColorHovered",
+            "name": "ComponentNavigationColorIconHovered",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "icon",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "icon",
               "state": "hovered"
             },
             "path": [
               "component",
               "navigation",
-              "icon",
               "color",
+              "icon",
               "hovered"
             ]
           },
@@ -1254,26 +1252,24 @@ module.exports = {
               "value": "{semantic.icon.color.primary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationIconColorSelected",
+            "name": "ComponentNavigationColorIconSelected",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "icon",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "icon",
               "state": "selected"
             },
             "path": [
               "component",
               "navigation",
-              "icon",
               "color",
+              "icon",
               "selected"
             ]
           }
-        }
-      },
-      "text": {
-        "color": {
+        },
+        "text": {
           "default": {
             "value": "rgb(140,140,140)",
             "type": "color",
@@ -1283,19 +1279,19 @@ module.exports = {
               "value": "{semantic.text.color.secondary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationTextColorDefault",
+            "name": "ComponentNavigationColorTextDefault",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "text",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "text",
               "state": "default"
             },
             "path": [
               "component",
               "navigation",
-              "text",
               "color",
+              "text",
               "default"
             ]
           },
@@ -1308,19 +1304,19 @@ module.exports = {
               "value": "{semantic.text.color.secondary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationTextColorHovered",
+            "name": "ComponentNavigationColorTextHovered",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "text",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "text",
               "state": "hovered"
             },
             "path": [
               "component",
               "navigation",
-              "text",
               "color",
+              "text",
               "hovered"
             ]
           },
@@ -1333,19 +1329,19 @@ module.exports = {
               "value": "{semantic.text.color.primary.value}",
               "type": "color"
             },
-            "name": "ComponentNavigationTextColorSelected",
+            "name": "ComponentNavigationColorTextSelected",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "text",
-              "subitem": "color",
+              "item": "color",
+              "subitem": "text",
               "state": "selected"
             },
             "path": [
               "component",
               "navigation",
-              "text",
               "color",
+              "text",
               "selected"
             ]
           }

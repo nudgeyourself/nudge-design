@@ -2,7 +2,8 @@
   "semantic": {
     "border": {
       "default": {
-        "value": "{core.color.black-alpha.30}", "type": "color"
+        "value": "{core.color.black-alpha.30}",
+        "type": "color"
       }
     }
   }

@@ -17,8 +17,8 @@
   },
   "component": {
     "navigation": {
-      "color": {
-        "icon": {
+      "icon": {
+        "color": {
           "default": {
             "value": "{semantic.icon.color.secondary.value}",
             "type": "color"

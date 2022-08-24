@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 21:05:36 GMT
+ * Generated on Wed, 24 Aug 2022 21:22:15 GMT
  */
 
 module.exports = {
@@ -1151,145 +1151,161 @@ module.exports = {
               "selected"
             ]
           }
-        },
-        "icon": {
+        }
+      },
+      "icon": {
+        "color": {
           "default": {
             "value": "rgb(140,140,140)",
+            "type": "color",
             "filePath": "src/global/color/icon.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.icon.color.secondary.value}"
+              "value": "{semantic.icon.color.secondary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-icon-default",
+            "name": "component-navigation-icon-color-default",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "icon",
+              "item": "icon",
+              "subitem": "color",
               "state": "default"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "icon",
+              "color",
               "default"
             ]
           },
           "hovered": {
             "value": "rgb(140,140,140)",
+            "type": "color",
             "filePath": "src/global/color/icon.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.icon.color.secondary.value}"
+              "value": "{semantic.icon.color.secondary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-icon-hovered",
+            "name": "component-navigation-icon-color-hovered",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "icon",
+              "item": "icon",
+              "subitem": "color",
               "state": "hovered"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "icon",
+              "color",
               "hovered"
             ]
           },
           "selected": {
             "value": "#000000",
+            "type": "color",
             "filePath": "src/global/color/icon.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.icon.color.primary.value}"
+              "value": "{semantic.icon.color.primary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-icon-selected",
+            "name": "component-navigation-icon-color-selected",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "icon",
+              "item": "icon",
+              "subitem": "color",
               "state": "selected"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "icon",
+              "color",
               "selected"
             ]
           }
-        },
-        "text": {
+        }
+      },
+      "text": {
+        "color": {
           "default": {
             "value": "rgb(140,140,140)",
+            "type": "color",
             "filePath": "src/global/color/text.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.text.color.secondary.value}"
+              "value": "{semantic.text.color.secondary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-text-default",
+            "name": "component-navigation-text-color-default",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "text",
+              "item": "text",
+              "subitem": "color",
               "state": "default"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "text",
+              "color",
               "default"
             ]
           },
           "hovered": {
             "value": "rgb(140,140,140)",
+            "type": "color",
             "filePath": "src/global/color/text.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.text.color.secondary.value}"
+              "value": "{semantic.text.color.secondary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-text-hovered",
+            "name": "component-navigation-text-color-hovered",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "text",
+              "item": "text",
+              "subitem": "color",
               "state": "hovered"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "text",
+              "color",
               "hovered"
             ]
           },
           "selected": {
             "value": "#000000",
+            "type": "color",
             "filePath": "src/global/color/text.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.text.color.primary.value}"
+              "value": "{semantic.text.color.primary.value}",
+              "type": "color"
             },
-            "name": "component-navigation-color-text-selected",
+            "name": "component-navigation-text-color-selected",
             "attributes": {
               "category": "component",
               "type": "navigation",
-              "item": "color",
-              "subitem": "text",
+              "item": "text",
+              "subitem": "color",
               "state": "selected"
             },
             "path": [
               "component",
               "navigation",
-              "color",
               "text",
+              "color",
               "selected"
             ]
           }

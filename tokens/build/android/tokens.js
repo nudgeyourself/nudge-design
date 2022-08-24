@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 22 Aug 2022 14:17:51 GMT
+ * Generated on Wed, 24 Aug 2022 20:54:56 GMT
  */
 
 module.exports = {
@@ -1188,6 +1188,148 @@ module.exports = {
               "navigation",
               "color",
               "background",
+              "selected"
+            ]
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "rgb(140,140,140)",
+            "filePath": "src/global/color/icon.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.icon.color.secondary.value}"
+            },
+            "name": "ComponentNavigationColorIconDefault",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "icon",
+              "state": "default"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "icon",
+              "default"
+            ]
+          },
+          "hovered": {
+            "value": "rgb(140,140,140)",
+            "filePath": "src/global/color/icon.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.icon.color.secondary.value}"
+            },
+            "name": "ComponentNavigationColorIconHovered",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "icon",
+              "state": "hovered"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "icon",
+              "hovered"
+            ]
+          },
+          "selected": {
+            "value": "#000000",
+            "filePath": "src/global/color/icon.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.icon.color.primary.value}"
+            },
+            "name": "ComponentNavigationColorIconSelected",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "icon",
+              "state": "selected"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "icon",
+              "selected"
+            ]
+          }
+        },
+        "text": {
+          "default": {
+            "value": "rgb(140,140,140)",
+            "filePath": "src/global/color/text.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.text.color.secondary.value}"
+            },
+            "name": "ComponentNavigationColorTextDefault",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "text",
+              "state": "default"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "text",
+              "default"
+            ]
+          },
+          "hovered": {
+            "value": "rgb(140,140,140)",
+            "filePath": "src/global/color/text.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.text.color.secondary.value}"
+            },
+            "name": "ComponentNavigationColorTextHovered",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "text",
+              "state": "hovered"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "text",
+              "hovered"
+            ]
+          },
+          "selected": {
+            "value": "#000000",
+            "filePath": "src/global/color/text.json",
+            "isSource": true,
+            "original": {
+              "value": "{semantic.text.color.primary.value}"
+            },
+            "name": "ComponentNavigationColorTextSelected",
+            "attributes": {
+              "category": "component",
+              "type": "navigation",
+              "item": "color",
+              "subitem": "text",
+              "state": "selected"
+            },
+            "path": [
+              "component",
+              "navigation",
+              "color",
+              "text",
               "selected"
             ]
           }

@@ -8,5 +8,16 @@
         "contrast": { "value": "{core.color.white.value}", "type": "color" }
       }
     }
+  },
+  "component": {
+    "navigation": {
+      "color": {
+        "icon": { 
+          "default": {"value": "{semantic.icon.color.secondary.value}"},
+          "hovered": {"value": "{semantic.icon.color.secondary.value}"},
+          "selected": {"value": "{semantic.icon.color.primary.value}"}
+        }
+      }
+    }
   }
 }

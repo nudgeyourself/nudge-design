@@ -1,0 +1,17 @@
+# Nudge Icons
+
+#### Adding Icons
+
+Add icon files to the assets folder, update the package version, then run these 3 commands.
+
+```
+npm run prebuild
+```
+
+```
+npm run build
+```
+
+```
+npm publish
+```

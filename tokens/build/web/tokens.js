@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 24 Aug 2022 21:28:20 GMT
+ * Generated on Thu, 25 Aug 2022 20:14:54 GMT
  */
 
 module.exports = {
@@ -228,6 +228,27 @@ module.exports = {
           "semantic",
           "background",
           "destructive"
+        ]
+      },
+      "warning": {
+        "value": "#FEDF63",
+        "type": "color",
+        "filePath": "src/global/color/background.json",
+        "isSource": true,
+        "original": {
+          "value": "{core.color.feedback.yellow.value}",
+          "type": "color"
+        },
+        "name": "semantic-background-warning",
+        "attributes": {
+          "category": "semantic",
+          "type": "background",
+          "item": "warning"
+        },
+        "path": [
+          "semantic",
+          "background",
+          "warning"
         ]
       }
     },

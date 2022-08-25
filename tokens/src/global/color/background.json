@@ -17,6 +17,10 @@
       "destructive": {
         "value": "{core.color.feedback.red.value}",
         "type": "color"
+      },
+      "warning": {
+        "value": "{core.color.feedback.yellow.value}",
+        "type": "color"
       }
     }
   },

@@ -58,7 +58,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@nudge-coach/icons": "0.0.5",
+    "@nudge-coach/icons": "0.0.6",
     "react-dom": "^16.8.0"
   },
   "bugs": {

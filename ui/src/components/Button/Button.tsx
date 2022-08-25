@@ -2,7 +2,7 @@ import React from "react";
 import "../global.css";
 import "../../../../tokens/build/web/variables.css";
 import styles from "./Button.module.css";
-import { Calendar } from '@nudge-coach/icons';
+import { Calendar } from "@nudge-coach/icons";
 
 export interface ButtonProps {
   children: React.ReactNode;

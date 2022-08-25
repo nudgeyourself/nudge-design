@@ -1,0 +1,97 @@
+.headerAction {
+  font: var(--core-font-weight-2) var(--core-font-size-2)
+    var(--core-font-family);
+  color: var(--semantic-text-color-primary);
+  height: var(--component-navigation-size-header-height);
+  minwidth: var(--component-navigation-size-header-height);
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: var(--core-size-0) 0px;
+  box-shadow: none;
+  position: relative;
+}
+
+.headerAction:hover {
+  cursor: pointer;
+}
+
+.selected {
+  border-bottom: 2px solid var(--semantic-background-highlight);
+}
+
+.hoverBg {
+  height: calc(
+    var(--component-navigation-size-header-height) - var(--core-size-1)
+  );
+  width: calc(
+    var(--component-navigation-size-header-height) - var(--core-size-1)
+  );
+  border-radius: var(--semantic-radius-medium);
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-transition: background-color cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  -moz-transition: background-color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    0s;
+  -o-transition: background-color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  transition: background-color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerAction:hover .hoverBg {
+  background-color: var(--component-action-color-background-hover-transparent);
+}
+
+.headerAction:disabled:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.icon {
+  color: var(--component-navigation-color-icon-default);
+}
+
+.icon svg {
+  width: var(--core-size-3);
+  height: var(--core-size-3);
+}
+
+.selected .icon {
+  color: var(--component-navigation-color-icon-selected);
+}
+
+.icon.active {
+  color: var(--semantic-icon-color-primary);
+}
+
+.icon.circle {
+  color: var(--semantic-icon-color-contrast);
+  background-color: var(--semantic-background-layer-4);
+  height: var(--core-size-4);
+  width: var(--core-size-4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--core-size-4);
+}
+
+.icon.circle svg {
+  width: calc(var(--core-size-3) - var(--semantic-spacing-minimal));
+  height: calc(var(--core-size-3) - var(--semantic-spacing-minimal));
+}
+
+.icon.navigation {
+  padding: var(--core-size-2);
+  background-color: var(--semantic-background-layer-4);
+  border-radius: var(--core-size-4);
+}
+
+.icon.navigation svg {
+  width: var(--core-size-2);
+  height: var(--core-size-2);
+}
+
+.badge {
+  position: absolute;
+  top: var(--semantic-spacing-tiny);
+  right: var(--semantic-spacing-tiny);
+}

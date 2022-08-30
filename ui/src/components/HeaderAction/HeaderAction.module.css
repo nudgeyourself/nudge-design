@@ -3,7 +3,7 @@
     var(--core-font-family);
   color: var(--semantic-text-color-primary);
   height: var(--component-navigation-size-header-height);
-  minwidth: var(--component-navigation-size-header-height);
+  min-width: var(--component-navigation-size-header-height);
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   padding: var(--core-size-0) 0px;

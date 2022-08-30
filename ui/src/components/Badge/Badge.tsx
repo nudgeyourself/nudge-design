@@ -6,6 +6,7 @@ import styles from "./Badge.module.css";
 export interface BadgeProps {
   children: React.ReactNode;
   warning?: boolean;
+  word?: boolean;
 }
 
 const Badge = (props: BadgeProps) => {

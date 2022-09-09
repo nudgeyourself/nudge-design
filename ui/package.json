@@ -4,7 +4,7 @@
     "access": "public",
     "@nudge-coach:registry": "https://registry.npmjs.org"
   },
-  "version": "0.1.1",
+  "version": "0.1.6",
   "description": "Nudge Coach's component library",
   "repository": {
     "type": "git",

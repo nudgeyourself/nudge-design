@@ -4,9 +4,6 @@
   color: var(--semantic-text-color-primary);
   height: var(--component-navigation-size-header-height);
   background-color: rgba(0, 0, 0, 0);
-  min-width: calc(
-    var(--component-navigation-size-header-height) - var(--core-size-1)
-  );
   border: 0;
   padding: var(--core-size-0) 0px;
   box-shadow: none;
@@ -18,12 +15,17 @@
 }
 
 .selected {
-  border-bottom: 2px solid var(--semantic-background-highlight);
+  border-bottom: 3px solid var(--semantic-background-highlight);
 }
 
 .hoverBg {
   height: calc(
-    var(--component-navigation-size-header-height) - var(--core-size-1)
+    var(--component-navigation-size-header-height) - var(--core-size-1) -
+      var(--core-size-0)
+  );
+  min-width: calc(
+    var(--component-navigation-size-header-height) - var(--core-size-1) -
+      var(--core-size-0)
   );
   border-radius: var(--semantic-radius-medium);
   background-color: rgba(0, 0, 0, 0);
@@ -59,6 +61,10 @@
   color: var(--component-navigation-color-icon-selected);
 }
 
+.selected .hoverBg {
+  top: 1px;
+}
+
 .icon.active {
   color: var(--semantic-icon-color-primary);
 }
@@ -92,6 +98,6 @@
 
 .badge {
   position: absolute;
-  top: var(--semantic-spacing-tiny);
-  right: var(--semantic-spacing-tiny);
+  top: var(--semantic-spacing-minimal);
+  right: var(--semantic-spacing-minimal);
 }

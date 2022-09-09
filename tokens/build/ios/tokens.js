@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 25 Aug 2022 20:14:54 GMT
+ * Generated on Wed, 31 Aug 2022 20:26:11 GMT
  */
 
 module.exports = {
@@ -831,12 +831,12 @@ module.exports = {
         ]
       },
       "medium": {
-        "value": "16px",
+        "value": "8px",
         "type": "borderRadius",
         "filePath": "src/global/size/radius.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.2.value}",
+          "value": "{core.size.1.value}",
           "type": "borderRadius"
         },
         "name": "SemanticRadiusMedium",
@@ -852,12 +852,12 @@ module.exports = {
         ]
       },
       "large": {
-        "value": "32px",
+        "value": "16px",
         "type": "borderRadius",
         "filePath": "src/global/size/radius.json",
         "isSource": true,
         "original": {
-          "value": "{core.size.4.value}",
+          "value": "{core.size.2.value}",
           "type": "borderRadius"
         },
         "name": "SemanticRadiusLarge",
@@ -1215,12 +1215,12 @@ module.exports = {
         },
         "icon": {
           "default": {
-            "value": "rgb(140,140,140)",
+            "value": "#000000",
             "type": "color",
             "filePath": "src/global/color/icon.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.icon.color.secondary.value}",
+              "value": "{semantic.icon.color.primary.value}",
               "type": "color"
             },
             "name": "ComponentNavigationColorIconDefault",
@@ -1240,12 +1240,12 @@ module.exports = {
             ]
           },
           "hovered": {
-            "value": "rgb(140,140,140)",
+            "value": "#000000",
             "type": "color",
             "filePath": "src/global/color/icon.json",
             "isSource": true,
             "original": {
-              "value": "{semantic.icon.color.secondary.value}",
+              "value": "{semantic.icon.color.primary.value}",
               "type": "color"
             },
             "name": "ComponentNavigationColorIconHovered",

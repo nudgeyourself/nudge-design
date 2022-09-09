@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 25 Aug 2022 20:14:54 GMT
+ * Generated on Wed, 31 Aug 2022 20:26:11 GMT
  */
 
 :root {
@@ -96,8 +96,8 @@
   --semantic-spacing-small: var(--core-size-2);
   --semantic-spacing-tiny: var(--core-size-1);
   --semantic-spacing-minimal: var(--core-size-0);
-  --semantic-radius-large: var(--core-size-4);
-  --semantic-radius-medium: var(--core-size-2);
+  --semantic-radius-large: var(--core-size-2);
+  --semantic-radius-medium: var(--core-size-1);
   --semantic-radius-small: var(--core-size-0);
   --semantic-shadow-elevation-three: 0px 3px 6px 0px var(--core-color-black-alpha-50);
   --semantic-shadow-elevation-two: 0px 2px 4px 0px var(--core-color-black-alpha-50);
@@ -132,8 +132,8 @@
   --component-navigation-color-text-hovered: var(--semantic-text-color-secondary);
   --component-navigation-color-text-default: var(--semantic-text-color-secondary);
   --component-navigation-color-icon-selected: var(--semantic-icon-color-primary);
-  --component-navigation-color-icon-hovered: var(--semantic-icon-color-secondary);
-  --component-navigation-color-icon-default: var(--semantic-icon-color-secondary);
+  --component-navigation-color-icon-hovered: var(--semantic-icon-color-primary);
+  --component-navigation-color-icon-default: var(--semantic-icon-color-primary);
   --semantic-text-styles-large: var(--core-font-weight-3) var(--core-font-size-3) var(--core-font-family);
   --semantic-text-styles-medium: var(--core-font-weight-2) var(--core-font-size-2) var(--core-font-family);
   --semantic-text-styles-default: var(--core-font-weight-1) var(--core-font-size-2) var(--core-font-family);

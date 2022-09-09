@@ -20,11 +20,11 @@
       "color": {
         "icon": {
           "default": {
-            "value": "{semantic.icon.color.secondary.value}",
+            "value": "{semantic.icon.color.primary.value}",
             "type": "color"
           },
           "hovered": {
-            "value": "{semantic.icon.color.secondary.value}",
+            "value": "{semantic.icon.color.primary.value}",
             "type": "color"
           },
           "selected": {

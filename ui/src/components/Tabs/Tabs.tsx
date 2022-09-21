@@ -30,7 +30,7 @@ const Tabs = (props: TabsProps) => {
             props.selected === tab.id ? styles.selected : ""
           } ${props.expanded ? styles.expanded : ""}`}
           onClick={() => {
-            tabSelected(tab.id);
+            props.tabSelected(tab.id);
           }}
         >
           {tab.content}

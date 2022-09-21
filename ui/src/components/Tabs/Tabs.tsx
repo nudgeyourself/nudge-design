@@ -3,33 +3,37 @@ import "../global.css";
 import "../../../../tokens/build/web/variables.css";
 import styles from "./Tabs.module.css";
 
+export interface Tab {
+  id: string;
+  content: React.ReactNode;
+}
+
 export interface TabsProps {
-  titles: string;
+  tabs: Tab[];
   selected: string;
-  tabSelected: (tab) => {};
+  tabSelected: (id) => {};
   expanded?: boolean;
   margin?: boolean;
 }
 
 const Tabs = (props: TabsProps) => {
-  const tabTitles = props.titles.split(",");
   return (
     <div
       className={`${styles.tabs} ${props.expanded ? styles.expanded : ""} ${
         props.margin ? styles.margin : ""
       }`}
     >
-      {tabTitles.map((tab) => (
+      {props.tabs.map((tab) => (
         <div
-          key={tab}
+          key={tab.id}
           className={`${styles.tab} ${
-            props.selected === tab ? styles.selected : ""
+            props.selected === tab.id ? styles.selected : ""
           } ${props.expanded ? styles.expanded : ""}`}
           onClick={() => {
-            tabSelected(tab);
+            tabSelected(tab.id);
           }}
         >
-          {tab}
+          {tab.content}
         </div>
       ))}
     </div>

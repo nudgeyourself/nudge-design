@@ -16,6 +16,10 @@ export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
 Default.args = {
-  titles: "Tab 1,Tab 2,Tab 3",
-  selected: "Tab 1",
+  tabs: [
+    { id: "1", content: "Tab 1" },
+    { id: "2", content: "Tab 2" },
+    { id: "3", content: "Tab 3" },
+  ],
+  selected: "1",
 };

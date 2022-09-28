@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 31 Aug 2022 20:26:11 GMT
+ * Generated on Wed, 28 Sep 2022 14:34:07 GMT
  */
 
 module.exports = {
@@ -657,7 +657,7 @@ module.exports = {
         "large": {
           "value": {
             "fontFamily": "San Francisco",
-            "fontSize": "24px",
+            "fontSize": "20px",
             "fontWeight": "800"
           },
           "type": "typography",
@@ -2397,12 +2397,12 @@ module.exports = {
           ]
         },
         "3": {
-          "value": "24px",
+          "value": "20px",
           "type": "fontSizes",
           "filePath": "src/global/font/core.json",
           "isSource": true,
           "original": {
-            "value": "24px",
+            "value": "20px",
             "type": "fontSizes"
           },
           "name": "CoreFontSize3",

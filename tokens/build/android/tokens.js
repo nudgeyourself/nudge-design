@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 14:34:07 GMT
+ * Generated on Wed, 28 Sep 2022 14:46:16 GMT
  */
 
 module.exports = {
@@ -1371,12 +1371,12 @@ module.exports = {
       "size": {
         "header": {
           "height": {
-            "value": "72px",
+            "value": "64px",
             "type": "sizing",
             "filePath": "src/global/size/size.json",
             "isSource": true,
             "original": {
-              "value": "{core.size.9.value}",
+              "value": "{core.size.8.value}",
               "type": "sizing"
             },
             "name": "ComponentNavigationSizeHeaderHeight",

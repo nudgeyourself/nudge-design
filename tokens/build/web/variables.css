@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 14:34:07 GMT
+ * Generated on Wed, 28 Sep 2022 14:46:16 GMT
  */
 
 :root {
@@ -81,7 +81,7 @@
   --core-color-highlight: hsl(var(--theme-color-highlight-hue), var(--theme-color-highlight-saturation), var(--theme-color-highlight-lightness));
   --component-modal-color-background-shade: var(--core-color-black-alpha-30);
   --component-input-color-background-disabled: var(--core-color-black-alpha-10);
-  --component-navigation-size-header-height: var(--core-size-9);
+  --component-navigation-size-header-height: var(--core-size-8);
   --component-navigation-color-background-selected: var(--core-color-black-alpha-20);
   --component-navigation-color-background-hovered: var(--core-color-black-alpha-10);
   --component-navigation-color-background-default: var(--core-color-black-alpha-00);

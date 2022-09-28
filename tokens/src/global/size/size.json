@@ -8,12 +8,17 @@
     },
     "navigation": {
       "size": {
-        "header": { "height": {"value": "{core.size.9.value}", "type": "sizing"} }
+        "header": {
+          "height": { "value": "{core.size.8.value}", "type": "sizing" }
+        }
       }
     },
     "input": {
       "size": {
-        "height": {"value": "{component.action.size.default.value}", "type": "sizing"}
+        "height": {
+          "value": "{component.action.size.default.value}",
+          "type": "sizing"
+        }
       }
     }
   }

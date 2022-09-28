@@ -2,7 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import HeaderAction from "./HeaderAction";
-import { Users, Unlock } from "@nudge-coach/icons";
+import { Users, Unlock, X } from "@nudge-coach/icons";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -17,19 +17,23 @@ const Template: ComponentStory<typeof HeaderAction> = (args) => (
   </HeaderAction>
 );
 
-export const Default = Template.bind({});
-// More on args: https://storybook.js.org/docs/react/writing-stories/args
-
-Default.args = {};
+export const Default = (args) => (
+  <HeaderAction {...args}>
+    <X />
+  </HeaderAction>
+);
 
 export const Selected = Template.bind({});
 Selected.args = {
+  selectable: true,
   selected: true,
 };
 
-export const BadgeCount = Template.bind({});
-BadgeCount.args = {
+export const Navigation = Template.bind({});
+Navigation.args = {
   badgeCount: 3,
+  circleIcon: true,
+  selectable: true,
 };
 
 export const Warning = (args) => (
@@ -43,8 +47,9 @@ Warning.args = {
   iconStyle: "active",
 };
 
-export const Navigation = Template.bind({});
-Navigation.args = {
-  badgeCount: 3,
-  iconStyle: "circle",
+export const Label = (args) => <HeaderAction {...args}>Month</HeaderAction>;
+
+Label.args = {
+  padding: true,
+  selectable: true,
 };

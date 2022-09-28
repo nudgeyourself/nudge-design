@@ -40,6 +40,11 @@
   position: relative;
 }
 
+.hoverBg.padding {
+  padding-left: var(--semantic-spacing-small);
+  padding-right: var(--semantic-spacing-small);
+}
+
 .headerAction:hover .hoverBg {
   background-color: var(--component-action-color-background-hover-transparent);
 }
@@ -48,16 +53,20 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-.icon {
+.content {
   color: var(--component-navigation-color-icon-default);
 }
 
-.icon svg {
+.content svg {
   width: var(--core-size-3);
   height: var(--core-size-3);
 }
 
-.selected .icon {
+.selectable .content {
+  color: var(--semantic-icon-color-secondary);
+}
+
+.selected .content {
   color: var(--component-navigation-color-icon-selected);
 }
 
@@ -65,11 +74,7 @@
   top: 1px;
 }
 
-.icon.active {
-  color: var(--semantic-icon-color-primary);
-}
-
-.icon.circle {
+.content.circle {
   color: var(--semantic-icon-color-contrast);
   background-color: var(--semantic-background-layer-4);
   height: var(--core-size-4);
@@ -80,20 +85,9 @@
   border-radius: var(--core-size-4);
 }
 
-.icon.circle svg {
+.content.circle svg {
   width: calc(var(--core-size-3) - var(--semantic-spacing-minimal));
   height: calc(var(--core-size-3) - var(--semantic-spacing-minimal));
-}
-
-.icon.navigation {
-  padding: var(--core-size-2);
-  background-color: var(--semantic-background-layer-4);
-  border-radius: var(--core-size-4);
-}
-
-.icon.navigation svg {
-  width: var(--core-size-2);
-  height: var(--core-size-2);
 }
 
 .badge {

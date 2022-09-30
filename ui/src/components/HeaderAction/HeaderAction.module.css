@@ -3,6 +3,9 @@
     var(--core-font-family);
   color: var(--semantic-text-color-primary);
   height: var(--component-navigation-size-header-height);
+  min-width: calc(
+    var(--component-navigation-size-header-height) - (var(--core-size-0) * 2)
+  );
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   padding: var(--core-size-0) 0px;
@@ -20,12 +23,7 @@
 
 .hoverBg {
   height: calc(
-    var(--component-navigation-size-header-height) - var(--core-size-1) -
-      var(--core-size-0)
-  );
-  min-width: calc(
-    var(--component-navigation-size-header-height) - var(--core-size-1) -
-      var(--core-size-0)
+    var(--component-navigation-size-header-height) - (var(--core-size-0) * 2)
   );
   border-radius: var(--semantic-radius-medium);
   background-color: rgba(0, 0, 0, 0);
@@ -58,6 +56,8 @@
 }
 
 .content svg {
+  /* The following line removes the extra space beneath the icon. */
+  display: block;
   width: var(--core-size-3);
   height: var(--core-size-3);
 }

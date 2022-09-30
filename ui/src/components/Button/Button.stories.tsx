@@ -1,8 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-
 import Button from "./Button";
-import { Plus, Calendar } from '@nudge-coach/icons';
+import { Plus, Calendar } from "@nudge-coach/icons";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -33,21 +32,20 @@ Destructive.args = {
   destructive: true,
 };
 
-export const SmallImpliedIcon = (args) => 
+export const SmallImpliedIcon = (args) => (
   <Button {...args}>
     <Calendar />
   </Button>
-;
+);
 
 SmallImpliedIcon.args = {
   small: true,
   implied: true,
-}
+};
 
-export const LabeledIcon = (args) => 
+export const LabeledIcon = (args) => (
   <Button {...args}>
     <span>Labeled Icon</span>
     <Plus />
   </Button>
-;
-
+);

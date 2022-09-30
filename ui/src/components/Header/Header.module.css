@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  color: var(--semantic-text-color-primary);
+  height: var(--component-navigation-size-header-height);
+  align-items: center;
+}
+
+.title {
+  font: var(--core-font-weight-3) var(--core-font-size-3)
+    var(--core-font-family);
+  width: 100%;
+  text-align: center;
+}
+
+.leftActions,
+.rightActions {
+  position: absolute;
+  z-index: 1;
+}
+
+.leftActions button {
+  margin-left: var(--semantic-spacing-minimal);
+}
+
+.rightActions {
+  right: 0;
+}
+
+.rightActions button {
+  margin-right: var(--semantic-spacing-minimal);
+}
+
+.shadow {
+  box-shadow: var(--semantic-shadow-elevation-two);
+}

@@ -2,13 +2,12 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import Badge from "./Badge";
-import Button from "../Button/Button";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
   title: "Components/Badge",
   component: Badge,
-} as ComponentMeta<typeof Button>;
+} as ComponentMeta<typeof Badge>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
 const Template: ComponentStory<typeof Badge> = (args) => (

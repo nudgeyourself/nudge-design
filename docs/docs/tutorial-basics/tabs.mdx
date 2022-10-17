@@ -1,0 +1,46 @@
+---
+id: tabs
+title: Tabs
+description: Navigate pages of content.
+slug: /tabs
+---
+
+import { Tabs } from "@nudge-coach/ui";
+
+```jsx"
+import { Tabs } from "nudge-coach/ui";
+```
+
+<Tabs
+  selected="1"
+  tabs={[
+    { id: "1", content: "Tab 1" },
+    { id: "2", content: "Tab 2" },
+    { id: "3", content: "Tab 3" },
+  ]}
+></Tabs>
+
+### Overview
+
+The tabs component is used to navigate pages of content.
+
+---
+
+### Props
+
+**tabs** : `Tab[]` An array of tabs.
+
+```jsx
+export interface Tab {
+  id: string;
+  content: React.ReactNode;
+}
+```
+
+**selected**: `string` Which tab is currently selected.
+
+**tabSelected**: `(id) => {}` Callback when a tab is clicked.
+
+**expanded?**: `boolean` Expand the tabs to fill the container.
+
+**margin?**: `boolean` Adds standard space around the tabs.

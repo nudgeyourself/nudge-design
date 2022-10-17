@@ -1,0 +1,57 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap");
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: var(--core-color-highlight);
+  --ifm-color-primary-dark: var(--core-color-highlight);
+  --ifm-color-primary-darker: var(--core-color-highlight);
+  --ifm-color-primary-darkest: var(--core-color-highlight);
+  --ifm-color-primary-light: var(--core-color-highlight);
+  --ifm-color-primary-lighter: var(--core-color-highlight);
+  --ifm-color-primary-lightest: var(--core-color-highlight);
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-color-base: var(--semantic-text-color-primary);
+  --ifm-font-color-secondary: var(--semantic-text-color-secondary);
+  --ifm-font-family-base: var(--core-font-family);
+  --ifm-font-weight-bold: var(--core-font-weight-3);
+  --ifm-footer-background-color: var(--core-color-black);
+  --ifm-heading-color: var(--semantic-text-color-primary);
+  --ifm-hero-text-color: var(--semantic-text-color-primary);
+  --ifm-spacing-horizontal: var(--semantic-spacing-medium);
+  --ifm-menu-color: var(--semantic-text-color-secondary);
+  --ifm-menu-color-active: var(--semantic-text-color-primary);
+  --prism-background-color: var(--semantic-background-layer-1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  --ifm-color-primary: var(--core-color-highlight);
+  --ifm-color-primary-dark: var(--core-color-highlight);
+  --ifm-color-primary-darker: var(--core-color-highlight);
+  --ifm-color-primary-darkest: var(--core-color-highlight);
+  --ifm-color-primary-light: var(--core-color-highlight);
+  --ifm-color-primary-lighter: var(--core-color-highlight);
+  --ifm-color-primary-lightest: var(--core-color-highlight);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-font-color-base: var(--semantic-text-color-contrast);
+  --ifm-heading-color: var(--semantic-text-color-contrast);
+}
+
+.navbar__title {
+  font-weight: 500;
+}
+
+.footer--dark {
+  background-color: var(--core-color-black);
+}
+
+.prism-code {
+  background-color: var(--semantic-background-layer-1);
+}

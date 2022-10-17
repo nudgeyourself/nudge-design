@@ -1,0 +1,39 @@
+---
+id: button
+title: Button
+description: Used for all actions in Nudge Coach.
+slug: /button
+---
+
+import { Button } from "@nudge-coach/ui";
+
+```jsx"
+import { Button } from "nudge-coach/ui";
+```
+
+<Button primary>Label</Button>
+
+### Overview
+
+The Button component should be used for all actions in Nudge Coach.
+
+---
+
+### Props
+
+**children** : `string[]` The content displayed inside the button. Either text or icons.
+
+**onClick** : `() => void`
+Callback when clicked
+
+**destructive** : `boolean`
+Indicates when an action is negative or has a destructive result.
+
+**small** : `boolean`
+Makes the button smaller for more constrained layouts.
+
+**expanded** : `boolean`
+Makes the button fill its container.
+
+**implied** : `boolean`
+A frameless button used only when a button can be implied.

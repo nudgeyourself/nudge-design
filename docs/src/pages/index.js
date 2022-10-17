@@ -3,11 +3,9 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
 import tokens from "../../../tokens/build/web/variables.css";
-import { Button } from "@nudge-coach/ui";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -17,9 +15,7 @@ function HomepageHeader() {
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
         <div>
-          <Link to="/docs/intro">
-            <Button primary>Documentation</Button>
-          </Link>
+          <Link to="/docs/intro">Documentation</Link>
         </div>
       </div>
     </header>
@@ -34,9 +30,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main></main>
     </Layout>
   );
 }

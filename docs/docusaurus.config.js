@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Nudge Design Library",
-  tagline: "Dinosaurs are cool",
+  tagline: "Welcome to the Nudge Design library.",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -122,6 +122,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Nudge Design, Inc. Built with Docusaurus.`,
       },
+      themes: ["@docusaurus/theme-live-codeblock"],
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

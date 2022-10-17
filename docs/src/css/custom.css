@@ -55,3 +55,7 @@
 .prism-code {
   background-color: var(--semantic-background-layer-1);
 }
+
+.sizing-fix * {
+  box-sizing: content-box;
+}

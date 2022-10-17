@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Nudge Design Library",
   tagline: "Welcome to the Nudge Design library.",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://nudgeyourself.github.io/",
+  baseUrl: "/nudge-design/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

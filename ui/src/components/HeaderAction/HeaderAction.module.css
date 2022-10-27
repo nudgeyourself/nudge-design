@@ -2,10 +2,6 @@
   font: var(--core-font-weight-2) var(--core-font-size-2)
     var(--core-font-family);
   color: var(--semantic-text-color-primary);
-  height: var(--component-navigation-size-header-height);
-  min-width: calc(
-    var(--component-navigation-size-header-height) - (var(--core-size-0) * 2)
-  );
   background-color: rgba(0, 0, 0, 0);
   border: 0;
   padding: var(--core-size-0) 0px;
@@ -24,6 +20,9 @@
 .hoverBg {
   height: calc(
     var(--component-navigation-size-header-height) - (var(--core-size-0) * 2)
+  );
+  min-width: calc(
+    var(--component-navigation-size-header-height) - ((var(--core-size-0) * 2))
   );
   border-radius: var(--semantic-radius-medium);
   background-color: rgba(0, 0, 0, 0);
@@ -70,8 +69,8 @@
   color: var(--component-navigation-color-icon-selected);
 }
 
-.selected .hoverBg {
-  top: 1px;
+.selected {
+  padding-bottom: 2px;
 }
 
 .content.circle {
@@ -94,4 +93,27 @@
   position: absolute;
   top: var(--semantic-spacing-minimal);
   right: var(--semantic-spacing-minimal);
+}
+
+.hoverLabelWrapper {
+  position: absolute;
+  top: calc(
+    var(--component-navigation-size-header-height) + var(--core-size-1)
+  );
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  display: none;
+}
+
+.headerAction:hover .hoverLabelWrapper {
+  display: flex;
+}
+
+.hoverLabel {
+  display: inline-block;
+  box-shadow: var(--semantic-shadow-elevation-one);
+  padding: 3px var(--semantic-spacing-tiny);
+  white-space: nowrap;
+  border-radius: 30px;
 }

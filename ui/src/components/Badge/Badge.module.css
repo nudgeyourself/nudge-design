@@ -5,6 +5,7 @@
   background-color: var(--semantic-background-highlight);
   min-width: var(--core-size-1);
   height: var(--core-size-1);
+  min-height: var(--core-size-1);
   border-radius: var(--core-size-1);
   display: inline-flex;
   justify-content: center;
@@ -16,6 +17,17 @@
 .warning {
   background-color: var(--semantic-background-warning);
   color: var(--semantic-text-color-primary);
+}
+
+.success {
+  background-color: var(--semantic-background-success);
+  color: var(--semantic-text-color-contrast);
+}
+
+.success svg {
+  position: absolute;
+  width: 14px;
+  height: 14px;
 }
 
 .word {

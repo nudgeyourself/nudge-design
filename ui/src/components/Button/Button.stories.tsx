@@ -46,6 +46,5 @@ SmallImpliedIcon.args = {
 export const LabeledIcon = (args) => (
   <Button {...args}>
     <span>Labeled Icon</span>
-    <Plus />
   </Button>
 );

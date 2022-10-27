@@ -1,0 +1,7 @@
+.hoverTip {
+  display: inline-block;
+  box-shadow: var(--semantic-shadow-elevation-one);
+  padding: 3px var(--semantic-spacing-tiny);
+  white-space: nowrap;
+  border-radius: 30px;
+}

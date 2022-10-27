@@ -1,19 +1,17 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Check }  from "@nudge-coach/icons";
-
-import Badge from "./Badge";
+import HoverTip from "./HoverTip";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: "Components/Badge",
+  title: "Components/HoverTip",
   component: Badge,
-} as ComponentMeta<typeof Badge>;
+} as ComponentMeta<typeof HoverTip>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Badge> = (args) => (
-  <Badge {...args}>1</Badge>
+const Template: ComponentStory<typeof HoverTip> = (args) => (
+  <HoverTip {...args}>1</HoverTip>
 );
 
 export const Default = Template.bind({});
@@ -21,11 +19,8 @@ export const Default = Template.bind({});
 
 Default.args = {};
 
-export const Word = (args) => <Badge {...args}>New</Badge>;
+export const Word = (args) => <HoverTip {...args}>New</HoverTip>;
 Word.args = { word: true };
 
-export const Warning = (args) => <Badge {...args}>!</Badge>;
+export const Warning = (args) => <HoverTip {...args}>!</HoverTip>;
 Warning.args = { warning: true };
-
-export const Success = (args) => <Badge {...args}><Check /></Badge>;
-Success.args = { success: true };

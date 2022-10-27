@@ -2,7 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Header from "./Header";
 import HeaderAction from "../HeaderAction/HeaderAction";
-import { Menu } from "@nudge-coach/icons";
+import { Menu, Message, FileText } from "@nudge-coach/icons";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -23,9 +23,22 @@ Default.args = {
 export const Actions = Template.bind({});
 Actions.args = {
   title: "Header With Actions",
-  actions: [
+  rightActions: [
     <HeaderAction>
       <Menu />
     </HeaderAction>,
   ],
+};
+
+export const LeftAlignedTabs = Template.bind({});
+LeftAlignedTabs.args = {
+  leftActions: [
+    <HeaderAction hoverLabel="Messages" selectable selected>
+      <Message />
+    </HeaderAction>,
+    <HeaderAction hoverLabel="Notes" selectable>
+      <FileText />
+    </HeaderAction>,
+  ],
+  shadow: true,
 };

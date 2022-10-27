@@ -21,6 +21,10 @@
       "warning": {
         "value": "{core.color.feedback.yellow.value}",
         "type": "color"
+      },
+      "success": {
+        "value": "{core.color.feedback.green.value}",
+        "type": "color"
       }
     }
   },

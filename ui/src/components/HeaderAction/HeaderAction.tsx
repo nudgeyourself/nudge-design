@@ -3,7 +3,8 @@ import "../global.css";
 import "../../../../tokens/build/web/variables.css";
 import styles from "./HeaderAction.module.css";
 import Badge from "../Badge/Badge";
-import { Calendar, Unlock } from "@nudge-coach/icons";
+import HoverTip from "../HoverTip/HoverTip";
+import { Calendar, Unlock, Check } from "@nudge-coach/icons";
 
 export interface HeaderActionProps {
   children: React.ReactNode;
@@ -14,7 +15,9 @@ export interface HeaderActionProps {
   disabled?: boolean;
   badgeCount: number;
   warning?: boolean;
+  success?: boolean;
   padding?: boolean;
+  hoverLabel?: string;
 }
 
 const HeaderAction = (props: HeaderActionProps) => {
@@ -30,8 +33,12 @@ const HeaderAction = (props: HeaderActionProps) => {
         className={`${styles.hoverBg} ${props.padding ? styles.padding : ""}`}
       >
         {props.warning ? (
+            <div className={`${styles.badge}`}>
+              <Badge warning>!</Badge>
+            </div>
+          ) : props.success ? (
           <div className={`${styles.badge}`}>
-            <Badge warning>!</Badge>
+            <Badge success><Check /></Badge>
           </div>
         ) : props.badgeCount > 0 ? (
           <div className={`${styles.badge}`}>
@@ -48,6 +55,7 @@ const HeaderAction = (props: HeaderActionProps) => {
           {props.children}
         </div>
       </div>
+      {props.hoverLabel && <HoverTip>{props.hoverLabel}</HoverTip>}
     </button>
   );
 };

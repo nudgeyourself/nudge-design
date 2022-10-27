@@ -7,8 +7,9 @@ import { X } from "@nudge-coach/icons";
 
 export interface HeaderProps {
   title?: string;
-  onClickClose: () => {};
-  actions?: [];
+  onClickClose?: () => {};
+  rightActions?: [];
+  leftActions?: [];
   shadow?: boolean;
 }
 
@@ -16,16 +17,20 @@ const Header = (props: HeaderProps) => {
   return (
     <div className={`${styles.header} ${props.shadow ? styles.shadow : ""}`}>
       <div className={`${styles.leftActions}`}>
-        <HeaderAction
-          onClick={() => {
-            props.onClickClose();
-          }}
-        >
-          <X />
-        </HeaderAction>
+        {props.leftActions ? (
+          props.leftActions
+        ) : (
+          <HeaderAction
+            onClick={() => {
+              props.onClickClose();
+            }}
+          >
+            <X />
+          </HeaderAction>
+        )}
       </div>
-      <div className={`${styles.title}`}>{props.title}</div>
-      <div className={`${styles.rightActions}`}>{props.actions}</div>
+      {props.title && <div className={`${styles.title}`}>{props.title}</div>}
+      <div className={`${styles.rightActions}`}>{props.rightActions}</div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 28 Sep 2022 14:46:16 GMT
+ * Generated on Thu, 27 Oct 2022 14:02:42 GMT
  */
 
 module.exports = {
@@ -249,6 +249,27 @@ module.exports = {
           "semantic",
           "background",
           "warning"
+        ]
+      },
+      "success": {
+        "value": "#66BB66",
+        "type": "color",
+        "filePath": "src/global/color/background.json",
+        "isSource": true,
+        "original": {
+          "value": "{core.color.feedback.green.value}",
+          "type": "color"
+        },
+        "name": "SemanticBackgroundSuccess",
+        "attributes": {
+          "category": "semantic",
+          "type": "background",
+          "item": "success"
+        },
+        "path": [
+          "semantic",
+          "background",
+          "success"
         ]
       }
     },

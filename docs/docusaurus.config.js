@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "nudgeyourself", // Usually your GitHub org/user name.
-  projectName: "nudge-design/docs", // Usually your repo name.
+  projectName: "nudgeyourself.github.io/nudge-design", // Usually your repo name.
   deploymentBranch: "main",
   trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful

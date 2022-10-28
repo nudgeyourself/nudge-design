@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[555],{6547:e=>{e.exports=JSON.parse('{"title":"Components","description":"These are components.","slug":"/category/components","permalink":"/docs/category/components","navigation":{"previous":{"title":"Intro","permalink":"/docs/intro"},"next":{"title":"Badge","permalink":"/docs/badge"}}}')}}]);

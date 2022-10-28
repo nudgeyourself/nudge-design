@@ -4,12 +4,12 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/** @type {import('@docusaurus/types').Config} */
+/** @type {import('@docsusaurus/types').Config} */
 const config = {
   title: "Nudge Design Library",
   tagline: "Welcome to the Nudge Design library.",
   url: "https://nudgeyourself.github.io/",
-  baseUrl: "/nudge-design/docs/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "nudgeyourself", // Usually your GitHub org/user name.
-  projectName: "nudgeyourself.github.io/nudge-design", // Usually your repo name.
+  projectName: "nudge-design/docs", // Usually your repo name.
   deploymentBranch: "main",
   trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful

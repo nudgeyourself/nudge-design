@@ -9,7 +9,7 @@ const config = {
   title: "Nudge Design Library",
   tagline: "Welcome to the Nudge Design library.",
   url: "https://nudgeyourself.github.io/",
-  baseUrl: "/nudge-design/docs/",
+  baseUrl: "/nudge-design/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

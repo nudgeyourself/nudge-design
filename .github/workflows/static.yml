@@ -21,11 +21,11 @@ jobs:
 
       - name: Install dependencies
         run:
-          cd docs
+          cd docs;
           yarn install --frozen-lockfile
       - name: Build website
         run: 
-          cd docs
+          cd docs;
           yarn build
 
       # Popular action to deploy to GitHub Pages:

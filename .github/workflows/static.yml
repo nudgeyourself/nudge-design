@@ -7,7 +7,13 @@ on:
     # Review gh actions docs if you want to further define triggers, paths, etc
     # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
 
+defaults:
+    run:
+      shell: bash
+      working-directory: docs
+
 jobs:
+  
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
@@ -20,13 +26,9 @@ jobs:
           cache-dependency-path: docs/yarn.lock
 
       - name: Install dependencies
-        run:
-          cd docs;
-          yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
       - name: Build website
-        run: 
-          cd docs;
-          yarn build
+        run: yarn build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus

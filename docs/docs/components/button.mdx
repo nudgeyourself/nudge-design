@@ -19,16 +19,27 @@ The Button component should be used for all actions in Nudge Coach.
 
 ## Props
 
-**children** : `string[]` The content displayed inside the button. Either text or icons.
+### children
 
-**onClick** : `() => void`
-Callback when clicked
+`string[]`
+
+The content displayed inside the button. Either text or icons.
+
+---
+
+### onClick
+
+`() => void`
+
+Callback when the button is clicked.
 
 ---
 
 ### primary
 
-`boolean` Indicates when an action is negative or has a destructive result.
+`boolean`
+
+Indicates when a button is the default choice or primary action within a given experience. In general there shouldn't be 2 primary buttons in a single view.
 
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
@@ -49,7 +60,9 @@ Callback when clicked
 
 ### destructive
 
-`boolean` that indicates when an action is negative or has a destructive result.
+`boolean`
+
+Indicates when an action is negative or has a destructive result.
 
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
@@ -70,7 +83,9 @@ Callback when clicked
 
 ### small
 
-`boolean` Makes the button smaller for more constrained layouts.
+`boolean`
+
+Makes the button smaller for more constrained layouts.
 
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
@@ -91,7 +106,9 @@ Callback when clicked
 
 ### expanded
 
-`boolean` Makes the button fill its container.
+`boolean`
+
+Makes the button fill its container.
 
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
@@ -112,7 +129,9 @@ Callback when clicked
 
 ### implied
 
-`boolean` A frameless button used only when a button can be implied.
+`boolean`
+
+A frameless button used only when a button can be implied.
 
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {

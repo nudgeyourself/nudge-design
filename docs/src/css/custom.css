@@ -26,7 +26,7 @@
   --ifm-hero-text-color: var(--semantic-text-color-primary);
   --ifm-spacing-horizontal: var(--semantic-spacing-medium);
   --ifm-menu-color: var(--semantic-text-color-secondary);
-  --ifm-menu-color-active: var(--semantic-text-color-primary);
+  /* --ifm-menu-color-active: var(--semantic-text-color-primary); */
   --prism-background-color: var(--semantic-background-layer-1);
 }
 
@@ -42,6 +42,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-font-color-base: var(--semantic-text-color-contrast);
   --ifm-heading-color: var(--semantic-text-color-contrast);
+  --ifm-hero-text-color: var(--semantic-text-color-contrast);
 }
 
 .navbar__title {
@@ -58,4 +59,16 @@
 
 .sizing-fix * {
   box-sizing: content-box;
+}
+
+.padding-small {
+  padding: var(--semantic-spacing-small);
+}
+
+.padding-medium {
+  padding: var(--semantic-spacing-medium);
+}
+
+.padding-large {
+  padding: var(--semantic-spacing-large);
 }

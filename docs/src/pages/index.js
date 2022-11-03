@@ -14,12 +14,13 @@ function HomepageHeader() {
       <div className="container">
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
-        <div className="padding--lg">
+        <div style={{ marginBottom: "var(--semantic-spacing-large)" }}>
           <BrowserOnly fallback={<div>Loading...</div>}>
             {() => {
               const Button = require("@nudge-coach/ui").Button;
               return (
                 <Button
+                  primary
                   onClick={() => {
                     location.href = `${siteConfig.baseUrl}docs/intro`;
                   }}
@@ -31,23 +32,12 @@ function HomepageHeader() {
           </BrowserOnly>
         </div>
         <hr />
-        <section class="row padding--lg">
+        <section class="row padding--lg" style={{ justifyContent: "center" }}>
           <a
             class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
             href={`${siteConfig.baseUrl}docs/category/components`}
           >
-            <h2
-              class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
-              title="Badge"
-            >
-              Components
-            </h2>
-            <p
-              class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
-              title="Highlight notable updates."
-            >
-              Highlight notable updates.
-            </p>
+            <h2>Components</h2>
           </a>
         </section>
       </div>

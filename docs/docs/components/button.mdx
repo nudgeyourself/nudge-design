@@ -5,13 +5,20 @@ description: Used for all actions in Nudge Coach.
 slug: /button
 ---
 
+import BrowserOnly from "@docusaurus/BrowserOnly";
 import { Button } from "@nudge-coach/ui";
 
 ```jsx
 import { Button } from "@nudge-coach/ui";
 ```
 
-<Button primary>Label</Button> <Button>Label</Button>
+<BrowserOnly>
+  {() => (
+    <div>
+      <Button primary>Label</Button> <Button>Label</Button>
+    </div>
+  )}
+</BrowserOnly>
 
 ### Overview
 

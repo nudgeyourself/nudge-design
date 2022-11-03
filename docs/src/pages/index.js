@@ -2,6 +2,8 @@ import React from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
 import Layout from "@theme/Layout";
 import { Button } from "@nudge-coach/ui";
 import styles from "./index.module.css";
@@ -15,13 +17,20 @@ function HomepageHeader() {
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
         <div>
-          <Button
-            onClick={() => {
-              location.href = `${siteConfig.baseUrl}docs/intro`;
+          <BrowserOnly fallback={<div>Loading...</div>}>
+            {() => {
+              const Button = require("@nudge-coach/ui").Button;
+              return (
+                <Button
+                  onClick={() => {
+                    location.href = `${siteConfig.baseUrl}docs/intro`;
+                  }}
+                >
+                  Introduction
+                </Button>
+              );
             }}
-          >
-            Introduction
-          </Button>
+          </BrowserOnly>
         </div>
         <hr />
         <section class="row">

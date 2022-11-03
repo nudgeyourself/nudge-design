@@ -3,9 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import BrowserOnly from "@docusaurus/BrowserOnly";
-
 import Layout from "@theme/Layout";
-import { Button } from "@nudge-coach/ui";
 import styles from "./index.module.css";
 import tokens from "../../../tokens/build/web/variables.css";
 
@@ -16,7 +14,7 @@ function HomepageHeader() {
       <div className="container">
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
-        <div>
+        <div className="padding--lg">
           <BrowserOnly fallback={<div>Loading...</div>}>
             {() => {
               const Button = require("@nudge-coach/ui").Button;
@@ -33,7 +31,7 @@ function HomepageHeader() {
           </BrowserOnly>
         </div>
         <hr />
-        <section class="row">
+        <section class="row padding--lg">
           <a
             class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
             href={`${siteConfig.baseUrl}docs/category/components`}

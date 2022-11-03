@@ -17,7 +17,7 @@ return (
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
     const LibComponent = require("@nudge-coach/ui").Button;
-    return <LibComponent {...props} />;
+    return <LibComponent>Label</LibComponent>;
   }}
 </BrowserOnly>
 ); };

@@ -11,16 +11,16 @@ import { Button } from "@nudge-coach/ui";
 
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
-const MyComponent = (props) => {
-return (
-
 <BrowserOnly fallback={<div>Loading...</div>}>
   {() => {
     const LibComponent = require("@nudge-coach/ui").Button;
-    return <LibComponent>Label</LibComponent>;
+    return (
+      <div>
+        <LibComponent primary /> <LibComponent />
+      </div>
+    );
   }}
 </BrowserOnly>
-); };
 
 ### Overview
 

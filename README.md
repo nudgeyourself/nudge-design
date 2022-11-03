@@ -1,7 +1,8 @@
 # Nudge Design System
 
 Nudge's design system to help us design with continuity and build with efficiency.
-[Documentation](https://nudgeyourself.github.io/nudge-design/)
+
+Checkout the [Documentation Site](https://nudgeyourself.github.io/nudge-design/) for more details.
 
 ---
 

@@ -3,7 +3,7 @@ import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-
+import { Button } from "@nudge-coach/ui";
 import styles from "./index.module.css";
 import tokens from "../../../tokens/build/web/variables.css";
 
@@ -15,8 +15,34 @@ function HomepageHeader() {
         <h1>{siteConfig.title}</h1>
         <p>{siteConfig.tagline}</p>
         <div>
-          <Link to="/docs/intro">Documentation</Link>
+          <Button
+            onClick={() => {
+              location.href = `${siteConfig.baseUrl}docs/intro`;
+            }}
+          >
+            Introduction
+          </Button>
         </div>
+        <hr />
+        <section class="row">
+          <a
+            class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+            href={`${siteConfig.baseUrl}docs/category/components`}
+          >
+            <h2
+              class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+              title="Badge"
+            >
+              Components
+            </h2>
+            <p
+              class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
+              title="Highlight notable updates."
+            >
+              Highlight notable updates.
+            </p>
+          </a>
+        </section>
       </div>
     </header>
   );

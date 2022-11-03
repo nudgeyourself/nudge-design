@@ -11,38 +11,120 @@ import { Button } from "@nudge-coach/ui";
 
 import BrowserOnly from "@docusaurus/BrowserOnly";
 
-<BrowserOnly fallback={<div>Loading...</div>}>
-  {() => {
-    const LibComponent = require("@nudge-coach/ui").Button;
-    return (
-      <div>
-        <LibComponent primary /> <LibComponent />
-      </div>
-    );
-  }}
-</BrowserOnly>
-
 ### Overview
 
 The Button component should be used for all actions in Nudge Coach.
 
 ---
 
-### Props
+## Props
 
 **children** : `string[]` The content displayed inside the button. Either text or icons.
 
 **onClick** : `() => void`
 Callback when clicked
 
-**destructive** : `boolean`
-Indicates when an action is negative or has a destructive result.
+---
 
-**small** : `boolean`
-Makes the button smaller for more constrained layouts.
+### primary
 
-**expanded** : `boolean`
-Makes the button fill its container.
+`boolean` Indicates when an action is negative or has a destructive result.
 
-**implied** : `boolean`
-A frameless button used only when a button can be implied.
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent primary />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Button primary>Label</Button>
+```
+
+---
+
+### destructive
+
+`boolean` that indicates when an action is negative or has a destructive result.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent destructive>Destructive Button</LibComponent>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Button destructive>Label</Button>
+```
+
+---
+
+### small
+
+`boolean` Makes the button smaller for more constrained layouts.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent small>Small Button</LibComponent>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Button small>Label</Button>
+```
+
+---
+
+### expanded
+
+`boolean` Makes the button fill its container.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent expanded>Expanded Button</LibComponent>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Button expanded>Label</Button>
+```
+
+---
+
+### implied
+
+`boolean` A frameless button used only when a button can be implied.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent implied>Implied Button</LibComponent>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Button implied>Label</Button>
+```

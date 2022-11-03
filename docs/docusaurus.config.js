@@ -7,7 +7,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docsusaurus/types').Config} */
 const config = {
   title: "Nudge Design Library",
-  tagline: "Welcome to the Nudge Design library.",
+  tagline:
+    "Nudge's design system to help us design with continuity and build with efficiency.",
   url: "https://nudgeyourself.github.io/",
   baseUrl: "/nudge-design/",
   onBrokenLinks: "throw",

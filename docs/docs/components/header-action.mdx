@@ -29,7 +29,7 @@ import { Button } from "@nudge-coach/ui";
 
 ### Overview
 
-The Button component should be used for all actions in Nudge Coach.
+The HeaderAction component is used to represent both actions and tabs in headers.
 
 ---
 
@@ -39,7 +39,7 @@ The Button component should be used for all actions in Nudge Coach.
 
 `string[]`
 
-The content displayed inside the button. Either text or icons.
+The content displayed inside the button. Currently only icons imported from `@nudge-coach/icons` are supported.
 
 ---
 
@@ -50,3 +50,135 @@ The content displayed inside the button. Either text or icons.
 Callback when the button is clicked.
 
 ---
+
+### selectable
+
+A `boolean` that makes the Header Action function as a tab. Selectable HeaderActions have a different default icon color. A HeaderAction must be selectable for the corresponding selected boolean to work.
+
+
+
+---
+
+### selected
+
+A `boolean` that shows the HeaderAction as a selected tab.
+
+:::caution
+
+Don't forget the selectable boolean or this won't work.
+
+:::
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Message = require("@nudge-coach/icons").Message;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction selectable selected><Message /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction selectable selected>
+  <Users />
+</HeaderAction>
+```
+
+---
+
+### circleIcon
+
+A `boolean` that displays the icon in a circle. This style is used for the primary navigation.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Message = require("@nudge-coach/icons").Message;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction circleIcon selectable><Message /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction circleIcon selectable selected>
+  <Users />
+</HeaderAction>
+```
+
+---
+
+### badgeCount
+
+A `number` that displays a badge on the action. This should be used to notify the user of items that deserve their attention. Examples include unread messages.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Message = require("@nudge-coach/icons").Message;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction circleIcon selectable badgeCount={3}><Message /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction circleIcon selectable badgeCount={3}>
+  <Users />
+</HeaderAction>
+```
+
+---
+
+### warning
+
+A `boolean` that places a warning badge on the HeaderAction indicating there is something that needs the user's immediate attention.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Unlock = require("@nudge-coach/icons").Unlock;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction warning><Unlock /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction warning><Unlock /></HeaderAction>
+```
+
+---
+
+### success
+
+A `boolean` that places a success badge on the HeaderAction indicating that an action was successful.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Unlock = require("@nudge-coach/icons").Unlock;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction success><Unlock /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction success><Unlock /></HeaderAction>
+```
+
+disabled?: boolean;
+padding?: boolean;
+hoverLabel?: string;

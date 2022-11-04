@@ -25,21 +25,12 @@ function HomepageHeader() {
                     location.href = `${siteConfig.baseUrl}docs/intro`;
                   }}
                 >
-                  Introduction
+                  View the Docs
                 </Button>
               );
             }}
           </BrowserOnly>
         </div>
-        <hr />
-        <section class="row padding--lg" style={{ justifyContent: "center" }}>
-          <a
-            class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
-            href={`${siteConfig.baseUrl}docs/category/components`}
-          >
-            <h2>Components</h2>
-          </a>
-        </section>
       </div>
     </header>
   );

@@ -1,0 +1,52 @@
+---
+id: header-action
+title: Header Action
+description: A tab or clickable action for headers.
+slug: /header-action
+---
+
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Users = require("@nudge-coach/icons").Users;
+    const Unlock = require("@nudge-coach/icons").Unlock;
+    const X = require("@nudge-coach/icons").X;
+    return (
+      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <HeaderAction><X /></HeaderAction>
+        <HeaderAction circleIcon selectable selected><Users /></HeaderAction>
+        <HeaderAction circleIcon success><Unlock /></HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+import { Button } from "@nudge-coach/ui";
+```
+
+### Overview
+
+The Button component should be used for all actions in Nudge Coach.
+
+---
+
+## Props
+
+### children
+
+`string[]`
+
+The content displayed inside the button. Either text or icons.
+
+---
+
+### onClick
+
+`() => void`
+
+Callback when the button is clicked.
+
+---

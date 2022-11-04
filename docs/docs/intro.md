@@ -7,8 +7,6 @@ sidebar_position: 1
 
 Nudge's design system to help us design with continuity and build with efficiency.
 
-Checkout the [Documentation Site](https://nudgeyourself.github.io/nudge-design/) for more details.
-
 ---
 
 ### UI

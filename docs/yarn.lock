@@ -1749,10 +1749,10 @@
   dependencies:
     "@babel/runtime" "^7.16.3"
 
-"@nudge-coach/ui@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.3.0.tgz#18294c587ce2673206e31551c6e01c88bd3aba93"
-  integrity sha512-6VW1YnuAVPwG8mWldMgSo4t3+EjeK7vSjf1rEeP3MnvUPQ6GU43DW7X/CjlV63pOkFeKpWxK7+iW/Gzd+GAGig==
+"@nudge-coach/ui@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.3.1.tgz#2ff5559a5d031638813b9de1cae4202b65f3dd53"
+  integrity sha512-kdNkOmj17pHq3nfJJ8NXPqf5CtVR671L65wmIX9YtL+C0xD27CsFIAToobv6+m/ip6+eJTHeAxdTWrTd5CBlNA==
   dependencies:
     "@nudge-coach/icons" "0.0.9"
     react-dom "^16.8.0"

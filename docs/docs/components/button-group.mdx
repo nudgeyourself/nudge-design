@@ -5,6 +5,26 @@ description: Layout a group of buttons.
 slug: /button-group
 ---
 
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Button = require("@nudge-coach/ui").Button;
+    const ButtonGroup = require("@nudge-coach/ui").ButtonGroup;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <ButtonGroup>
+          <Button primary /> <Button />
+        </ButtonGroup>
+        <br />
+        <ButtonGroup row>
+          <Button primary /> <Button />
+        </ButtonGroup>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
 ```jsx
 import { Button, ButtonGroup } from "@nudge-coach/ui";
 ```
@@ -15,10 +35,66 @@ Collects a group of buttons and creates standardized spacing between each.
 
 ---
 
-### Props
+## Props
 
-**children**: `React.ReactNode` Inject button components to be grouped.
+### children
 
-**row?**: `boolean` Display the group of buttons inline.
+`React.ReactNode` Inject button components to be grouped.
 
-**margin?**: `boolean` Add standardized spacing around the ButtonGroup.
+---
+
+### row
+
+A `boolean` that displays the group of buttons inline.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Button = require("@nudge-coach/ui").Button;
+    const ButtonGroup = require("@nudge-coach/ui").ButtonGroup;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <ButtonGroup row>
+          <Button primary /> <Button />
+        </ButtonGroup>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<ButtonGroup row>
+  <Button primary /> <Button />
+</ButtonGroup>
+```
+
+---
+
+### margin
+
+A `boolean` that adds standardized spacing around the ButtonGroup.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Button = require("@nudge-coach/ui").Button;
+    const ButtonGroup = require("@nudge-coach/ui").ButtonGroup;
+    return (
+      <div
+        style={{
+          marginBottom: "var(--semantic-spacing-medium)",
+          backgroundColor: "var(--semantic-background-layer-1)",
+          border: "1px solid rgba(0,0,0,0)",
+        }}
+      >
+        <ButtonGroup row margin>
+          <Button primary /> <Button />
+        </ButtonGroup>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<ButtonGroup row>
+  <Button primary /> <Button />
+</ButtonGroup>
+```

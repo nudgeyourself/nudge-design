@@ -5,11 +5,22 @@ description: Used for all actions in Nudge Coach.
 slug: /button
 ---
 
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const LibComponent = require("@nudge-coach/ui").Button;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <LibComponent primary /> <LibComponent />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
 ```jsx
 import { Button } from "@nudge-coach/ui";
 ```
-
-import BrowserOnly from "@docusaurus/BrowserOnly";
 
 ### Overview
 

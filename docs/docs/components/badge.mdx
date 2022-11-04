@@ -5,20 +5,116 @@ description: Highlight notable updates.
 slug: /badge
 ---
 
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Badge = require("@nudge-coach/ui").Badge;
+    const Check = require("@nudge-coach/icons").Check;
+    return (
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <Badge>1</Badge> <Badge warning>!</Badge>{" "}
+        <Badge success>
+          <Check />
+        </Badge>{" "}
+        <Badge word>NEW</Badge>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
 ```jsx
 import { Badge } from "@nudge-coach/ui";
 ```
 
-### Overview
+## Overview
 
 Highlights notable updates.
 
 ---
 
-### Props
+## Props
 
-**children**: `React.ReactNode` Inject text or icons to be featured in the Badge.
+### Children
 
-**warning?**: `boolean` Indicates this badge should serve as a warning to the user
+`React.ReactNode`
 
-**word?**: `boolean` Updates styles to better fit words.
+Inject text or icons to be featured in the Badge.
+
+---
+
+### warning
+
+A `boolean` that indicates this badge should serve as a warning to the user.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Badge = require("@nudge-coach/ui").Badge;
+    return (
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <Badge warning>!</Badge>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Badge warning>!</Badge>
+```
+
+### success
+
+A `boolean` that indicates this badge symbolizes a successful action.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Badge = require("@nudge-coach/ui").Badge;
+    const Check = require("@nudge-coach/icons").Check;
+    return (
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <Badge success>
+          <Check />
+        </Badge>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Badge success>
+  <Check />
+</Badge>
+```
+
+---
+
+### word
+
+A `boolean` that updates styles to better fit words.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Badge = require("@nudge-coach/ui").Badge;
+    return (
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <Badge word>NEW</Badge>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Badge word>NEW</Badge>
+```

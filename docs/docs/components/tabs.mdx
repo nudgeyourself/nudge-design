@@ -5,6 +5,26 @@ description: Navigate pages of content.
 slug: /tabs
 ---
 
+import BrowserOnly from "@docusaurus/BrowserOnly";
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Tabs = require("@nudge-coach/ui").Tabs;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <Tabs
+          tabs={[
+            { id: "0", content: "Tab 1" },
+            { id: "1", content: "Tab 2" },
+            { id: "2", content: "Tab 3" },
+          ]}
+          selected="0"
+        />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
 ```jsx
 import { Tabs } from "@nudge-coach/ui";
 ```
@@ -17,7 +37,9 @@ The tabs component is used to navigate pages of content.
 
 ### Props
 
-**tabs** : `Tab[]` An array of tabs.
+### tabs
+
+`Tab[]` An array of tabs.
 
 ```jsx
 export interface Tab {
@@ -26,10 +48,123 @@ export interface Tab {
 }
 ```
 
-**selected**: `string` Which tab is currently selected.
+---
 
-**tabSelected**: `(id) => {}` Callback when a tab is clicked.
+### selected
 
-**expanded?**: `boolean` Expand the tabs to fill the container.
+A `string` which indicates which tab is currently selected.
 
-**margin?**: `boolean` Adds standard space around the tabs.
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Tabs = require("@nudge-coach/ui").Tabs;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <Tabs
+          tabs={[
+            { id: "0", content: "Tab 1" },
+            { id: "1", content: "Tab 2" },
+            { id: "2", content: "Tab 3" },
+          ]}
+          selected="0"
+        />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Tabs
+  selected="0"
+  tabs={[
+    { id: "0", content: "Tab 1" },
+    { id: "1", content: "Tab 2" },
+    { id: "2", content: "Tab 3" },
+  ]}
+/>
+```
+
+---
+
+### tabSelected
+
+`(id) => {}` A callback when a tab is clicked.
+
+---
+
+### expanded
+
+A `boolean` that expands the tabs to fill the container.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Tabs = require("@nudge-coach/ui").Tabs;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <Tabs
+          tabs={[
+            { id: "0", content: "Tab 1" },
+            { id: "1", content: "Tab 2" },
+            { id: "2", content: "Tab 3" },
+          ]}
+          selected="0"
+          expanded
+        />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Tabs
+  expanded
+  selected="0"
+  tabs={[
+    { id: "0", content: "Tab 1" },
+    { id: "1", content: "Tab 2" },
+    { id: "2", content: "Tab 3" },
+  ]}
+/>
+```
+
+---
+
+### margin
+
+A `boolean` that adds standard space around the tabs.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Tabs = require("@nudge-coach/ui").Tabs;
+    return (
+      <div
+        style={{
+          marginBottom: "var(--semantic-spacing-medium)",
+          backgroundColor: "var(--semantic-background-layer-1)",
+          border: "1px solid rgba(0,0,0,0)",
+        }}
+      >
+        <Tabs
+          tabs={[
+            { id: "0", content: "Tab 1" },
+            { id: "1", content: "Tab 2" },
+            { id: "2", content: "Tab 3" },
+          ]}
+          selected="0"
+          margin
+        />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Tabs
+  margin
+  selected="0"
+  tabs={[
+    { id: "0", content: "Tab 1" },
+    { id: "1", content: "Tab 2" },
+    { id: "2", content: "Tab 3" },
+  ]}
+/>
+```

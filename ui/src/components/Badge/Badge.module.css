@@ -22,6 +22,7 @@
 .success {
   background-color: var(--semantic-background-success);
   color: var(--semantic-text-color-contrast);
+  vertical-align: middle;
 }
 
 .success svg {

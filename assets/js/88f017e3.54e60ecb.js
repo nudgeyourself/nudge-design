@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7949],{2377:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/nudge-design/blog/tags/hello","allTagsPath":"/nudge-design/blog/tags","count":2}')}}]);

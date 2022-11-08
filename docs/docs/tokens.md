@@ -10,7 +10,7 @@ import TokenTable from '@site/src/components/TokenTable';
 ## Prefixes
 
 ### Component
-Design decisions used across multiple components. When developign and looking for applicable tokens always start here. 
+Design decisions used across multiple components. When developing and looking for applicable tokens always start here. 
 
 ### Semantic
 Design decisions attached to a particular meaning or use case.

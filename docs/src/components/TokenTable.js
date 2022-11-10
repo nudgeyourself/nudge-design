@@ -4,16 +4,18 @@ import _ from "lodash";
 
 import tokens from "../../../tokens/build/web/tokens";
 
-const ColorSwatch = (obj) => {
+const ColorSwatch = (props) => {
+  const { color, shadow } = props;
   return (
     <div
       style={{
         width: "var(--core-size-4)",
         height: "var(--core-size-4)",
         borderRadius: "var(--core-size-4)",
-        backgroundColor: obj.value,
+        backgroundColor: color,
         display: "inline-block",
-        border: "1px solid var(--semantic-border-default)",
+        border: shadow ? "0" : "1px solid var(--semantic-border-default)",
+        boxShadow: shadow,
       }}
     ></div>
   );
@@ -35,16 +37,38 @@ const FontExample = (props) => {
   );
 };
 
-const SizeBox = (props) => {
-  const { size } = props;
+const Box = (props) => {
+  const { size, radius } = props;
   return (
     <div
       style={{
         display: "inline-block",
         width: size,
         height: size,
+        borderRadius: radius,
         border: "1px solid var(--core-color-black)",
-        borderStyle: "dashed",
+        borderStyle: radius ? "solid" : "dashed",
+      }}
+    ></div>
+  );
+};
+
+Box.defaultProps = {
+  radius: 0,
+  size: "var(--core-size-5)",
+};
+
+const Corner = (props) => {
+  const { radius } = props;
+  return (
+    <div
+      style={{
+        display: "inline-block",
+        width: "var(--core-size-4)",
+        height: "var(--core-size-4)",
+        borderTopLeftRadius: radius,
+        borderLeft: "1px solid var(--core-color-black)",
+        borderTop: "1px solid var(--core-color-black)",
       }}
     ></div>
   );
@@ -96,9 +120,16 @@ const TokenTable = (props) => {
               <td>{obj.value}</td>
               <td>
                 {obj.type === "color" ? (
-                  <ColorSwatch value={obj.value} />
+                  <ColorSwatch color={obj.value} />
                 ) : obj.type === "sizing" || obj.type === "spacing" ? (
-                  <SizeBox size={obj.value} />
+                  <Box size={obj.value} />
+                ) : obj.type === "borderRadius" ? (
+                  <Corner radius={obj.value} />
+                ) : obj.type === "boxShadow" ? (
+                  <ColorSwatch
+                    color="var(--core-color-white)"
+                    shadow={obj.value}
+                  />
                 ) : obj.type === "fontWeights" || obj.type === "fontSizes" ? (
                   <FontExample obj={obj} />
                 ) : (

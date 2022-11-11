@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import _ from "lodash";
 
 import tokens from "../../../tokens/build/web/tokens";
+import * as Icons from "@nudge-coach/icons";
 
 const ColorSwatch = (props) => {
   const { color, shadow } = props;
@@ -77,6 +78,8 @@ const Corner = (props) => {
 const TokenTable = (props) => {
   const [parsedTokens, setParsedTokens] = useState([]);
   const { category } = props;
+
+  console.log(Icons);
 
   function parseTokens(obj, arr) {
     for (var k in obj) {

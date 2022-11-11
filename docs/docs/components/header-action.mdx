@@ -14,10 +14,19 @@ import BrowserOnly from "@docusaurus/BrowserOnly";
     const Unlock = require("@nudge-coach/icons").Unlock;
     const X = require("@nudge-coach/icons").X;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction><X /></HeaderAction>
-        <HeaderAction circleIcon selectable selected><Users /></HeaderAction>
-        <HeaderAction circleIcon success><Unlock /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction>
+          <X />
+        </HeaderAction>
+        <HeaderAction circleIcon selectable selected>
+          <Users />
+        </HeaderAction>
+        <HeaderAction circleIcon success>
+          <Unlock />
+        </HeaderAction>
       </div>
     );
   }}
@@ -55,8 +64,6 @@ Callback when the button is clicked.
 
 A `boolean` that makes the Header Action function as a tab. Selectable HeaderActions have a different default icon color. A HeaderAction must be selectable for the corresponding selected boolean to work.
 
-
-
 ---
 
 ### selected
@@ -74,8 +81,13 @@ Don't forget the selectable boolean or this won't work.
     const HeaderAction = require("@nudge-coach/ui").HeaderAction;
     const Message = require("@nudge-coach/icons").Message;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction selectable selected><Message /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction selectable selected>
+          <Message />
+        </HeaderAction>
       </div>
     );
   }}
@@ -98,8 +110,13 @@ A `boolean` that displays the icon in a circle. This style is used for the prima
     const HeaderAction = require("@nudge-coach/ui").HeaderAction;
     const Message = require("@nudge-coach/icons").Message;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction circleIcon selectable><Message /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction circleIcon selectable>
+          <Message />
+        </HeaderAction>
       </div>
     );
   }}
@@ -122,8 +139,13 @@ A `number` that displays a badge on the action. This should be used to notify th
     const HeaderAction = require("@nudge-coach/ui").HeaderAction;
     const Message = require("@nudge-coach/icons").Message;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction circleIcon selectable badgeCount={3}><Message /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction circleIcon selectable badgeCount={3}>
+          <Message />
+        </HeaderAction>
       </div>
     );
   }}
@@ -146,15 +168,22 @@ A `boolean` that places a warning badge on the HeaderAction indicating there is 
     const HeaderAction = require("@nudge-coach/ui").HeaderAction;
     const Unlock = require("@nudge-coach/icons").Unlock;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction warning><Unlock /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction warning>
+          <Unlock />
+        </HeaderAction>
       </div>
     );
   }}
 </BrowserOnly>
 
 ```jsx
-<HeaderAction warning><Unlock /></HeaderAction>
+<HeaderAction warning>
+  <Unlock />
+</HeaderAction>
 ```
 
 ---
@@ -168,13 +197,20 @@ A `boolean` that places a success badge on the HeaderAction indicating that an a
     const HeaderAction = require("@nudge-coach/ui").HeaderAction;
     const Unlock = require("@nudge-coach/icons").Unlock;
     return (
-      <div className="sizing-fix" style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
-        <HeaderAction success><Unlock /></HeaderAction>
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction success>
+          <Unlock />
+        </HeaderAction>
       </div>
     );
   }}
 </BrowserOnly>
 
 ```jsx
-<HeaderAction success><Unlock /></HeaderAction>
+<HeaderAction success>
+  <Unlock />
+</HeaderAction>
 ```

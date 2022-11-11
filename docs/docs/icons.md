@@ -10,7 +10,7 @@ import IconsTable from '@site/src/components/IconsTable';
 nudge-design/icons is a node package containing all of our icons which uses svgr to convert the svgs into React components.
 
 ```
-yarn install @nudge-coach/icons
+yarn install @nudge-coach/icons@latest --save
 ```
 
 ---

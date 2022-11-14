@@ -9,7 +9,6 @@ const IconsTable = (props) => {
   return (
     <div>
       {Object.keys(Icons).map((obj, i) => {
-        console.log(obj);
         const Icon = Icons[obj];
         return (
           <div

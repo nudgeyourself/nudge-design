@@ -1,6 +1,5 @@
 import React from "react";
 import "../global.css";
-import "../../../../tokens/build/web/variables.css";
 import styles from "./HeaderAction.module.css";
 import Badge from "../Badge/Badge";
 import HoverTip from "../HoverTip/HoverTip";
@@ -33,12 +32,14 @@ const HeaderAction = (props: HeaderActionProps) => {
         className={`${styles.hoverBg} ${props.padding ? styles.padding : ""}`}
       >
         {props.warning ? (
-            <div className={`${styles.badge}`}>
-              <Badge warning>!</Badge>
-            </div>
-          ) : props.success ? (
           <div className={`${styles.badge}`}>
-            <Badge success><Check /></Badge>
+            <Badge warning>!</Badge>
+          </div>
+        ) : props.success ? (
+          <div className={`${styles.badge}`}>
+            <Badge success>
+              <Check />
+            </Badge>
           </div>
         ) : props.badgeCount > 0 ? (
           <div className={`${styles.badge}`}>

@@ -4,7 +4,7 @@
     "access": "public",
     "@nudge-coach:registry": "https://registry.npmjs.org"
   },
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Nudge Coach's component library",
   "repository": {
     "type": "git",
@@ -58,7 +58,8 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@nudge-coach/icons": "0.0.9",
+    "@nudge-coach/icons": "0.2.0",
+    "@nudge-coach/tokens": "0.0.2",
     "react-dom": "^16.8.0"
   },
   "bugs": {

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import ReactDOM, { createPortal } from "react-dom";
 import "../global.css";
-import "../../../../tokens/build/web/variables.css";
 import styles from "./HoverTip.module.css";
 
 const modalRoot = document.getElementById("portal");

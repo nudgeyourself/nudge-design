@@ -24,7 +24,7 @@ export const Selected = Template.bind({});
 Selected.args = {
   selectable: true,
   selected: true,
-  children: <Users style={{ color: "pink" }} />,
+  children: <Users />,
 };
 
 export const Navigation = Template.bind({});

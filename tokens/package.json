@@ -1,11 +1,10 @@
 {
-  "name": "@nudge-coach/nudge-tokens",
-  "version": "1.0.0",
+  "name": "@nudge-coach/tokens",
+  "version": "0.0.2",
   "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
-  "main": "dist/tokens.js",
+  "main": "build/index.js",
   "files": [
-    "web/dist",
-    "build.js"
+    "build"
   ],
   "scripts": {
     "build": "node build.js",

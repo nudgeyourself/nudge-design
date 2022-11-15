@@ -1,6 +1,5 @@
 import React from "react";
 import "../global.css";
-import "../../../../tokens/build/web/variables.css";
 import styles from "./Tabs.module.css";
 
 export interface Tab {

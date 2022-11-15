@@ -1,6 +1,5 @@
 import React from "react";
 import "../global.css";
-import "../../../../tokens/build/web/variables.css";
 import styles from "./Badge.module.css";
 
 export interface BadgeProps {
@@ -13,9 +12,9 @@ export interface BadgeProps {
 const Badge = (props: BadgeProps) => {
   return (
     <div
-      className={`${styles.badge} ${props.warning ? styles.warning : ""} ${props.success ? styles.success : ""} ${
-        props.word ? styles.word : ""
-      }`}
+      className={`${styles.badge} ${props.warning ? styles.warning : ""} ${
+        props.success ? styles.success : ""
+      } ${props.word ? styles.word : ""}`}
     >
       {props.children}
     </div>

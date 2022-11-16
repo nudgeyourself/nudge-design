@@ -1732,17 +1732,17 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nudge-coach/icons@*":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.2.0.tgz#0cfa90de2fe35c5a22c9cad17428c09fd779b574"
-  integrity sha512-Wu/km2hG+THbDq/GRUNA6LItnI4xpSRUGBEu6tD0IxdV+KEM9S5nqVd7G/392OxR0TtWLjRoZWv+jIoRcjT+BQ==
-  dependencies:
-    "@babel/runtime" "^7.16.3"
-
 "@nudge-coach/icons@0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.0.9.tgz#715f11c88178b1b1db3e8b63abb1acf3b42762e5"
   integrity sha512-RmQGtXe0s1ns/Yn9GYpQiQK23AITxXxETxgGE5b/FrOQPjFesJFugTssI6SyM40yO0Yw1WtthXETuUK9KdWqLg==
+  dependencies:
+    "@babel/runtime" "^7.16.3"
+
+"@nudge-coach/icons@0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.2.2.tgz#5d139f4c9d382ef82b9d84e60ad93c08d1d776e2"
+  integrity sha512-lNbl75aygp9exl+mb2YvEHrD0dPDkQV+/e5T9gfx/R3ViybEPwSsuqPrM9d1sZOr1GxtOOq1jOzQ2Kv/3ROwTA==
   dependencies:
     "@babel/runtime" "^7.16.3"
 

@@ -19,3 +19,11 @@ Then run the following command to publish both packages at once.
 ```
 npm run pub
 ```
+
+After that it's a good idea to update the icons in the docs. In the docs folder run
+
+```
+yarn upgrade --latest @nudge-coach/icons
+```
+
+then push an update to the main branch. This will kick off the github actions to publish the docs site.

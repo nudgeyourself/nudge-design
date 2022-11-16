@@ -1,8 +1,8 @@
 {
   "name": "@nudge-coach/native-icons",
   "title": "React Native Icons",
-  "version": "0.1.3",
-  "description": "TODO",
+  "version": "0.1.5",
+  "description": "Icons for react-native.",
   "main": "src/index.js",
   "files": [
     "src"
@@ -23,6 +23,7 @@
     "email": "russ@nudgecoach.com"
   },
   "license": "MIT",
+  "homepage": "https://nudgeyourself.github.io/nudge-design/docs/icons",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {

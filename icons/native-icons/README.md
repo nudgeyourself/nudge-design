@@ -1,17 +1,3 @@
-# react-native-icons
+# native-icons
 
-## Getting started
-
-`$ npm install react-native-icons --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-icons`
-
-## Usage
-```javascript
-import Icons from 'react-native-icons';
-
-// TODO: What to do with the module?
-Icons;
-```
+native-icons uses the assets of the parent folder but creates a package that works in react-native when published.

@@ -1,7 +1,7 @@
 {
   "name": "@nudge-coach/tokens",
-  "version": "0.0.3",
-  "description": "This example code is bare-bones to show you what this framework can do. If you have the style-dictionary module installed globally, you can `cd` into this directory and run: ```bash style-dictionary build ```",
+  "version": "0.0.4",
+  "description": "Tokens for the Nudge Coach design system.",
   "main": "build/index.js",
   "files": [
     "build"
@@ -12,7 +12,7 @@
   },
   "author": "Russ Campbell",
   "license": "MIT",
-  "homepage": "https://github.com/dbanksdesign/style-dictionary-dark-mode#readme",
+  "homepage": "https://nudgeyourself.github.io/nudge-design/docs/tokens",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nudgeyourself/nudge-design.git"

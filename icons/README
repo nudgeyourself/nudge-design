@@ -12,6 +12,10 @@ npm run prebuild
 npm run build
 ```
 
+Update the package version in package.json and native-icons/package.json
+
+Then run the following command to publish both packages at once.
+
 ```
-npm publish
+npm run pub
 ```

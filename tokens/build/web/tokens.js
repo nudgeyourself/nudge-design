@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 23 Nov 2022 16:33:12 GMT
+ * Generated on Wed, 23 Nov 2022 16:52:38 GMT
  */
 
 module.exports = {
@@ -2153,6 +2153,27 @@ module.exports = {
           "core",
           "color",
           "green"
+        ]
+      },
+      "blue": {
+        "value": "#5983F0",
+        "type": "color",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
+          "value": "#5983F0",
+          "type": "color"
+        },
+        "name": "core-color-blue",
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "blue"
+        },
+        "path": [
+          "core",
+          "color",
+          "blue"
         ]
       },
       "black-alpha": {

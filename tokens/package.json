@@ -1,6 +1,6 @@
 {
   "name": "@nudge-coach/tokens",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Tokens for the Nudge Coach design system.",
   "main": "build/index.js",
   "files": [

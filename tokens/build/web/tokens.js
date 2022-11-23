@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Nov 2022 21:23:05 GMT
+ * Generated on Wed, 23 Nov 2022 16:33:12 GMT
  */
 
 module.exports = {
@@ -215,7 +215,7 @@ module.exports = {
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.feedback.red.value}",
+          "value": "{core.color.red.value}",
           "type": "color"
         },
         "name": "semantic-background-destructive",
@@ -236,7 +236,7 @@ module.exports = {
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.feedback.yellow.value}",
+          "value": "{core.color.yellow.value}",
           "type": "color"
         },
         "name": "semantic-background-warning",
@@ -257,7 +257,7 @@ module.exports = {
         "filePath": "src/global/color/background.json",
         "isSource": true,
         "original": {
-          "value": "{core.color.feedback.green.value}",
+          "value": "{core.color.green.value}",
           "type": "color"
         },
         "name": "semantic-background-success",
@@ -274,26 +274,30 @@ module.exports = {
       }
     },
     "border": {
-      "default": {
-        "value": "rgba(0,0,0,.15)",
-        "type": "color",
-        "filePath": "src/global/color/border.json",
-        "isSource": true,
-        "original": {
-          "value": "{core.color.black-alpha.30}",
-          "type": "color"
-        },
-        "name": "semantic-border-default",
-        "attributes": {
-          "category": "semantic",
-          "type": "border",
-          "item": "default"
-        },
-        "path": [
-          "semantic",
-          "border",
-          "default"
-        ]
+      "color": {
+        "default": {
+          "value": "rgba(0,0,0,.15)",
+          "type": "color",
+          "filePath": "src/global/color/border.json",
+          "isSource": true,
+          "original": {
+            "value": "{core.color.black-alpha.30}",
+            "type": "color"
+          },
+          "name": "semantic-border-color-default",
+          "attributes": {
+            "category": "semantic",
+            "type": "border",
+            "item": "color",
+            "subitem": "default"
+          },
+          "path": [
+            "semantic",
+            "border",
+            "color",
+            "default"
+          ]
+        }
       }
     },
     "icon": {
@@ -471,7 +475,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.feedback.red.value}",
+            "value": "{core.color.red.value}",
             "type": "color"
           },
           "name": "semantic-text-color-critical",
@@ -494,7 +498,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.feedback.red.value}",
+            "value": "{core.color.red.value}",
             "type": "color"
           },
           "name": "semantic-text-color-destructive",
@@ -540,7 +544,7 @@ module.exports = {
           "filePath": "src/global/color/text.json",
           "isSource": true,
           "original": {
-            "value": "{core.color.feedback.green.value}",
+            "value": "{core.color.green.value}",
             "type": "color"
           },
           "name": "semantic-text-color-success",
@@ -1045,7 +1049,7 @@ module.exports = {
             "filePath": "src/global/color/background.json",
             "isSource": true,
             "original": {
-              "value": "{core.color.feedback.red.value}",
+              "value": "{core.color.red.value}",
               "type": "color"
             },
             "name": "component-action-color-background-hover-destructive",
@@ -2067,99 +2071,89 @@ module.exports = {
           ]
         }
       },
-      "feedback": {
-        "red": {
+      "red": {
+        "value": "#EE4444",
+        "type": "color",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
           "value": "#EE4444",
-          "type": "color",
-          "filePath": "src/global/color/core.json",
-          "isSource": true,
-          "original": {
-            "value": "#EE4444",
-            "type": "color"
-          },
-          "name": "core-color-feedback-red",
-          "attributes": {
-            "category": "core",
-            "type": "color",
-            "item": "feedback",
-            "subitem": "red"
-          },
-          "path": [
-            "core",
-            "color",
-            "feedback",
-            "red"
-          ]
+          "type": "color"
         },
-        "orange": {
+        "name": "core-color-red",
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "red"
+        },
+        "path": [
+          "core",
+          "color",
+          "red"
+        ]
+      },
+      "orange": {
+        "value": "#FF7744",
+        "type": "color",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
           "value": "#FF7744",
-          "type": "color",
-          "filePath": "src/global/color/core.json",
-          "isSource": true,
-          "original": {
-            "value": "#FF7744",
-            "type": "color"
-          },
-          "name": "core-color-feedback-orange",
-          "attributes": {
-            "category": "core",
-            "type": "color",
-            "item": "feedback",
-            "subitem": "orange"
-          },
-          "path": [
-            "core",
-            "color",
-            "feedback",
-            "orange"
-          ]
+          "type": "color"
         },
-        "yellow": {
+        "name": "core-color-orange",
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "orange"
+        },
+        "path": [
+          "core",
+          "color",
+          "orange"
+        ]
+      },
+      "yellow": {
+        "value": "#FEDF63",
+        "type": "color",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
           "value": "#FEDF63",
-          "type": "color",
-          "filePath": "src/global/color/core.json",
-          "isSource": true,
-          "original": {
-            "value": "#FEDF63",
-            "type": "color"
-          },
-          "name": "core-color-feedback-yellow",
-          "attributes": {
-            "category": "core",
-            "type": "color",
-            "item": "feedback",
-            "subitem": "yellow"
-          },
-          "path": [
-            "core",
-            "color",
-            "feedback",
-            "yellow"
-          ]
+          "type": "color"
         },
-        "green": {
-          "value": "#66BB66",
+        "name": "core-color-yellow",
+        "attributes": {
+          "category": "core",
           "type": "color",
-          "filePath": "src/global/color/core.json",
-          "isSource": true,
-          "original": {
-            "value": "#66BB66",
-            "type": "color"
-          },
-          "name": "core-color-feedback-green",
-          "attributes": {
-            "category": "core",
-            "type": "color",
-            "item": "feedback",
-            "subitem": "green"
-          },
-          "path": [
-            "core",
-            "color",
-            "feedback",
-            "green"
-          ]
-        }
+          "item": "yellow"
+        },
+        "path": [
+          "core",
+          "color",
+          "yellow"
+        ]
+      },
+      "green": {
+        "value": "#66BB66",
+        "type": "color",
+        "filePath": "src/global/color/core.json",
+        "isSource": true,
+        "original": {
+          "value": "#66BB66",
+          "type": "color"
+        },
+        "name": "core-color-green",
+        "attributes": {
+          "category": "core",
+          "type": "color",
+          "item": "green"
+        },
+        "path": [
+          "core",
+          "color",
+          "green"
+        ]
       },
       "black-alpha": {
         "10": {

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Nov 2022 21:23:05 GMT
+ * Generated on Wed, 23 Nov 2022 16:33:11 GMT
  */
 
 :root {
@@ -53,10 +53,10 @@
   --core-color-black-alpha-30: rgba(0,0,0,.15);
   --core-color-black-alpha-20: rgba(0,0,0,.1);
   --core-color-black-alpha-10: rgba(0,0,0,.05);
-  --core-color-feedback-green: #66BB66;
-  --core-color-feedback-yellow: #FEDF63;
-  --core-color-feedback-orange: #FF7744;
-  --core-color-feedback-red: #EE4444;
+  --core-color-green: #66BB66;
+  --core-color-yellow: #FEDF63;
+  --core-color-orange: #FF7744;
+  --core-color-red: #EE4444;
   --core-color-grayscale-16: rgb(20,20,20);
   --core-color-grayscale-15: rgb(35,35,35);
   --core-color-grayscale-14: rgb(50,50,50);
@@ -103,19 +103,19 @@
   --semantic-shadow-elevation-two: 0px 2px 4px 0px var(--core-color-black-alpha-50);
   --semantic-shadow-elevation-one: 0px 1px 3px 0px var(--core-color-black-alpha-50);
   --semantic-text-color-contrast: var(--core-color-white);
-  --semantic-text-color-success: var(--core-color-feedback-green);
-  --semantic-text-color-destructive: var(--core-color-feedback-red);
-  --semantic-text-color-critical: var(--core-color-feedback-red);
+  --semantic-text-color-success: var(--core-color-green);
+  --semantic-text-color-destructive: var(--core-color-red);
+  --semantic-text-color-critical: var(--core-color-red);
   --semantic-text-color-secondary: var(--core-color-grayscale-8);
   --semantic-text-color-primary: var(--core-color-black);
   --semantic-icon-size-default: var(--core-size-3);
   --semantic-icon-color-contrast: var(--core-color-white);
   --semantic-icon-color-secondary: var(--core-color-grayscale-8);
   --semantic-icon-color-primary: var(--core-color-black);
-  --semantic-border-default: var(--core-color-black-alpha-30);
-  --semantic-background-success: var(--core-color-feedback-green);
-  --semantic-background-warning: var(--core-color-feedback-yellow);
-  --semantic-background-destructive: var(--core-color-feedback-red);
+  --semantic-border-color-default: var(--core-color-black-alpha-30);
+  --semantic-background-success: var(--core-color-green);
+  --semantic-background-warning: var(--core-color-yellow);
+  --semantic-background-destructive: var(--core-color-red);
   --semantic-background-contrast: var(--core-color-black);
   --semantic-background-shade: var(--core-color-black-alpha-20);
   --semantic-background-layer-4: var(--core-color-grayscale-4);

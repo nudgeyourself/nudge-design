@@ -25,12 +25,10 @@
         "15": { "value": "rgb(35,35,35)", "type": "color" },
         "16": { "value": "rgb(20,20,20)", "type": "color" }
       },
-      "feedback": {
-        "red": { "value": "#EE4444", "type": "color" },
-        "orange": { "value": "#FF7744", "type": "color" },
-        "yellow": { "value": "#FEDF63", "type": "color" },
-        "green": { "value": "#66BB66", "type": "color" }
-      },
+      "red": { "value": "#EE4444", "type": "color" },
+      "orange": { "value": "#FF7744", "type": "color" },
+      "yellow": { "value": "#FEDF63", "type": "color" },
+      "green": { "value": "#66BB66", "type": "color" },
       "black-alpha": {
         "00": { "value": "rgba(0,0,0,0)", "type": "color" },
         "05": { "value": "rgba(0,0,0,.025)", "type": "color" },

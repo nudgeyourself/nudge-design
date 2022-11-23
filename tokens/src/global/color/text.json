@@ -8,11 +8,11 @@
           "type": "color"
         },
         "critical": {
-          "value": "{core.color.feedback.red.value}",
+          "value": "{core.color.red.value}",
           "type": "color"
         },
         "destructive": {
-          "value": "{core.color.feedback.red.value}",
+          "value": "{core.color.red.value}",
           "type": "color"
         },
         "highlight": {
@@ -20,7 +20,7 @@
           "type": "color"
         },
         "success": {
-          "value": "{core.color.feedback.green.value}",
+          "value": "{core.color.green.value}",
           "type": "color"
         },
         "contrast": { "value": "{core.color.white.value}", "type": "color" }

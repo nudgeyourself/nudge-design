@@ -15,15 +15,15 @@
       },
       "contrast": { "value": "{core.color.black.value}", "type": "color" },
       "destructive": {
-        "value": "{core.color.feedback.red.value}",
+        "value": "{core.color.red.value}",
         "type": "color"
       },
       "warning": {
-        "value": "{core.color.feedback.yellow.value}",
+        "value": "{core.color.yellow.value}",
         "type": "color"
       },
       "success": {
-        "value": "{core.color.feedback.green.value}",
+        "value": "{core.color.green.value}",
         "type": "color"
       }
     }
@@ -41,7 +41,7 @@
             "type": "color"
           },
           "hover-destructive": {
-            "value": "{core.color.feedback.red.value}",
+            "value": "{core.color.red.value}",
             "type": "color"
           }
         }

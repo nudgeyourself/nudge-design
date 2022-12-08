@@ -1,7 +1,7 @@
 {
   "name": "@nudge-coach/native-icons",
   "title": "React Native Icons",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Icons for react-native.",
   "main": "src/index.js",
   "files": [

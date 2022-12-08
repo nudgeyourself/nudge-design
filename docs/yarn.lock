@@ -1739,10 +1739,10 @@
   dependencies:
     "@babel/runtime" "^7.16.3"
 
-"@nudge-coach/icons@0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.2.2.tgz#5d139f4c9d382ef82b9d84e60ad93c08d1d776e2"
-  integrity sha512-lNbl75aygp9exl+mb2YvEHrD0dPDkQV+/e5T9gfx/R3ViybEPwSsuqPrM9d1sZOr1GxtOOq1jOzQ2Kv/3ROwTA==
+"@nudge-coach/icons@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.2.3.tgz#a486c4c57cea8bba2d1c7374edab1995d321edfd"
+  integrity sha512-HP46w/+4pkP0uP6qUClDXJDKS+WlnE8dpJ8c7BDoC1bAxIayBrD8i1e4V5WRhXozjbyrAjsn1fa0GIvagCrdZg==
   dependencies:
     "@babel/runtime" "^7.16.3"
 

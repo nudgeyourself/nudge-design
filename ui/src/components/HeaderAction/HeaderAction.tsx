@@ -10,6 +10,7 @@ export interface HeaderActionProps {
   onClick: () => {};
   selectable?: boolean;
   selected?: boolean;
+  toggled: boolean;
   circleIcon?: boolean;
   disabled?: boolean;
   badgeCount: number;
@@ -24,7 +25,9 @@ const HeaderAction = (props: HeaderActionProps) => {
     <button
       className={`${styles.headerAction} ${
         props.selectable ? styles.selectable : ""
-      } ${props.selectable && props.selected ? styles.selected : ""}`}
+      } ${props.selectable && props.selected ? styles.selected : ""} ${
+        props.toggled ? styles.toggled : ""
+      }`}
       onClick={props.onClick}
       disabled={props.disabled}
     >

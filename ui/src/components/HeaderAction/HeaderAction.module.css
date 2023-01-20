@@ -46,6 +46,11 @@
   background-color: var(--component-action-color-background-hover-transparent);
 }
 
+.headerAction.toggled .hoverBg,
+.headerAction.toggled:hover .hoverBg {
+  background-color: var(--component-navigation-color-background-selected);
+}
+
 .headerAction:disabled:hover {
   background-color: rgba(0, 0, 0, 0);
 }

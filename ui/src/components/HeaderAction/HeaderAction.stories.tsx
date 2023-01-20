@@ -2,7 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import HeaderAction from "./HeaderAction";
-import { Users, Unlock, X } from "@nudge-coach/icons";
+import { Users, Unlock, X, Bell } from "@nudge-coach/icons";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
@@ -54,4 +54,10 @@ Label.args = {
   padding: true,
   selectable: true,
   children: "Month",
+};
+
+export const Toggled = Template.bind({});
+Toggled.args = {
+  toggled: true,
+  children: <Bell />,
 };

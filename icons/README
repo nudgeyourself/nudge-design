@@ -2,7 +2,7 @@
 
 #### Adding Icons
 
-Add icon files to the assets folder, update the package version, then run these 3 commands.
+Add icon files to the assets folder then run these 3 commands.
 
 ```
 npm run prebuild
@@ -26,4 +26,4 @@ After that it's a good idea to update the icons in the docs. In the docs folder 
 yarn upgrade --latest @nudge-coach/icons
 ```
 
-then push an update to the main branch. This will kick off the github actions to publish the docs site.
+then push an update to the main branch. This will kick off the github actions to publish the docs site. Note that you may have to change node versions for the docs.

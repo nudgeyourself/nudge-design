@@ -226,3 +226,32 @@ A `boolean` that places a success badge on the HeaderAction indicating that an a
   <Unlock />
 </HeaderAction>
 ```
+
+---
+
+### notification
+
+A `boolean` that places a smaller badge without any text on the HeaderAction indicating that an update deserves the users attention. Use the notification boolean only when you don't want to inform the user of a quantify of things that have been updated. For example: to notify the user of a number of new message set badgeCount instead of the notification boolean.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const HeaderAction = require("@nudge-coach/ui").HeaderAction;
+    const Activity = require("@nudge-coach/icons").Activity;
+    return (
+      <div
+        className="sizing-fix"
+        style={{ marginBottom: "var(--semantic-spacing-medium)" }}
+      >
+        <HeaderAction notification>
+          <Activity />
+        </HeaderAction>
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<HeaderAction notification>
+  <Activity />
+</HeaderAction>
+```

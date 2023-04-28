@@ -1732,10 +1732,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@nudge-coach/icons@0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.0.9.tgz#715f11c88178b1b1db3e8b63abb1acf3b42762e5"
-  integrity sha512-RmQGtXe0s1ns/Yn9GYpQiQK23AITxXxETxgGE5b/FrOQPjFesJFugTssI6SyM40yO0Yw1WtthXETuUK9KdWqLg==
+"@nudge-coach/icons@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/icons/-/icons-0.2.0.tgz#0cfa90de2fe35c5a22c9cad17428c09fd779b574"
+  integrity sha512-Wu/km2hG+THbDq/GRUNA6LItnI4xpSRUGBEu6tD0IxdV+KEM9S5nqVd7G/392OxR0TtWLjRoZWv+jIoRcjT+BQ==
   dependencies:
     "@babel/runtime" "^7.16.3"
 
@@ -1746,12 +1746,18 @@
   dependencies:
     "@babel/runtime" "^7.16.3"
 
-"@nudge-coach/ui@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.3.2.tgz#ea12475fc16ce518752109b06f41ab454b1b85a5"
-  integrity sha512-ck7FoPP3XFogj+0IWoeQ2Tpf7FLVskP7kjQzdbbuthQmmD4hbghiu9hrAgll8jUSo/SOJuI/PVQdDA/5l+AD+Q==
+"@nudge-coach/tokens@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/tokens/-/tokens-0.0.2.tgz#0373233e5cd3ba39b5f2abbdc309b48658a66e7f"
+  integrity sha512-G2lau0itMBSbpk/ReKOyXVK99p3aNf1CU2yMlZ4aUNxd0q9uJ5sxA5G3hSqrPkyGVkRGrNyvwZHQsp0rutebgw==
+
+"@nudge-coach/ui@^0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.3.8.tgz#e0a3d31967aa962ebc51373c069c67306ee3d80e"
+  integrity sha512-1pNbPRYUyz3w9GPOK7rJOPOxx/27JvEMVpKSfcj1/64AqpMyTY/q80DU5zhak3CLgS4fOjoGDzXc3t3zWogdpQ==
   dependencies:
-    "@nudge-coach/icons" "0.0.9"
+    "@nudge-coach/icons" "0.2.0"
+    "@nudge-coach/tokens" "0.0.2"
     react-dom "^16.8.0"
 
 "@polka/url@^1.0.0-next.20":

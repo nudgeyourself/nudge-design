@@ -14,6 +14,7 @@ export interface HeaderActionProps {
   circleIcon?: boolean;
   disabled?: boolean;
   badgeCount: number;
+  notification?: boolean;
   warning?: boolean;
   success?: boolean;
   padding?: boolean;
@@ -43,6 +44,10 @@ const HeaderAction = (props: HeaderActionProps) => {
             <Badge success>
               <Check />
             </Badge>
+          </div>
+        ) : props.notification ? (
+          <div className={`${styles.notificationBadge}`}>
+            <Badge>&nbsp;</Badge>
           </div>
         ) : props.badgeCount > 0 ? (
           <div className={`${styles.badge}`}>

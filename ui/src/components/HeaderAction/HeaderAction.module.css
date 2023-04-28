@@ -100,6 +100,13 @@
   right: var(--semantic-spacing-minimal);
 }
 
+.notificationBadge {
+  position: absolute;
+  top: var(--semantic-spacing-minimal);
+  right: calc(var(--semantic-spacing-minimal) + 2px);
+  transform: scale(0.7);
+}
+
 .hoverLabelWrapper {
   position: absolute;
   top: calc(

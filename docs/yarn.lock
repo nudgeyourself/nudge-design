@@ -1751,10 +1751,10 @@
   resolved "https://registry.yarnpkg.com/@nudge-coach/tokens/-/tokens-0.0.2.tgz#0373233e5cd3ba39b5f2abbdc309b48658a66e7f"
   integrity sha512-G2lau0itMBSbpk/ReKOyXVK99p3aNf1CU2yMlZ4aUNxd0q9uJ5sxA5G3hSqrPkyGVkRGrNyvwZHQsp0rutebgw==
 
-"@nudge-coach/ui@^0.3.8":
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.3.8.tgz#e0a3d31967aa962ebc51373c069c67306ee3d80e"
-  integrity sha512-1pNbPRYUyz3w9GPOK7rJOPOxx/27JvEMVpKSfcj1/64AqpMyTY/q80DU5zhak3CLgS4fOjoGDzXc3t3zWogdpQ==
+"@nudge-coach/ui@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@nudge-coach/ui/-/ui-0.4.0.tgz#77e0a2b95f47be67c102e1e5fd17c445236262c8"
+  integrity sha512-Ar6CGLqUwog0LWBWw9Vq/4DumKfGNs2UYYH9/O7smrdRl1qEA9JeEM0dZ3PX5hNbJZOK8V9WxuOYHVWqV0O15w==
   dependencies:
     "@nudge-coach/icons" "0.2.0"
     "@nudge-coach/tokens" "0.0.2"

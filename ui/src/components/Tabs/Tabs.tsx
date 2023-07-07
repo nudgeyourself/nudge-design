@@ -10,8 +10,8 @@ export interface Tab {
 export interface TabsProps {
   tabs: Tab[];
   selected: string;
+  highlighted?: string;
   tabSelected: (id) => {};
-  highlightTab?: string;
   expanded?: boolean;
   margin?: boolean;
 }
@@ -28,7 +28,7 @@ const Tabs = (props: TabsProps) => {
           key={tab.id}
           className={`${styles.tab} ${
             props.selected === tab.id ? styles.selected : ""
-          } ${props.highlightTab === tab.id ? styles.highlighted : ""} ${
+          } ${props.highlighted === tab.id ? styles.highlighted : ""} ${
             props.expanded ? styles.expanded : ""
           }`}
           onClick={() => {

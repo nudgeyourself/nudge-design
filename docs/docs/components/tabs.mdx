@@ -128,6 +128,45 @@ A `boolean` that expands the tabs to fill the container.
 
 ---
 
+### highlighted
+
+The ID of a tab as a `string` that highlights the tab, prompting the user to make that selection. This is generally only used during onboarding.
+
+<BrowserOnly fallback={<div>Loading...</div>}>
+  {() => {
+    const Tabs = require("@nudge-coach/ui").Tabs;
+    return (
+      <div style={{ marginBottom: "var(--semantic-spacing-medium)" }}>
+        <Tabs
+          tabs={[
+            { id: "0", content: "Tab 1" },
+            { id: "1", content: "Tab 2" },
+            { id: "2", content: "Tab 3" },
+          ]}
+          selected="0"
+          highlighted="1"
+          expanded
+        />
+      </div>
+    );
+  }}
+</BrowserOnly>
+
+```jsx
+<Tabs
+  expanded
+  selected="0"
+  highlighted="1"
+  tabs={[
+    { id: "0", content: "Tab 1" },
+    { id: "1", content: "Tab 2" },
+    { id: "2", content: "Tab 3" },
+  ]}
+/>
+```
+
+---
+
 ### margin
 
 A `boolean` that adds standard space around the tabs.

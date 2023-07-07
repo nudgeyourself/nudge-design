@@ -39,6 +39,11 @@
   background-color: var(--component-navigation-color-background-selected);
 }
 
+.tab.highlighted {
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 2px,
+    var(--core-color-highlight) 0px 0px 0px 4px;
+}
+
 .tab.selected:hover {
   background-color: var(--component-navigation-color-background-selected);
 }
